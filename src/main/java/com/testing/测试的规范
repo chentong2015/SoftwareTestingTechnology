@@ -6,8 +6,8 @@
 3. test package, 800 par jours
 
 测试的细节划分
-Unit Test
-Integration Test
+Unit Test: 直接在JVM中完成
+Integration Test: 需要启动Service服务，然后才能进行的测试(判断条件)
 Component Test
 Fake / Mock Test
 Package Test
