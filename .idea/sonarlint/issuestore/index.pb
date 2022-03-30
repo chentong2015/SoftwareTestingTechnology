@@ -19,14 +19,10 @@ d
 4src/test/java/com/testing/mockito/MyServiceTest.java,d\0\d0da36ec8020dc55a7dd3466c113f3db539387b4
 i
 9src/test/java/com/testing/spring/UserServiceMockTest.java,8\3\83d8a6239468ae40dca9e7f7c373e1885d575313
-p
-@src/test/java/com/testing/spring/ControllerServiceAsyncTest.java,1\d\1dabb457caae83ef03cad28128db16feda9468e5
 s
 Csrc/test/java/com/testing/spring/HomeControllerIntegrationTest.java,7\d\7df999e062ab5593f3699a550ac932172708f9aa
 f
 6src/test/java/com/testing/mockito/MockitoDemoTest.java,f\7\f7c0888a69ad1cea37ad794e0c5a0b9252c736f5
-f
-6src/test/java/com/testing/mockito/MyProcessorTest.java,1\1\11727a79cf51a1d5d0768c291d78e3f7a2273bbd
 k
 ;src/main/java/com/testing/spring/BaseSpringBootTesting.java,8\b\8b14bc1dbb76a716a1159e1ee5f12e5d39d72f1f
 b
@@ -45,3 +41,5 @@ _
 /src/main/java/com/testing/BaseSoftwareTest.java,6\2\6283cfa12f5590122f08f943f8b7cd7a6f061777
 `
 0src/main/java/com/testing/BaseTestingInJava.java,a\e\ae67148ba561b7ee5d95d43dbb3d83cdfef10bf0
+e
+5src/main/java/com/testing/basic/ObjectForTesting.java,4\e\4ef58f627681187e827957a566ae2dc49dd64750
