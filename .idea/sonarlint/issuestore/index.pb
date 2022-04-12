@@ -1,10 +1,4 @@
 
-\
-,src/test/java/com/testing/base/CafeTest.java,d\4\d4f919738f90b4ec0b016644256b11131b07f0d7
-g
-7src/test/java/com/testing/base/HamcrestExampleTest.java,c\f\cf8c7303729423a845cfcedae2beea4122a1d23d
-`
-0src/test/java/com/testing/base/CafeGoodTest.java,a\3\a32f0f012b8aaa2dd4c4b06eef7f4ff27314537f
 q
 Asrc/main/java/com/testing/spring/repositories/UserRepository.java,2\0\20803be7d468476da2cbf97b5f83ea8b054346d1
 i
