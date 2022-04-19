@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TestingInJava" />
-        <module name="JavaTestingMaster" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="power-mock-testing" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

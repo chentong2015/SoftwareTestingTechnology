@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // TODO：Spring Boot测试
 // https://spring.io/guides/gs/testing-web/
 // https://www.baeldung.com/spring-boot-testing
+// https://www.javadevjournal.com/spring-boot/shutdown-spring-boot-application/ 测试后关闭
 
-// Shutdown a Spring Boot Application after testing:
-// https://www.javadevjournal.com/spring-boot/shutdown-spring-boot-application/
+// @SpringBootApplication(exclude=SecurityAutoConfiguration.class) 在测试时自定义移除指定的配置
 @SpringBootApplication
 public class BaseSpringBootTesting {
 

@@ -23,7 +23,8 @@ public class BaseSoftwareTest {
     // 4. 单元测试库：Groovy JUnit, Spock, TestNG, JUnit5 (推荐)
     // 5. Add JUnit4: Project Settings > Modules > Dependencies > Set JUnit to Compile
 
-    // 测试代码的覆盖率 Code Coverage
+    // TODO. Test Code Coverage 测试代码的覆盖率
+    //    单元测试的覆盖率要求测试的对程序逻辑的覆盖，和测试方法的数量没有关系 !!
     // 1. IntelliJ IDEA code coverage:
     //    plugin Coverage 插件, 运行时选择Run with coverage, 查看覆盖报告信息和测试率
     // 2. JaCoCo (Java code coverage):
