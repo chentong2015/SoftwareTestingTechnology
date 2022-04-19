@@ -8,9 +8,6 @@
     <artifactId>TestingInJava</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>power-mock-testing</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -97,6 +94,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Junit 版本5的单元测试依赖 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
