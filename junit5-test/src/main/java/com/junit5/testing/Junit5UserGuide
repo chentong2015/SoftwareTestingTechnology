@@ -1,0 +1,5 @@
+https://junit.org/junit5/docs/current/user-guide/
+JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
+
+JUnit5 Extension Model替换JUnit 4 Rules
+https://www.baeldung.com/junit-5-extensions
