@@ -1,5 +1,6 @@
 package spring.controller;
 
+import com.google.common.io.ByteStreams;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,9 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
+import java.io.InputStream;
+
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -46,7 +50,7 @@ public class HomeControllerTest {
     // 使用模拟的账号进行安全登陆，进行测试
     @Test
     @WithMockUser(username = "ctong", password = "ctong123")
-    public void get_index() {
+    void get_index() {
         try {
             mockMvc.perform(MockMvcRequestBuilders.get("/index")
                             .accept(MediaType.APPLICATION_JSON))
@@ -58,7 +62,7 @@ public class HomeControllerTest {
     }
 
     @Test
-    public void test_with_param() throws Exception {
+    void test_with_param() throws Exception {
         MvcResult result = mockMvc.perform(
                         MockMvcRequestBuilders.post("/accounts/login.action")
                                 .param("username", "20116524")
@@ -71,5 +75,20 @@ public class HomeControllerTest {
                 .andExpect(MockMvcResultMatchers.jsonPath("$.isAccountValid").value(false))
                 .andReturn();
         Assertions.assertNotNull(result);
+    }
+
+    @Test
+    void testPostMethod() throws Exception {
+        InputStream resourceAsStream = this.getClass().getResourceAsStream("myObject.json");
+        assert resourceAsStream != null;
+        byte[] content = ByteStreams.toByteArray(resourceAsStream);
+
+        // 将从/resources资源文件夹中获取的数据作为请求的content传递
+        // content内容传递的格式为JSON
+        mockMvc.perform(post("/post")
+                        .content(content)
+                        .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk())
+                .andExpect(content().string("OK"));
     }
 }

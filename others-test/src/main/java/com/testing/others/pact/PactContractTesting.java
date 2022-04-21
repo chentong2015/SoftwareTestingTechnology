@@ -1,18 +1,15 @@
 package com.testing.others.pact;
 
 // PACT https://docs.pact.io/
-// 一种Non HTTP协议的测试技术
-//
-// Contract Test: no http contract for file server
-// Provider + Consumer
-// Define the contract properties
-//
-// Consumer(local):
+// 1. 一种Non HTTP协议的测试技术, 通过Contract来保证Client端和Server端的兼容
+// 2. Consumer和Provider两端都需要保证测试的通过
+
+// + Consumer(local):
 //   使用构造器注入，Mock模拟File Server
 //   生成Contract Json文件的信息，然后提交给file Server(mock file server)
 //   在文件服务器检查提交的Consumer和Provider, Version的确定
 //
-// Provider:
+// + Provider:
 //   find the contract from the file server
 //   find the version : server端比较两个版本
 //   check the properties

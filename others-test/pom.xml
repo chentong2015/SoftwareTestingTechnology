@@ -11,11 +11,6 @@
 
     <artifactId>others-test</artifactId>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
-
     <dependencies>
         <!-- 注意：作用域最好约束在test范围内 -->
         <dependency>
@@ -45,6 +40,17 @@
             <version>2.0.9</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
 
+        <!-- For Pact Contract Testing -->
+        <dependency>
+            <groupId>au.com.dius.pact.consumer</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.4.0-beta.1</version>
+        </dependency>
+        <dependency>
+            <groupId>au.com.dius</groupId>
+            <artifactId>pact-jvm-core-model</artifactId>
+            <version>4.0.10</version>
+        </dependency>
+    </dependencies>
 </project>

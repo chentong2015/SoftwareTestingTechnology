@@ -50,8 +50,7 @@ public class HomeControllerIntegrationTest {
         mvc.perform(MockMvcRequestBuilders.get("/api/employees")
                         .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(content()
-                        .contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
+                .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
                 .andExpect((ResultMatcher) jsonPath("$[0].name", is("bob")));
     }
 }
