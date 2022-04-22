@@ -1,0 +1,6 @@
+com\testing\others\bats\core\BashAutomatedTesting.class
+com\testing\others\pact\PactContractTesting.class
+com\testing\others\mock\MyService.class
+com\testing\others\hamcrest\JavaHamcrestTesting.class
+com\testing\others\mock\MyProcessor.class
+com\testing\others\mock\MyServiceUtil.class

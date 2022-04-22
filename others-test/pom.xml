@@ -45,12 +45,37 @@
         <dependency>
             <groupId>au.com.dius.pact.consumer</groupId>
             <artifactId>junit</artifactId>
-            <version>4.4.0-beta.1</version>
+            <version>4.2.9</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- 用来测试发送指定的请求给broker @PactBroker -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.13</version>
         </dependency>
         <dependency>
-            <groupId>au.com.dius</groupId>
-            <artifactId>pact-jvm-core-model</artifactId>
-            <version>4.0.10</version>
+            <groupId>au.com.dius.pact.provider</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.4.0-beta.1</version>
+            <scope>test</scope>
         </dependency>
+
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <target>11</target>
+                    <source>11</source>
+                    <release>11</release>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

@@ -1,0 +1,5 @@
+pact\PactConsumerTest.class
+mock\MyServiceTest.class
+mock\MockitoTestDemo.class
+powermock\PowerMockitoTest.class
+mock\MyProcessorTest.class

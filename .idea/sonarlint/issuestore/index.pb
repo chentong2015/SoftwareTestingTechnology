@@ -63,8 +63,6 @@ k
 ;spring-test/src/main/java/spring/BaseSpringBootTesting.java,0\c\0c18144c555a02d8b753f388dd42e9e5cb9b0b92
 t
 Dspring-test/src/test/java/spring/SpringExcludeAutoConfigureTest.java,a\2\a2d580855f64b72ed4757595d61f63f5e80549ee
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 v
 Fspring-test/src/main/java/spring/config/SecurityAutoConfiguration.java,5\7\57502a293c316b9bb6144f449b1026e85e6b420a
 q
@@ -97,5 +95,9 @@ C
 spring-test/pom.xml,c\7\c7625a888887a7c0171f689d9b5a03829f4a1573
 o
 ?spring-test/src/main/java/spring/controller/HomeController.java,a\f\af76e936cafe511ae0e0b5fb13e4d94c0ea581f8
-C
-others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
+j
+:spring-test/src/test/java/spring/SpringIocExampleTest.java,4\b\4b39d2e4577906ac3852f7b5262c08ce5eba3e20
+q
+Aspring-test/src/test/java/spring/service/UserServiceMockTest.java,6\d\6d90422b3c45f8784a1df12dce5ef01b0e17d2f6
+~
+Nspring-test/src/test/java/spring/controller/HomeControllerIntegrationTest.java,8\6\86858ad3dd48603a70a91f9daddce9d4ae336498
