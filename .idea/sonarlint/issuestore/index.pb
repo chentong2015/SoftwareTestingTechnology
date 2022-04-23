@@ -5,8 +5,6 @@ t
 Dcore-tdd-test-pyramid/src/main/java/com/testing/main/测试的规范,9\c\9cd1edbb8189f517e945f00b64c9c70764ac6dcc
 �
 Qcore-tdd-test-pyramid/src/main/java/com/testing/main/pyramid/BaseTestPyramid.java,7\7\77a8fd41ae9540ff13c5bf2cf65bbcf920464880
-u
-Ecore-tdd-test-pyramid/src/main/java/com/testing/main/tdd/BaseTDD.java,8\9\89a0d13ff1d408a014812acbb58cc96e8ce995ab
 k
 ;junit4-test/src/test/java/console/SystemConsoleTesting.java,b\b\bb28533e51869806e223e96b1cef5ea7ee458b2c
 t
@@ -31,12 +29,8 @@ o
 ?junit5-test/src/main/java/com/junit5/testing/model/MyClass.java,a\5\a5bc2b131188deb0c3b8f573b67660b8ba01d802
 l
 <junit5-test/src/main/java/com/junit5/testing/Junit5UserGuide,2\7\2788c62bba41cae1a660022022a26892f255854b
-t
-Djunit4-test/src/test/java/parameterized/JUnit4ParameterizedTest.java,3\9\39b4908a1062225a820782f45a7c02d5451d4fd1
 u
 Ejunit5-test/src/test/java/com/junit5/testing/JUnit5LifecycleTest.java,c\a\ca0526bd798578c9cf2437a1143ef64786fa2de8
-t
-Djunit5-test/src/test/java/parameterized/JUnit5ParameterizedTest.java,a\4\a4cc214b4dba7cf008010a65fc7c3b2a6a8a6739
 �
 Pothers-test/src/main/java/com/testing/others/bats/core/BashAutomatedTesting.java,5\2\523fe9aed45bc16f8aa9514907326ba6fd32d48f
 r
@@ -47,10 +41,6 @@ t
 Dothers-test/src/main/java/com/testing/others/mock/MyServiceUtil.java,d\3\d3ea14ab4800d4494fff091182379ff6dc868d5c
 c
 3others-test/src/test/java/mock/MyProcessorTest.java,6\7\67ba8ca884d2a2bc1f4daab101eaa9be22050cbf
-c
-3others-test/src/test/java/mock/MockitoTestDemo.java,8\0\80416c13dc5fa44acfff0d0088349a61a03a76e3
-r
-Bothers-test/src/main/java/com/testing/others/mock/Mock测试技术,3\7\37ecb872f733aa97eb76b4dc80db8095670d72f6
 i
 9others-test/src/test/java/powermock/PowerMockitoTest.java,3\4\3403f995d2c34c9ec6aa8a9dd56546bad21226a1
 a
@@ -59,8 +49,6 @@ l
 <junit5-test/src/main/java/com/junit5/testing/model/Cafe.java,e\e\eef74e5e8c78b02cc1728234314dcfc00171ef68
 x
 Hspring-test/src/test/java/spring/service/ControllerServiceAsyncTest.java,1\1\11edc513cdc181cb11ebf05968073dbdd614200e
-k
-;spring-test/src/main/java/spring/BaseSpringBootTesting.java,0\c\0c18144c555a02d8b753f388dd42e9e5cb9b0b92
 t
 Dspring-test/src/test/java/spring/SpringExcludeAutoConfigureTest.java,a\2\a2d580855f64b72ed4757595d61f63f5e80549ee
 v
@@ -73,18 +61,12 @@ d
 4spring-test/src/main/java/spring/datamodel/User.java,2\a\2a382ec5012465b1e7fe50ad72473d1fde13b617
 q
 Aspring-test/src/main/java/spring/repositories/HomeRepository.java,b\9\b978aeddb0133a1c9f0665bf62f25d507f76aa6c
-~
-Nothers-test/src/main/java/com/testing/others/hamcrest/JavaHamcrestTesting.java,3\9\39e2754ddadd25eeb5d84aa3750e6e9267b8f9c0
 M
 core-tdd-test-pyramid/pom.xml,3\f\3f4c79ea45bc36c3e5cd6cf35362ab8475ef4f1e
 C
 junit5-test/pom.xml,1\0\10c6fcf2be0eb8e90ff3d52f02c5ee3a82276d9b
-j
-:junit4-test/src/test/java/rules/Junit4TestRulesChains.java,5\2\5263852862c5235708d4f68508d48400810676a9
 r
 Bjunit4-test/src/main/java/com/junit4/testing/MyConsoleOutRule.java,f\f\fff6865245527ce57e584cdbfb65febe9a893cac
-d
-4junit4-test/src/test/java/rules/Junit4TestRules.java,7\8\78b6aa685a4607fdfc7fa2d94d31336a25eb2767
 C
 junit4-test/pom.xml,a\c\acd6ba5e5491d08fa2450fe00920139bff528c42
 x
@@ -101,3 +83,13 @@ q
 Aspring-test/src/test/java/spring/service/UserServiceMockTest.java,6\d\6d90422b3c45f8784a1df12dce5ef01b0e17d2f6
 ~
 Nspring-test/src/test/java/spring/controller/HomeControllerIntegrationTest.java,8\6\86858ad3dd48603a70a91f9daddce9d4ae336498
+s
+Cspring-test/src/test/java/spring/controller/HomeControllerTest.java,6\9\693cbe17cea41e73e8c743548354867cf25eb564
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+z
+Jothers-test/src/main/java/com/testing/others/pact/PactContractTesting.java,2\8\2896f5a93882d75e896f8dcf43bf87859b4da17e
+d
+4others-test/src/test/java/pact/PactBrokerSource.java,2\c\2ce0f5e1803fa9bd1ac2f615afddbf9b56dffb66
+d
+4others-test/src/test/java/pact/PactConsumerTest.java,c\f\cfe45060ba00723107f3de2cca7e1b0d56549df8

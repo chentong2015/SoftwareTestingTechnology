@@ -13,13 +13,13 @@ public class BaseSpringBootTesting {
 
     // The testing frameworks you need to integrate into your code
     // TODO: spring-boot-starter-test 集成了下面的四种测试
-    //   JUnit       (for all unit testing)
+    //  1. JUnit       (for all unit testing)
     //     从Spring Boot 2.4开始，没有集成JUnit5
     //     如果要测试JUnit4的功能，需要补充Dependency
-    //   Hamcrest    (for matching and assertions)
-    //   Mockito     (mock objects and verify)
+    //  2. Hamcrest    (for matching and assertions)
+    //  3. Mockito     (mock objects and verify)
     //     已经内置了相关的测试依赖，无需再次添加
-    //   Sprint Test (Testing tool and integration testing support)
+    //  4. Sprint Test (Testing tool and integration testing support)
 
     // Implementing Integration Testing
     //   The reason behind writing integration tests

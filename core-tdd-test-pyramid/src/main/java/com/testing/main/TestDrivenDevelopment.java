@@ -1,12 +1,10 @@
-package com.testing.main.tdd;
+package com.testing.main;
 
 // Test-Driven Development
 // 1. Write the test cases before codes
 // 2. Use the test cases to drive the design the code
 // 3. Refactor the code after testing
-
-// TODO: 阅读<<Test-Driven Development>>
-public class BaseTDD {
+public class TestDrivenDevelopment {
 
     // This cycle is typically executed once for every complete unit test,
     // or once every dozen or so cycles of the three laws. The rules of this cycle are simple.
