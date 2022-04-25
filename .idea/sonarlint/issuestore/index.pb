@@ -65,8 +65,6 @@ M
 core-tdd-test-pyramid/pom.xml,3\f\3f4c79ea45bc36c3e5cd6cf35362ab8475ef4f1e
 C
 junit5-test/pom.xml,1\0\10c6fcf2be0eb8e90ff3d52f02c5ee3a82276d9b
-r
-Bjunit4-test/src/main/java/com/junit4/testing/MyConsoleOutRule.java,f\f\fff6865245527ce57e584cdbfb65febe9a893cac
 C
 junit4-test/pom.xml,a\c\acd6ba5e5491d08fa2450fe00920139bff528c42
 x
@@ -93,3 +91,19 @@ d
 4others-test/src/test/java/pact/PactBrokerSource.java,2\c\2ce0f5e1803fa9bd1ac2f615afddbf9b56dffb66
 d
 4others-test/src/test/java/pact/PactConsumerTest.java,c\f\cfe45060ba00723107f3de2cca7e1b0d56549df8
+r
+Bothers-test/src/main/java/com/testing/others/mock/Mock测试技术,3\7\37ecb872f733aa97eb76b4dc80db8095670d72f6
+c
+3others-test/src/test/java/mock/MockitoTestDemo.java,8\0\80416c13dc5fa44acfff0d0088349a61a03a76e3
+t
+Djunit5-test/src/test/java/parameterized/JUnit5ParameterizedTest.java,a\4\a4cc214b4dba7cf008010a65fc7c3b2a6a8a6739
+t
+Djunit4-test/src/test/java/parameterized/JUnit4ParameterizedTest.java,3\9\39b4908a1062225a820782f45a7c02d5451d4fd1
+k
+;spring-test/src/main/java/spring/BaseSpringBootTesting.java,0\c\0c18144c555a02d8b753f388dd42e9e5cb9b0b92
+
+Ocore-tdd-test-pyramid/src/main/java/com/testing/main/TestDrivenDevelopment.java,5\5\55252348db61b841e7cfdecf6d4c0ec7b45f5739
+C
+others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
+~
+Nothers-test/src/main/java/com/testing/others/hamcrest/JavaHamcrestTesting.java,3\9\39e2754ddadd25eeb5d84aa3750e6e9267b8f9c0
