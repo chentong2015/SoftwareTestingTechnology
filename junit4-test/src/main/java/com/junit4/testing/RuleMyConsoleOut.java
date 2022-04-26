@@ -5,11 +5,11 @@ import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
 
 // 自定义在实行单元测试过程中的规则rule, 在测试的前后的逻辑
-public class MyConsoleOutRule implements TestRule {
+public class RuleMyConsoleOut implements TestRule {
 
     private final String note;
 
-    public MyConsoleOutRule(final String note) {
+    public RuleMyConsoleOut(final String note) {
         this.note = note;
     }
 
