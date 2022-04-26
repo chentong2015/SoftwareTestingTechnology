@@ -107,3 +107,9 @@ C
 others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
 ~
 Nothers-test/src/main/java/com/testing/others/hamcrest/JavaHamcrestTesting.java,3\9\39e2754ddadd25eeb5d84aa3750e6e9267b8f9c0
+j
+:junit4-test/src/test/java/rules/Junit4TestRulesChains.java,5\2\5263852862c5235708d4f68508d48400810676a9
+d
+4junit4-test/src/test/java/rules/Junit4TestRules.java,7\8\78b6aa685a4607fdfc7fa2d94d31336a25eb2767
+r
+Bjunit4-test/src/main/java/com/junit4/testing/MyConsoleOutRule.java,f\f\fff6865245527ce57e584cdbfb65febe9a893cac
