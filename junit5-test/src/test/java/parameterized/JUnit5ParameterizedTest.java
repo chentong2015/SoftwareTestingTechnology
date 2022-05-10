@@ -10,6 +10,7 @@ import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+// 提供单元测试的参数的方式有很多
 class JUnit5ParameterizedTest {
 
     @ParameterizedTest
@@ -36,14 +37,9 @@ class JUnit5ParameterizedTest {
         return IntStream.range(0, 20).skip(10); // 取11 - 19的区间值
     }
 
-    /**
-     * Country, reference > 跳过第一行进行读取
-     * Sweden, 1
-     * Poland, 2
-     * USA, 3
-     */
+    // 文件第一行的title将不会被作为测试数据读取，注意字段的匹配和对应
     @ParameterizedTest
-    @CsvFileSource(resources = "/JavaUnitTestExceptions.test.csv", numLinesToSkip = 1)
+    @CsvFileSource(resources = "/counties.csv", numLinesToSkip = 1)
     void testWithCsvFileSourceFromClasspath(String country, int reference) {
         assertNotNull(country);
         assertNotEquals(0, reference);

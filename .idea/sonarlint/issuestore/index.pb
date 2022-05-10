@@ -1,18 +1,10 @@
 
-k
-;junit4-test/src/test/java/console/ConsoleOutputTesting.java,f\9\f9fdbcc5af131720f9d771c574f85392bcadb2eb
-�
-Qcore-tdd-test-pyramid/src/main/java/com/testing/main/pyramid/BaseTestPyramid.java,7\7\77a8fd41ae9540ff13c5bf2cf65bbcf920464880
-k
-;junit4-test/src/test/java/console/SystemConsoleTesting.java,b\b\bb28533e51869806e223e96b1cef5ea7ee458b2c
 t
 Djunit4-test/src/main/java/com/junit4/testing/MyServiceException.java,0\4\0476cb7c46df3c0fc050a6d1393524d7d3aa9c85
 n
 >junit5-test/src/main/java/com/junit5/testing/model/Coffee.java,7\6\760bdee7dbe9d5e97fe6c0b0c7f6373ddfbc7539
 r
 Bjunit5-test/src/main/java/com/junit5/testing/model/CoffeeType.java,a\2\a272460bd609572da858ed44c2edabab167a9bf3
-k
-;junit5-test/src/test/java/com/junit5/testing/BasicTest.java,4\6\4620e19959b7b9628b4e4f5a97968443ca8135b8
 j
 :junit5-test/src/test/java/com/junit5/testing/GoodTest.java,b\b\bb601c6663fae6bc41caecc87eead8eab206301a
 u
@@ -35,8 +27,6 @@ t
 Dothers-test/src/main/java/com/testing/others/mock/MyServiceUtil.java,d\3\d3ea14ab4800d4494fff091182379ff6dc868d5c
 c
 3others-test/src/test/java/mock/MyProcessorTest.java,6\7\67ba8ca884d2a2bc1f4daab101eaa9be22050cbf
-i
-9others-test/src/test/java/powermock/PowerMockitoTest.java,3\4\3403f995d2c34c9ec6aa8a9dd56546bad21226a1
 a
 1others-test/src/test/java/mock/MyServiceTest.java,e\2\e225d76115387053f915a73c3eeed0cd06af1d32
 l
@@ -55,8 +45,6 @@ M
 core-tdd-test-pyramid/pom.xml,3\f\3f4c79ea45bc36c3e5cd6cf35362ab8475ef4f1e
 C
 junit5-test/pom.xml,1\0\10c6fcf2be0eb8e90ff3d52f02c5ee3a82276d9b
-C
-junit4-test/pom.xml,a\c\acd6ba5e5491d08fa2450fe00920139bff528c42
 x
 Hjunit5-test/src/main/java/com/junit5/testing/好的自动化测试标准,f\8\f8d15773147c549f85c54f6628670e2b388b0dae
 g
@@ -79,18 +67,12 @@ r
 Bothers-test/src/main/java/com/testing/others/mock/Mock测试技术,3\7\37ecb872f733aa97eb76b4dc80db8095670d72f6
 c
 3others-test/src/test/java/mock/MockitoTestDemo.java,8\0\80416c13dc5fa44acfff0d0088349a61a03a76e3
-t
-Djunit5-test/src/test/java/parameterized/JUnit5ParameterizedTest.java,a\4\a4cc214b4dba7cf008010a65fc7c3b2a6a8a6739
-t
-Djunit4-test/src/test/java/parameterized/JUnit4ParameterizedTest.java,3\9\39b4908a1062225a820782f45a7c02d5451d4fd1
 k
 ;spring-test/src/main/java/spring/BaseSpringBootTesting.java,0\c\0c18144c555a02d8b753f388dd42e9e5cb9b0b92
 C
 others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
 ~
 Nothers-test/src/main/java/com/testing/others/hamcrest/JavaHamcrestTesting.java,3\9\39e2754ddadd25eeb5d84aa3750e6e9267b8f9c0
-{
-Kjunit4-test/src/main/java/com/junit4/testing/RuleSetConfigurationField.java,b\a\ba9b425e9af0a3d072fa746548ed397d6725c3b5
 x
 Hspring-test/src/test/java/spring/service/ControllerServiceAsyncTest.java,1\1\11edc513cdc181cb11ebf05968073dbdd614200e
 C
@@ -101,9 +83,13 @@ j
 Nspring-test/src/test/java/spring/controller/HomeControllerIntegrationTest.java,8\6\86858ad3dd48603a70a91f9daddce9d4ae336498
 t
 Dspring-test/src/test/java/spring/SpringExcludeAutoConfigureTest.java,a\2\a2d580855f64b72ed4757595d61f63f5e80549ee
-r
-Bjunit4-test/src/main/java/com/junit4/testing/RuleMyConsoleOut.java,5\f\5fa4f47379e28a0b7c315f5427211d902698ece6
-j
-:junit4-test/src/test/java/rules/Junit4TestRulesChains.java,5\2\5263852862c5235708d4f68508d48400810676a9
-d
-4junit4-test/src/test/java/rules/Junit4TestRules.java,7\8\78b6aa685a4607fdfc7fa2d94d31336a25eb2767
+y
+Icore-tdd-test-pyramid/src/main/java/com/testing/main/SoftwareTesting.java,3\5\35f3fc0cc2d455485eb05e93c79272ac471b3e5e
+{
+Kcore-tdd-test-pyramid/src/main/java/com/testing/main/AutomationTesting.java,9\2\92502d00e726beee4e93b47ca7885ce2de3f2929
+g
+7test-ng/src/main/java/TestNG功能强大的测试框架,1\1\113d1206d54755dfb36413bb4db2dac955c69b75
+?
+test-ng/pom.xml,b\2\b2d4d876171fb3b7c4a61bfd57a416aacdff43b9
+�
+Yspring-test/src/test/java/spring/integration/test/SpringIntegrationTestConfiguration.java,4\a\4aa2b3c1cd7414abe26de74eaecf3b526ad8f1df

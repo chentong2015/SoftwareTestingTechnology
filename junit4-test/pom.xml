@@ -19,7 +19,7 @@
     <dependencies>
         <!-- Junit 4测试类库:
              1. 内嵌入了hamcrest-core依赖
-             2. TODO. 如果标记<scope>test</scope>，则在Java Source Root中是无法使用的 -->
+             2. TODO. 如果标记<scope>test</scope>，则在Java Source Root中是无法使用的，只在跑测试的时候可以使用 -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
