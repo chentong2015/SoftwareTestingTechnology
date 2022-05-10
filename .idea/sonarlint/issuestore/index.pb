@@ -1,8 +1,6 @@
 
 k
 ;junit4-test/src/test/java/console/ConsoleOutputTesting.java,f\9\f9fdbcc5af131720f9d771c574f85392bcadb2eb
-t
-Dcore-tdd-test-pyramid/src/main/java/com/testing/main/测试的规范,9\c\9cd1edbb8189f517e945f00b64c9c70764ac6dcc
 �
 Qcore-tdd-test-pyramid/src/main/java/com/testing/main/pyramid/BaseTestPyramid.java,7\7\77a8fd41ae9540ff13c5bf2cf65bbcf920464880
 k
@@ -47,10 +45,6 @@ a
 1others-test/src/test/java/mock/MyServiceTest.java,e\2\e225d76115387053f915a73c3eeed0cd06af1d32
 l
 <junit5-test/src/main/java/com/junit5/testing/model/Cafe.java,e\e\eef74e5e8c78b02cc1728234314dcfc00171ef68
-x
-Hspring-test/src/test/java/spring/service/ControllerServiceAsyncTest.java,1\1\11edc513cdc181cb11ebf05968073dbdd614200e
-t
-Dspring-test/src/test/java/spring/SpringExcludeAutoConfigureTest.java,a\2\a2d580855f64b72ed4757595d61f63f5e80549ee
 v
 Fspring-test/src/main/java/spring/config/SecurityAutoConfiguration.java,5\7\57502a293c316b9bb6144f449b1026e85e6b420a
 q
@@ -71,16 +65,10 @@ x
 Hjunit5-test/src/main/java/com/junit5/testing/好的自动化测试标准,f\8\f8d15773147c549f85c54f6628670e2b388b0dae
 g
 7spring-test/src/main/java/spring/datamodel/MyClass.java,0\d\0d83785b786c6f982ca6a1a62b1db77c91cba347
-C
-spring-test/pom.xml,c\7\c7625a888887a7c0171f689d9b5a03829f4a1573
 o
 ?spring-test/src/main/java/spring/controller/HomeController.java,a\f\af76e936cafe511ae0e0b5fb13e4d94c0ea581f8
-j
-:spring-test/src/test/java/spring/SpringIocExampleTest.java,4\b\4b39d2e4577906ac3852f7b5262c08ce5eba3e20
 q
 Aspring-test/src/test/java/spring/service/UserServiceMockTest.java,6\d\6d90422b3c45f8784a1df12dce5ef01b0e17d2f6
-~
-Nspring-test/src/test/java/spring/controller/HomeControllerIntegrationTest.java,8\6\86858ad3dd48603a70a91f9daddce9d4ae336498
 s
 Cspring-test/src/test/java/spring/controller/HomeControllerTest.java,6\9\693cbe17cea41e73e8c743548354867cf25eb564
 7
@@ -107,7 +95,17 @@ C
 others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
 ~
 Nothers-test/src/main/java/com/testing/others/hamcrest/JavaHamcrestTesting.java,3\9\39e2754ddadd25eeb5d84aa3750e6e9267b8f9c0
+{
+Kjunit4-test/src/main/java/com/junit4/testing/RuleSetConfigurationField.java,b\a\ba9b425e9af0a3d072fa746548ed397d6725c3b5
+x
+Hspring-test/src/test/java/spring/service/ControllerServiceAsyncTest.java,1\1\11edc513cdc181cb11ebf05968073dbdd614200e
+C
+spring-test/pom.xml,c\7\c7625a888887a7c0171f689d9b5a03829f4a1573
+j
+:spring-test/src/test/java/spring/SpringIocExampleTest.java,4\b\4b39d2e4577906ac3852f7b5262c08ce5eba3e20
+~
+Nspring-test/src/test/java/spring/controller/HomeControllerIntegrationTest.java,8\6\86858ad3dd48603a70a91f9daddce9d4ae336498
+t
+Dspring-test/src/test/java/spring/SpringExcludeAutoConfigureTest.java,a\2\a2d580855f64b72ed4757595d61f63f5e80549ee
 r
-Bjunit4-test/src/main/java/com/junit4/testing/MyConsoleOutRule.java,f\f\fff6865245527ce57e584cdbfb65febe9a893cac
-r
-Bjunit4-test/src/main/java/com/junit4/testing/MyWindowTestRule.java,7\2\72443b33dfc8ab160b30aebdf010c6fbf8868796
+Bjunit4-test/src/main/java/com/junit4/testing/RuleMyConsoleOut.java,5\f\5fa4f47379e28a0b7c315f5427211d902698ece6
