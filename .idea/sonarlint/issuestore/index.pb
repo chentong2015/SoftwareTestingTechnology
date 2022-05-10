@@ -11,10 +11,6 @@ n
 >junit5-test/src/main/java/com/junit5/testing/model/Coffee.java,7\6\760bdee7dbe9d5e97fe6c0b0c7f6373ddfbc7539
 r
 Bjunit5-test/src/main/java/com/junit5/testing/model/CoffeeType.java,a\2\a272460bd609572da858ed44c2edabab167a9bf3
-y
-Icore-tdd-test-pyramid/src/main/java/com/testing/main/SoftwareTesting.java,3\5\35f3fc0cc2d455485eb05e93c79272ac471b3e5e
-{
-Kcore-tdd-test-pyramid/src/main/java/com/testing/main/AutomationTesting.java,9\2\92502d00e726beee4e93b47ca7885ce2de3f2929
 k
 ;junit5-test/src/test/java/com/junit5/testing/BasicTest.java,4\6\4620e19959b7b9628b4e4f5a97968443ca8135b8
 j
@@ -89,8 +85,6 @@ t
 Djunit4-test/src/test/java/parameterized/JUnit4ParameterizedTest.java,3\9\39b4908a1062225a820782f45a7c02d5451d4fd1
 k
 ;spring-test/src/main/java/spring/BaseSpringBootTesting.java,0\c\0c18144c555a02d8b753f388dd42e9e5cb9b0b92
-
-Ocore-tdd-test-pyramid/src/main/java/com/testing/main/TestDrivenDevelopment.java,5\5\55252348db61b841e7cfdecf6d4c0ec7b45f5739
 C
 others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
 ~
@@ -109,3 +103,7 @@ t
 Dspring-test/src/test/java/spring/SpringExcludeAutoConfigureTest.java,a\2\a2d580855f64b72ed4757595d61f63f5e80549ee
 r
 Bjunit4-test/src/main/java/com/junit4/testing/RuleMyConsoleOut.java,5\f\5fa4f47379e28a0b7c315f5427211d902698ece6
+j
+:junit4-test/src/test/java/rules/Junit4TestRulesChains.java,5\2\5263852862c5235708d4f68508d48400810676a9
+d
+4junit4-test/src/test/java/rules/Junit4TestRules.java,7\8\78b6aa685a4607fdfc7fa2d94d31336a25eb2767

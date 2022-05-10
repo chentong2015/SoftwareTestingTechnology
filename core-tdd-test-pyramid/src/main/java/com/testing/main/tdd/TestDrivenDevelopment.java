@@ -1,4 +1,4 @@
-package com.testing.main;
+package com.testing.main.tdd;
 
 // Test-Driven Development
 // 1. Write the test cases before codes
