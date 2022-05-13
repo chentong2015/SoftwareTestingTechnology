@@ -1,4 +1,4 @@
-package model;
+package base.model;
 
 public final class Coffee {
 

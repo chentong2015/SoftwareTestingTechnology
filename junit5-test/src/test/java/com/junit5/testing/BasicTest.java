@@ -1,8 +1,8 @@
 package com.junit5.testing;
 
-import model.Cafe;
-import model.Coffee;
-import model.CoffeeType;
+import base.model.Cafe;
+import base.model.Coffee;
+import base.model.CoffeeType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -14,13 +14,13 @@ public class BasicTest {
     // Note: the name of the method is the behavior
     @Test
     public void canBrewEspresso() {
-        // Stock enough beans before testing
+        // Stock enough beans before testing 准备阶段
         Cafe cafe = new Cafe();
         cafe.restockBeans(7);
 
         Coffee coffee = cafe.brew(CoffeeType.ESPRESSO);
 
-        // Make sure the result
+        // Make sure the result 测试断言的阶段
         Assertions.assertEquals(CoffeeType.ESPRESSO, coffee.getType());
         Assertions.assertEquals(7, coffee.getBeans());
         Assertions.assertEquals(0, coffee.getMilk());

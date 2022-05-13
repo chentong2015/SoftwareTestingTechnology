@@ -1,6 +1,6 @@
 package com.junit5.testing;
 
-import model.MyClass;
+import base.model.MyClass;
 import org.junit.jupiter.api.*;
 
 // JUnit5 Lifecycle Callbacks

@@ -1,8 +1,8 @@
 package com.junit5.testing;
 
-import model.Cafe;
-import model.Coffee;
-import model.CoffeeType;
+import base.model.Cafe;
+import base.model.Coffee;
+import base.model.CoffeeType;
 import org.junit.jupiter.api.*;
 
 // TODO: 什么是好的测试Unit Test
