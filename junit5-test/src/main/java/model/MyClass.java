@@ -1,4 +1,4 @@
-package com.junit5.testing.model;
+package model;
 
 public class MyClass {
 

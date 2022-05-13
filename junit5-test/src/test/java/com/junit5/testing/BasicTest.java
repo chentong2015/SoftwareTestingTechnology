@@ -1,8 +1,8 @@
 package com.junit5.testing;
 
-import com.junit5.testing.model.Cafe;
-import com.junit5.testing.model.Coffee;
-import com.junit5.testing.model.CoffeeType;
+import model.Cafe;
+import model.Coffee;
+import model.CoffeeType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

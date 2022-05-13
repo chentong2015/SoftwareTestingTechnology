@@ -12,6 +12,12 @@
     <artifactId>others-test</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-core</artifactId>
+            <version>11.8</version>
+        </dependency>
+
         <!-- 注意：作用域最好约束在test范围内 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -24,7 +30,7 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>4.4.0</version>
+            <version>4.5.1</version>
             <scope>test</scope>
         </dependency>
 

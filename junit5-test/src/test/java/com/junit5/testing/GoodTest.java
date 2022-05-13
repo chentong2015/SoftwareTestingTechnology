@@ -1,8 +1,8 @@
 package com.junit5.testing;
 
-import com.junit5.testing.model.Cafe;
-import com.junit5.testing.model.Coffee;
-import com.junit5.testing.model.CoffeeType;
+import model.Cafe;
+import model.Coffee;
+import model.CoffeeType;
 import org.junit.jupiter.api.*;
 
 // TODO: 什么是好的测试Unit Test
@@ -15,11 +15,11 @@ public class GoodTest {
     private static final int ESPRESSO_BEANS = 7;
     private static final int MILK_NUMBER = 230;
 
-    // 先于CafeGoodTest instance的构建，执行在之前
+    // 先于CafeGoodTest instance的构建
+    // 在调用构造器之前执行
     @BeforeAll
     public static void beforeClass() {
-        //  before all tests in the class
-        System.out.println("Before class");
+        System.out.println("before all tests in the class");
     }
 
     public GoodTest() {
@@ -28,8 +28,7 @@ public class GoodTest {
 
     @BeforeEach
     public void before() {
-        // before each test method runs
-        System.out.println("Before");
+        System.out.println("before each test method runs");
     }
 
     @Test
