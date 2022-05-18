@@ -5,11 +5,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/core-tdd-test-pyramid/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/power-mock-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/test-ng/pom.xml" />
       </set>
     </option>
   </component>

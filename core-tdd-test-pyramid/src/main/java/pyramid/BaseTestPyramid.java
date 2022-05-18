@@ -1,4 +1,4 @@
-package com.testing.main.pyramid;
+package pyramid;
 
 // Test Pyramid: 测试金字塔
 // TODO: https://martinfowler.com/bliki/TestPyramid.html

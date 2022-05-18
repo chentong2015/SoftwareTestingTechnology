@@ -26,11 +26,15 @@ public class BasicTest {
         Assertions.assertEquals(0, coffee.getMilk());
     }
 
+    // The common Structure of Tests 测试的基本三个步骤
+    // 1. Given: precondition of test ?
+    // 2. When: what is being tested ? The behavior
+    // 3. Then: assert, verification
     @Test
     public void brewingEspressoConsumeBeans() {
         Cafe cafe = new Cafe();
         cafe.restockBeans(7);
-        Coffee coffee = cafe.brew(CoffeeType.ESPRESSO);
+        cafe.brew(CoffeeType.ESPRESSO);
         Assertions.assertEquals(0, cafe.getBeansInStock());
     }
 

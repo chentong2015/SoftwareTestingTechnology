@@ -1,6 +1,6 @@
-package base.model;
+package com.junit5.testing;
 
-public class MyClass {
+public class Account {
 
     private int balance = 100;
     private boolean isChecking = true;

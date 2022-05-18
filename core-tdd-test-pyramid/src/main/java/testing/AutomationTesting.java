@@ -1,4 +1,4 @@
-package com.testing.main;
+package testing;
 
 // Why do automate test ?
 // 1. Find problems before it's too big

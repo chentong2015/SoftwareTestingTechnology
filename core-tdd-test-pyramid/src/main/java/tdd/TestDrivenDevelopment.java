@@ -1,8 +1,8 @@
-package com.testing.main.tdd;
+package tdd;
 
 // Test-Driven Development
 // 1. Write the test cases before codes
-// 2. Use the test cases to drive the design the code
+// 2. Use the test cases to drive the design of code
 // 3. Refactor the code after testing
 public class TestDrivenDevelopment {
 

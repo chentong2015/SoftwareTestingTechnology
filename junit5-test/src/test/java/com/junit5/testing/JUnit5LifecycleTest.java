@@ -1,6 +1,5 @@
 package com.junit5.testing;
 
-import base.model.MyClass;
 import org.junit.jupiter.api.*;
 
 // JUnit5 Lifecycle Callbacks
@@ -18,7 +17,7 @@ import org.junit.jupiter.api.*;
 public class JUnit5LifecycleTest {
 
     private static int count; // Test class 共享的数据
-    private MyClass baseJUnit;
+    private Account account;
 
     // BeforeEach 在测试每一个方法之前，都执行 (设置统一配置的信息) ==> 声明成static
     @BeforeAll
@@ -31,21 +30,21 @@ public class JUnit5LifecycleTest {
     // BeforeAll 在测试所有的方法之前，执行一次
     @BeforeEach
     public void setUp() {
-        baseJUnit = new MyClass();
+        account = new Account();
         System.out.println("Setup JavaUnitTestExceptions.test case");
     }
 
     // public void methodName 方法名称可与测试源类型中的不同 ==> 源方法必须是public的才能测试
     @Test
     public void testBaseJUnit() {
-        int balance = baseJUnit.deposit(50);
+        int balance = account.deposit(50);
         Assertions.assertEquals(150, balance, 0); // 断言, 在数值比较时可以设定比较的误差
     }
 
     // 在测试错误时输出Message指定的日志信息
     @Test
     public void testAssertBoolean() {
-        Assertions.assertEquals(baseJUnit.getChecking(), "The account is not checking");
+        Assertions.assertEquals(account.getChecking(), "The account is not checking");
     }
 
     // 未完成的测试需要注明fail()
@@ -59,7 +58,7 @@ public class JUnit5LifecycleTest {
     @Test
     public void testMethodException() throws Exception {
         Assertions.assertThrows(IllegalArgumentException.class, () -> {
-            baseJUnit.testException(false);
+            account.testException(false);
             Assertions.fail("Should have thrown an Exception");
         });
     }

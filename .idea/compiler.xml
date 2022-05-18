@@ -9,7 +9,6 @@
         <module name="core-tdd-test-pyramid" />
         <module name="junit5-test" />
         <module name="spring-test" />
-        <module name="test-ng" />
         <module name="test-pyramid-tdd" />
         <module name="others-test" />
         <module name="TestingInJava" />
@@ -18,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="power-mock-testing" target="11" />
+      <module name="test-ng" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.testing.main;
+package testing;
 
 // 软件测试：
 // 1. 黑盒测试 (功能测试、数据驱动测试 DDT):
@@ -30,4 +30,19 @@ public class SoftwareTesting {
     // 2. JaCoCo (Java code coverage):
     //    Part of the Eclipse Foundation, integrate with Ant, Maven, Gradle, Jenkins, Visual Studio, IDEA ..
     // 3. EMMA & Cobertura 不再更新
+
+
+    // -------------------------------------------------------------------------------------------
+    // Assert断言
+    // 一种常用的调试方式, 断言用于保证程序最基本、关键的正确性
+    // TODO. 启动JVM时使用-enableassertions或者-ea标记, 否则断言不会起作用
+
+    // Failure: 和程序代码的异常有关
+    // An assertion failed
+    // Suggests the code is broken
+
+    // Error: 断言的错误，没有达到预期的结果
+    // At any point in the test
+    // An exception was thrown
+    // Suggests the test is broken
 }
