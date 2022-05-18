@@ -1,6 +1,6 @@
 package rules;
 
-import com.junit4.testing.MyServiceException;
+import base.junit4.testing.MyServiceException;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.*;
@@ -15,7 +15,7 @@ import static org.junit.Assert.assertTrue;
 
 // Junit4提供的预定义规则Rules，作为类库的一部分
 // 1. a number of useful, predefined rules as part of the library.
-// 2. enhance tests by running some code around a test case execution
+// 2. enhance tests by running some code around a test case execution 测试的加强和扩展
 // 3. 类似于@Before and @After annotations注解的作用
 // 4. 在多个Test classes中都需要连接和关闭资源，则可以通过Rule将改操作隔离出来，重用
 public class Junit4TestRules {

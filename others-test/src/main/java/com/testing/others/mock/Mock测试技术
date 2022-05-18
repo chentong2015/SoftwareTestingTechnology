@@ -1,3 +1,8 @@
+TODO: Mock for Unit test
+https://site.mockito.org/
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
+https://www.logicbig.com/tutorials/unit-testing/mockito/mockito-getting-started.html
+
 TODO. Mock Test 在测试过程中，将实际要输出的逻辑进行替换，使用假的结果来验证测试
 Mockito
 Powermock

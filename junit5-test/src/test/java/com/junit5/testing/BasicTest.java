@@ -4,9 +4,7 @@ import base.model.Cafe;
 import base.model.Coffee;
 import base.model.CoffeeType;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInfo;
 
 public class BasicTest {
 
@@ -49,13 +47,5 @@ public class BasicTest {
 
         // 断言：测试异常抛出, 预测异常的情况
         Assertions.assertThrows(IllegalStateException.class, () -> cafe.brew(CoffeeType.LATTE));
-    }
-
-    // Junit5 测试获取方法对应显示的名称
-    @Test
-    @DisplayName("This is my test")
-    void test1(TestInfo testInfo) {
-        String expected = "this is my test";
-        Assertions.assertEquals(expected, testInfo.getDisplayName());
     }
 }

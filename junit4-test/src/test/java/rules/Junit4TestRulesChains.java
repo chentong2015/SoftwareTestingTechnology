@@ -1,6 +1,6 @@
 package rules;
 
-import com.junit4.testing.RuleMyConsoleOut;
+import com.junit4.testing.ConsoleOutTestRule;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.RuleChain;
@@ -11,9 +11,9 @@ public class Junit4TestRulesChains {
 
     // 设置TestRule的链条，在测试过程中指定"从内向外"的输出顺序，先处理内部的逻辑
     @Rule
-    public RuleChain chain = RuleChain.outerRule(new RuleMyConsoleOut("First rule"))
-            .around(new RuleMyConsoleOut("Second rule"))
-            .around(new RuleMyConsoleOut("Third rule"));
+    public RuleChain chain = RuleChain.outerRule(new ConsoleOutTestRule("First rule"))
+            .around(new ConsoleOutTestRule("Second rule"))
+            .around(new ConsoleOutTestRule("Third rule"));
 
     // Third rule: Before test : example
     // Third rule: After test : example
