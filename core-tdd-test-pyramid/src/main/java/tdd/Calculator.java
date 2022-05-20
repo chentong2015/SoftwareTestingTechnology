@@ -19,8 +19,10 @@ public class Calculator {
     }
 
     // 求数组和的平均值的最简单写法
+    // 1. 常规测试
+    // 2. 特殊测试 if the array is empty, .average() will return an empty optional
+    // 3. 异常测试 如果提供的array为空，应该抛出异常
     public double average(int[] array) {
-        // if the array is empty, .average() will return an empty optional
         OptionalDouble average = Arrays.stream(array).average();
         return average.isPresent() ? average.getAsDouble() : 0;
     }

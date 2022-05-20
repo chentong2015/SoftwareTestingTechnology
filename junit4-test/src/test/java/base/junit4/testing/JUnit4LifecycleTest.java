@@ -5,7 +5,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class BaseJIUnit4Testing {
+// 逐一介绍JUnit4比较核心的Lifestyle，为了编写比较复杂的测试代码
+public class JUnit4LifecycleTest {
 
     @BeforeClass
     public static void beforeClass() {

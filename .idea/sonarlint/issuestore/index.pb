@@ -67,8 +67,6 @@ C
 junit4-test/pom.xml,a\c\acd6ba5e5491d08fa2450fe00920139bff528c42
 M
 core-tdd-test-pyramid/pom.xml,3\f\3f4c79ea45bc36c3e5cd6cf35362ab8475ef4f1e
-p
-@junit4-test/src/main/java/base/junit4/testing/MyJUnit4Class.java,5\0\501984d2fcc36cf7f1d54725754a1c97c7b19a1e
 `
 0junit5-test/src/main/java/base/model/Coffee.java,1\f\1f4ea8f5a273b860b61b17337846dcf1c352f5eb
 ^
@@ -119,3 +117,21 @@ k
 ;junit5-test/src/main/java/com/junit5/testing/TestOnMac.java,9\0\90c7ba363ba6bf18a364662dcc3d5158718a240f
 n
 >junit5-test/src/test/java/os/conditons/JUnit5OsConditions.java,8\5\851f041a85a8d53d736840499e6943840bd8341b
+~
+Nothers-test/src/main/java/com/testing/others/hamcrest/JavaHamcrestTesting.java,3\9\39e2754ddadd25eeb5d84aa3750e6e9267b8f9c0
+r
+Bothers-test/src/main/java/com/testing/others/mock/Mock测试技术,3\7\37ecb872f733aa97eb76b4dc80db8095670d72f6
+u
+Ejunit5-test/src/test/java/com/junit5/testing/JUnit5LifecycleTest.java,c\a\ca0526bd798578c9cf2437a1143ef64786fa2de8
+c
+3others-test/src/test/java/mock/DemoMockitoTest.java,b\7\b7580dbe8682baf85f9939e678bd8cc7916629f6
+c
+3others-test/src/test/java/mock/MyProcessorTest.java,6\7\67ba8ca884d2a2bc1f4daab101eaa9be22050cbf
+c
+3core-tdd-test-pyramid/src/main/java/测试的规范,f\c\fcdfe85ef514f262fb526a4d16e8d9c0f3b77f28
+j
+:junit5-test/src/test/java/com/junit5/testing/GoodTest.java,b\b\bb601c6663fae6bc41caecc87eead8eab206301a
+r
+Bcore-tdd-test-pyramid/src/main/java/testing/AutomationTesting.java,a\3\a3c8176a52fb7a98cd401e55422a357b15a955ba
+p
+@core-tdd-test-pyramid/src/main/java/testing/SoftwareTesting.java,5\c\5c18d1b340b819c7bff32b818ce8e7eca15607f3

@@ -13,12 +13,10 @@ public class MyJUnit4Class {
     }
 
     public static int compute(int value) {
-        int result;
         if (value <= 1) {
-            result = value;
+            return value;
         } else {
-            result = compute(value - 1) + compute(value - 2);
+            return compute(value - 1) + compute(value - 2);
         }
-        return result;
     }
 }

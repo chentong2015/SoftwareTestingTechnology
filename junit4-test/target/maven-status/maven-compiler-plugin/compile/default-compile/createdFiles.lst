@@ -1,0 +1,6 @@
+com\junit4\testing\ConsoleOutTestRule.class
+com\junit4\testing\OperationSystemTestRule.class
+base\junit4\testing\MyServiceException.class
+com\junit4\testing\OperationSystemTestRule$1.class
+com\junit4\testing\ExternalResourceTestRule.class
+com\junit4\testing\ConsoleOutTestRule$1.class

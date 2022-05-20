@@ -25,6 +25,14 @@ public class TddTest {
     }
 
     @Test
+    public void test_average2() {
+        Calculator calculator = new Calculator();
+        int[] array = new int[10];
+        double average = calculator.average(array);
+        Assert.assertEquals(0, average, 0.0);
+    }
+
+    @Test
     public void test_find_score_range() throws Exception {
         Calculator calculator = new Calculator();
         String result = calculator.findScoreRange(65);
