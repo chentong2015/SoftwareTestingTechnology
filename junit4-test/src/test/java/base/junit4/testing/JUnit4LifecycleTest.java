@@ -2,7 +2,7 @@ package base.junit4.testing;
 
 import org.junit.*;
 
-// 逐一介绍JUnit4比较核心的Lifestyle
+// 逐一介绍JUnit4比较核心的Lifestyle of a Test Class
 // JUnit uses annotations to mark methods as test methods and to configure them
 // 1. To write more complex and more powerful test code
 // 2. You can see the order of these methods are called
@@ -27,12 +27,12 @@ public class JUnit4LifecycleTest {
     public void test() {
         System.out.println("my unit test");
         MyJUnit4Class instance = new MyJUnit4Class();
-        Assert.assertEquals(1, instance.calculate(2));
+        Assert.assertEquals(1, instance.compute(2));
     }
 
-    // The other three more special annotations
+    // There are three more special annotations
     // 1. @Ignore
-    @Ignore
+    @Ignore("why disabled")
     public void ignoreTest() {
         System.out.println("This test should be ignored");
         Assert.assertTrue(true);

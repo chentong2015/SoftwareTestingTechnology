@@ -34,6 +34,7 @@ public class JUnit4ParameterizedTest2 {
     // 单元测试方法将会使用传递的一组参数，追个测试one by one
     @Test
     public void test() {
-        Assert.assertEquals(valueExpected, MyJUnit4Class.compute(valueInput));
+        MyJUnit4Class instance = new MyJUnit4Class();
+        Assert.assertEquals(valueExpected, instance.compute(valueInput));
     }
 }
