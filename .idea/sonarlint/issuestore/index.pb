@@ -131,3 +131,9 @@ g
 7core-tdd-test-pyramid/src/main/java/tdd/Calculator.java,6\4\6451e36ce1e5950b5c720bae125546dfec6e42cb
 k
 ;junit5-test/src/test/java/com/junit5/testing/BasicTest.java,4\6\4620e19959b7b9628b4e4f5a97968443ca8135b8
+Y
+)junit4-test/src/main/java/JUnit4UserGuide,3\4\3447facc6b1ac8d757ace1025b799508af014171
+d
+4junit4-test/src/test/java/rules/Junit4TestRules.java,7\8\78b6aa685a4607fdfc7fa2d94d31336a25eb2767
+n
+>junit5-test/src/test/java/os/conditons/JUnit5OsConditions.java,8\5\851f041a85a8d53d736840499e6943840bd8341b

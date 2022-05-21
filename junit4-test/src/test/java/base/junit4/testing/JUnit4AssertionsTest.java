@@ -14,7 +14,6 @@ public class JUnit4AssertionsTest {
         Assert.assertEquals("JavaUnit", value);
         // TODO. Define the message displayed when the test fails
         Assert.assertEquals("Assert equals with messages", "Java Unit", value);
-        // Check two values are not same
         Assert.assertNotEquals("Assert equals with messages", "Java Unit", value);
     }
 
@@ -55,14 +54,22 @@ public class JUnit4AssertionsTest {
     // short[]
     // int[]
     // long[]
-    // double[] delta
-    // float[] delta
     @Test
-    public void testArray() {
+    public void testArrayInt() {
         int[] values1 = {1, 2, 4};
         int[] values2 = {1, 2, 4};
         Assert.assertArrayEquals(values1, values2);
         Assert.assertArrayEquals("Compare two array equals", values1, values2);
+    }
+
+    // double[] delta: it's not an accurate value 不是精确的值
+    // float[] delta
+    @Test
+    public void testArrayDouble() {
+        double[] values1 = {1, 2, 4};
+        double[] values2 = {1, 2, 4};
+        Assert.assertArrayEquals(values1, values2, 0);
+        Assert.assertArrayEquals("Compare two array equals", values1, values2, 0);
     }
 
     @Test
