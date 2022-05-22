@@ -61,8 +61,6 @@ y
 Icore-tdd-test-pyramid/src/main/java/nfr/testing/NonFunctionalTesting.java,4\6\462a44224d3f51c82d3a0a71a00cfe11a96355bf
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-C
-junit4-test/pom.xml,a\c\acd6ba5e5491d08fa2450fe00920139bff528c42
 M
 core-tdd-test-pyramid/pom.xml,3\f\3f4c79ea45bc36c3e5cd6cf35362ab8475ef4f1e
 `
@@ -83,12 +81,6 @@ x
 Hjunit5-test/src/main/java/com/junit5/testing/好的自动化测试标准,f\8\f8d15773147c549f85c54f6628670e2b388b0dae
 u
 Ejunit5-test/src/main/java/com/junit5/testing/InjectionForTesting.java,a\e\aecf940b11c80bbaedeb2edc5dbfbfae8877681e
-k
-;junit4-test/src/test/java/console/SystemConsoleTesting.java,b\b\bb28533e51869806e223e96b1cef5ea7ee458b2c
-k
-;junit4-test/src/test/java/console/ConsoleOutputTesting.java,f\9\f9fdbcc5af131720f9d771c574f85392bcadb2eb
-u
-Ejunit4-test/src/main/java/base/junit4/testing/MyServiceException.java,b\8\b8b2c345803d9a95a8e4465b6c659f58a74ce4f7
 k
 ;junit5-test/src/main/java/com/junit5/testing/TestOnMac.java,9\0\90c7ba363ba6bf18a364662dcc3d5158718a240f
 ~
@@ -111,5 +103,21 @@ d
 4core-tdd-test-pyramid/src/test/java/tdd/TddTest.java,1\a\1a3da1e1748eb07dd861ce2b513a1ba99cce3f25
 g
 7core-tdd-test-pyramid/src/main/java/tdd/Calculator.java,6\4\6451e36ce1e5950b5c720bae125546dfec6e42cb
-Y
-)junit4-test/src/main/java/JUnit4UserGuide,3\4\3447facc6b1ac8d757ace1025b799508af014171
+w
+Gjunit4-test/src/test/java/base/junit4/testing/JUnit4AssertionsTest.java,1\e\1e5817f954acc847bda1efe8a7a986ebc2aafb3e
+v
+Fjunit4-test/src/test/java/base/junit4/testing/JUnit4LifecycleTest.java,3\a\3aaa91682485f1b2861521d304ac904120f3cf70
+t
+Djunit4-test/src/test/java/parameterized/JUnit4ParameterizedTest.java,3\9\39b4908a1062225a820782f45a7c02d5451d4fd1
+p
+@junit4-test/src/main/java/base/junit4/testing/MyJUnit4Class.java,5\0\501984d2fcc36cf7f1d54725754a1c97c7b19a1e
+z
+Jjunit4-test/src/main/java/com/junit4/testing/ExternalResourceTestRule.java,f\d\fdb4bc56e34ba9a6a3d8f13a9e0e097066a465e6
+y
+Ijunit4-test/src/main/java/com/junit4/testing/OperationSystemTestRule.java,1\9\191d4331945ee9351868d222956c688263391142
+n
+>junit5-test/src/test/java/os/conditons/JUnit5OsConditions.java,8\5\851f041a85a8d53d736840499e6943840bd8341b
+t
+Djunit5-test/src/test/java/parameterized/JUnit5ParameterizedTest.java,a\4\a4cc214b4dba7cf008010a65fc7c3b2a6a8a6739
+t
+Djunit5-test/src/test/java/rules/extensions/JUnit5ExtensionModel.java,6\e\6ee0f9390ccff5f9ae26193ab48ba0339072576d

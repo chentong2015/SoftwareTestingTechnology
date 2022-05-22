@@ -1,4 +1,4 @@
-package console;
+package base.junit4.testing;
 
 import org.junit.After;
 import org.junit.Before;

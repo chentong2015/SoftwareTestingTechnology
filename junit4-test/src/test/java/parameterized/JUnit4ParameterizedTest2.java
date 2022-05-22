@@ -14,7 +14,9 @@ public class JUnit4ParameterizedTest2 {
 
     // 专门用于测试的字段，每一次的值将会在构造器中设置
     // 只能适用于pulic的字段
+    @Parameterized.Parameter(0)
     public int valueInput;    // (0) first data value
+    @Parameterized.Parameter(1)
     public int valueExpected; // (1) second data value
 
     // TODO. 在每次构建Test Instance的时候，传递两个参数到构造器中，设置属性的值

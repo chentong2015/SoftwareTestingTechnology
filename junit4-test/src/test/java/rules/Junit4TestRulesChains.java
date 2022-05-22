@@ -15,6 +15,9 @@ public class Junit4TestRulesChains {
             .around(new ConsoleOutTestRule("Second rule"))
             .around(new ConsoleOutTestRule("Third rule"));
 
+    @Rule
+    public ConsoleOutTestRule testRule = new ConsoleOutTestRule("test rule");
+
     // Third rule: Before test : example
     // Third rule: After test : example
     // Second rule: Before test : example
@@ -22,9 +25,14 @@ public class Junit4TestRulesChains {
     // First rule: Before test : example
     // First rule: After test : example
     // Test Started .
+
+    @Rule
+    public PerformanceLoggerTestRule performanceLogger = new PerformanceLoggerTestRule();
+
     @Test
-    public void example() {
-        System.out.println("Test Started .");
+    public void testConsoleRule() throws InterruptedException {
+        System.out.println("my unit test");
+        Thread.sleep(2000);
         assertTrue(true);
     }
 }

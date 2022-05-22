@@ -22,7 +22,7 @@ public class ConsoleOutTestRule implements TestRule {
             return new Statement() {
                 @Override
                 public void evaluate() throws Throwable {
-                    base.evaluate();
+                    base.evaluate(); // test execution 执行测试的阶段
                 }
             };
         } finally {
