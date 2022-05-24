@@ -21,8 +21,6 @@ g
 7spring-test/src/main/java/spring/datamodel/MyClass.java,0\d\0d83785b786c6f982ca6a1a62b1db77c91cba347
 o
 ?spring-test/src/main/java/spring/controller/HomeController.java,a\f\af76e936cafe511ae0e0b5fb13e4d94c0ea581f8
-q
-Aspring-test/src/test/java/spring/service/UserServiceMockTest.java,6\d\6d90422b3c45f8784a1df12dce5ef01b0e17d2f6
 s
 Cspring-test/src/test/java/spring/controller/HomeControllerTest.java,6\9\693cbe17cea41e73e8c743548354867cf25eb564
 z
@@ -33,14 +31,8 @@ x
 Hspring-test/src/test/java/spring/service/ControllerServiceAsyncTest.java,1\1\11edc513cdc181cb11ebf05968073dbdd614200e
 C
 spring-test/pom.xml,c\7\c7625a888887a7c0171f689d9b5a03829f4a1573
-j
-:spring-test/src/test/java/spring/SpringIocExampleTest.java,4\b\4b39d2e4577906ac3852f7b5262c08ce5eba3e20
 ~
 Nspring-test/src/test/java/spring/controller/HomeControllerIntegrationTest.java,8\6\86858ad3dd48603a70a91f9daddce9d4ae336498
-t
-Dspring-test/src/test/java/spring/SpringExcludeAutoConfigureTest.java,a\2\a2d580855f64b72ed4757595d61f63f5e80549ee
-â
-Yspring-test/src/test/java/spring/integration/test/SpringIntegrationTestConfiguration.java,4\a\4aa2b3c1cd7414abe26de74eaecf3b526ad8f1df
 
 Oothers-test/src/main/java/com/testing/others/mock/feign/MyServiceException.java,4\6\461913bb78237b71da8b9f0194729e83b6f25a4a
 Å
@@ -145,3 +137,9 @@ g
 7junit5-test/src/test/java/test/info/JUnit5TestInfo.java,2\c\2ce49722173ccd591c6870f9b3f54b0390de638d
 t
 Djunit5-test/src/test/java/parameterized/JUnit5ParameterizedTest.java,a\4\a4cc214b4dba7cf008010a65fc7c3b2a6a8a6739
+v
+Fjunit5-test/src/test/java/com/junit5/testing/JUnit5AssertionsTest.java,6\a\6ad31171383d8e51b77c321f042e2c2e076c228a
+u
+Ejunit5-test/src/test/java/com/junit5/testing/JUnit5LifecycleTest.java,c\a\ca0526bd798578c9cf2437a1143ef64786fa2de8
+q
+Aspring-test/src/test/java/spring/service/UserServiceMockTest.java,6\d\6d90422b3c45f8784a1df12dce5ef01b0e17d2f6

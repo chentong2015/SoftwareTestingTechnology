@@ -10,7 +10,7 @@ import spring.config.SecurityAutoConfiguration;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-// 在集成测试时，移除指定的配置Configuration的设置
+// TODO. 在集成测试时，移除指定的配置Configuration的设置，配置测试的环境
 @EnableAutoConfiguration(exclude = SecurityAutoConfiguration.class)
 public class SpringExcludeAutoConfigureTest {
 

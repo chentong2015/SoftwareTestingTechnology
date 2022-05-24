@@ -5,7 +5,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaseSpringBootTesting.class)
+@SpringBootTest(classes = BaseSpringBootTesting.class,
+        properties = {
+                "spring.security.user.name=test",
+                "spring.security.user.password=test123"
+        })
+// TODO. 可以在测试中使用测试的值来设置properties
 public class SpringIocExampleTest {
 
     // DataSource在APP启动的时候自动注入IoC容器中
