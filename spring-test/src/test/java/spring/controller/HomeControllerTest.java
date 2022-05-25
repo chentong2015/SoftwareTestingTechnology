@@ -19,6 +19,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+// 添加IT测试注解，并自动装配MockMvc，才能完成自动注入
 @SpringBootTest
 @AutoConfigureMockMvc
 public class HomeControllerTest {
@@ -77,18 +78,30 @@ public class HomeControllerTest {
         Assertions.assertNotNull(result);
     }
 
+    // TODO. 提供的JSON格式的数据流和发送请求的contentType类型必须保持一致
+    //       否则会报错UNSUPPORTED_MEDIA_TYPE(415)媒体格式出错 !!
     @Test
     void testPostMethod() throws Exception {
+        // 这里指定需要提供json格式的信息
         InputStream resourceAsStream = this.getClass().getResourceAsStream("myObject.json");
-        assert resourceAsStream != null;
         byte[] content = ByteStreams.toByteArray(resourceAsStream);
 
         // 将从/resources资源文件夹中获取的数据作为请求的content传递
-        // content内容传递的格式为JSON
         mockMvc.perform(post("/post")
                         .content(content)
                         .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(content().string("OK"));
+    }
+
+    // 将对象序列化成json格式，再编码成请求的@RequestBody
+    @Test
+    public void testPostJsonObject() {
+        //  Product product = new Product();
+        //  product.setId("2");
+        //  product.setName("test");
+        //  ObjectMapper mapper = new ObjectMapper();
+        //  String json = mapper.writeValueAsString(product);
+        //  byte[] content = json.getBytes();
     }
 }
