@@ -1,4 +1,4 @@
-package com.testing.others.mock.feign;
+package com.feign.client;
 
 import java.util.List;
 

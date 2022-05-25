@@ -47,12 +47,8 @@ M
 .junit5-test/src/main/java/base/model/Cafe.java,1\7\1715ee22ab1efb3bb3ba623b1f4e1d322a27d603
 i
 9junit5-test/src/main/java/com/junit5/testing/Account.java,9\9\99a6a44081efa3e8c90957c32ddb74b4de6e9f14
-C
-others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
 r
 Bothers-test/src/main/java/com/testing/others/mock/MyProcessor.java,6\0\60ae9901b6512c918ffe0fc58b8cf70db20e3907
-a
-1others-test/src/test/java/mock/MyServiceTest.java,e\2\e225d76115387053f915a73c3eeed0cd06af1d32
 x
 Hjunit5-test/src/main/java/com/junit5/testing/好的自动化测试标准,f\8\f8d15773147c549f85c54f6628670e2b388b0dae
 u
@@ -61,12 +57,6 @@ k
 ;junit5-test/src/main/java/com/junit5/testing/TestOnMac.java,9\0\90c7ba363ba6bf18a364662dcc3d5158718a240f
 ~
 Nothers-test/src/main/java/com/testing/others/hamcrest/JavaHamcrestTesting.java,3\9\39e2754ddadd25eeb5d84aa3750e6e9267b8f9c0
-r
-Bothers-test/src/main/java/com/testing/others/mock/Mock测试技术,3\7\37ecb872f733aa97eb76b4dc80db8095670d72f6
-c
-3others-test/src/test/java/mock/DemoMockitoTest.java,b\7\b7580dbe8682baf85f9939e678bd8cc7916629f6
-c
-3others-test/src/test/java/mock/MyProcessorTest.java,6\7\67ba8ca884d2a2bc1f4daab101eaa9be22050cbf
 c
 3core-tdd-test-pyramid/src/main/java/测试的规范,f\c\fcdfe85ef514f262fb526a4d16e8d9c0f3b77f28
 j
@@ -125,3 +115,21 @@ v
 Fjunit5-test/src/test/java/com/junit5/testing/JUnit5AssertionsTest.java,6\a\6ad31171383d8e51b77c321f042e2c2e076c228a
 u
 Ejunit5-test/src/test/java/com/junit5/testing/JUnit5LifecycleTest.java,c\a\ca0526bd798578c9cf2437a1143ef64786fa2de8
+�
+Yspring-test/src/test/java/spring/integration/test/SpringIntegrationTestConfiguration.java,4\a\4aa2b3c1cd7414abe26de74eaecf3b526ad8f1df
+q
+Aspring-test/src/test/java/spring/service/UserServiceMockTest.java,6\d\6d90422b3c45f8784a1df12dce5ef01b0e17d2f6
+x
+Hspring-test/src/test/java/spring/service/ControllerServiceAsyncTest.java,1\1\11edc513cdc181cb11ebf05968073dbdd614200e
+~
+Nspring-test/src/test/java/spring/controller/HomeControllerIntegrationTest.java,8\6\86858ad3dd48603a70a91f9daddce9d4ae336498
+C
+spring-test/pom.xml,c\7\c7625a888887a7c0171f689d9b5a03829f4a1573
+m
+=others-test/src/test/java/mock/feign/MyServiceClientTest.java,3\2\329e54654834dd4160e6a7d886bdadc60f7aad8f
+t
+Dspring-test/src/test/java/spring/SpringExcludeAutoConfigureTest.java,a\2\a2d580855f64b72ed4757595d61f63f5e80549ee
+j
+:spring-test/src/test/java/spring/SpringIocExampleTest.java,4\b\4b39d2e4577906ac3852f7b5262c08ce5eba3e20
+�
+Qothers-test/src/main/java/com/testing/others/mock/feign/MyServiceFeignClient.java,2\0\201379950cb6df38191fabdda8ca712fe1de04ea

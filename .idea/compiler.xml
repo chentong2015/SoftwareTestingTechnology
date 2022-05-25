@@ -11,6 +11,7 @@
         <module name="spring-test" />
         <module name="test-pyramid-tdd" />
         <module name="others-test" />
+        <module name="spring-cloud-test" />
         <module name="TestingInJava" />
         <module name="junit4-test" />
       </profile>

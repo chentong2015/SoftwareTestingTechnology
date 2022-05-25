@@ -1,8 +1,5 @@
-package mock.feign;
+package com.feign.client;
 
-import com.testing.others.mock.feign.MyServiceClient;
-import com.testing.others.mock.feign.MyServiceException;
-import com.testing.others.mock.feign.MyServiceFeignClient;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;

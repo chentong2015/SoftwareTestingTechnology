@@ -10,3 +10,5 @@ EasyMock
 JMockIt
 JMock
 MockRunner
+
+TODO. Mockito.thenAnswer()和Mockito.thenReturn()有什么区别 ?
