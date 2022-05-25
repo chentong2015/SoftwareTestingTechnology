@@ -6,8 +6,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-// TODO. Failed to load ApplicationContext
-//  在初始化构建的时候，这里的feign client必须要能够构建出来，必须设置url
+// TODO. 注意
+//  1. 在初始化构建的时候，这里的feign client必须要能够构建出来，必须设置url
+//     否则会抛出Failed to load ApplicationContext异常
+//  2. 这里url所对于的server必须启动，才能进行IT测试
 @FeignClient(value = "product-service", url = "http://localhost:5679/")
 public interface ProductService {
 
