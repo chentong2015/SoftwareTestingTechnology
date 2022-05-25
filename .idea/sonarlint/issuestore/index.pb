@@ -151,7 +151,5 @@ a
 1others-test/src/test/java/mock/MyServiceTest.java,e\2\e225d76115387053f915a73c3eeed0cd06af1d32
 c
 3others-test/src/test/java/mock/MyProcessorTest.java,6\7\67ba8ca884d2a2bc1f4daab101eaa9be22050cbf
-y
-Ispring-cloud-test/src/test/java/com/feign/client/MyServiceClientTest.java,8\6\86e4be42fa0ca1d105f3d52389bff44a453ec361
 }
 Mspring-test/src/test/java/spring/exception/SpringControllerExceptionTest.java,8\0\80194014d9656b4709e26b78a8be2ee69d2d4405
