@@ -149,8 +149,6 @@ c
 3others-test/src/test/java/mock/MyProcessorTest.java,6\7\67ba8ca884d2a2bc1f4daab101eaa9be22050cbf
 y
 Ispring-cloud-test/src/test/java/com/feign/client/MyServiceClientTest.java,8\6\86e4be42fa0ca1d105f3d52389bff44a453ec361
-Ö
-Uspring-cloud-test/src/test/java/com/spring/cloud/feign/client/FeignExceptionTest.java,f\a\fa1555559a466a8e39803f2341290f25656dfc61
 Å
 Qspring-cloud-test/src/main/java/com/spring/cloud/feign/client/ProductService.java,7\b\7b47ec7e05757587148752766c4fa23cbd97a21a
 í
