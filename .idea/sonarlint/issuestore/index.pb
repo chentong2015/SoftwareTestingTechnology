@@ -157,3 +157,7 @@ Mspring-test/src/test/java/spring/exception/SpringControllerExceptionTest.java,
 Nspring-test/src/test/java/spring/controller/HomeControllerIntegrationTest.java,8\6\86858ad3dd48603a70a91f9daddce9d4ae336498
 s
 Cspring-test/src/test/java/spring/controller/HomeControllerTest.java,6\9\693cbe17cea41e73e8c743548354867cf25eb564
+�
+bspring-cloud-test/src/test/java/com/spring/cloud/feign/client/SpringFeignClientControllerTest.java,5\a\5a290062492e74815b8400e274fbbf7cdf3823a8
+r
+Bothers-test/src/main/java/com/testing/others/mock/Mock测试技术,3\7\37ecb872f733aa97eb76b4dc80db8095670d72f6

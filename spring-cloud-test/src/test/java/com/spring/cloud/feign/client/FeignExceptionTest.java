@@ -4,10 +4,15 @@ package com.spring.cloud.feign.client;
 // https://github.com/mlk/spring-boot-exceptions-feign/blob/master/src/test/java/com/github/mlk/exceptions/feign/FeignExceptionsTest.java
 public class FeignExceptionTest {
 
-    // byte[] responseBody = "Counterparty already exists".getBytes();
-    // Request request = Request.create(Request.HttpMethod.POST,"/v1/examples/tests",
-    //         Collections.emptyMap(), Request.Body.encoded(content, StandardCharsets.UTF_8));
-    // Mockito.when(serviceMock.insertCounterparty(any(Counterparty.class))).thenThrow(
-    //         FeignException.errorStatus("", Response.builder().request(request).status(400).body(responseBody).build())
-    // );
+    //  标准mock FeignException异常的抛出
+    //  Response response = Response.builder()
+    //         .status(400)
+    //         .reason("bad request body")
+    //         .headers(Collections.emptyMap())
+    //         .request(Request.create(Request.HttpMethod.POST, "/products/test/2", Collections.emptyMap(), null, Util.UTF_8))
+    //         .body("Product already exists", StandardCharsets.UTF_8)
+    //         .build();
+    //
+    //  doThrow(FeignException.errorStatus("method key test", response))
+    //         .when(productService).testInsertProduct(anyString(), any(Product.class));
 }
