@@ -83,6 +83,7 @@ public class HomeControllerTest {
     @Test
     void testPostMethod() throws Exception {
         // 这里指定需要提供json格式的信息
+        // TODO. 这里资源文件的路径必须和this.getClass()的全路径保持一致
         InputStream resourceAsStream = this.getClass().getResourceAsStream("myObject.json");
         byte[] content = ByteStreams.toByteArray(resourceAsStream);
 

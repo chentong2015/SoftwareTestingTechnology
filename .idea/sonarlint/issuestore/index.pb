@@ -117,8 +117,6 @@ q
 Aspring-test/src/test/java/spring/service/UserServiceMockTest.java,6\d\6d90422b3c45f8784a1df12dce5ef01b0e17d2f6
 x
 Hspring-test/src/test/java/spring/service/ControllerServiceAsyncTest.java,1\1\11edc513cdc181cb11ebf05968073dbdd614200e
-~
-Nspring-test/src/test/java/spring/controller/HomeControllerIntegrationTest.java,8\6\86858ad3dd48603a70a91f9daddce9d4ae336498
 C
 spring-test/pom.xml,c\7\c7625a888887a7c0171f689d9b5a03829f4a1573
 t
@@ -139,8 +137,6 @@ z
 Jspring-cloud-test/src/main/java/com/feign/client/MyServiceFeignClient.java,e\a\ea9e98a117de6c1642de5b28971995cb10eac2ad
 z
 Jspring-cloud-test/src/main/java/com/spring/cloud/feign/client/Product.java,a\6\a64c06ec3929c731a60bc8ed8cfa86909c4c1bbd
-s
-Cspring-test/src/test/java/spring/controller/HomeControllerTest.java,6\9\693cbe17cea41e73e8c743548354867cf25eb564
 I
 spring-cloud-test/pom.xml,b\8\b82bb13e442362100fb4ac453f369526838cdb71
 é
@@ -151,5 +147,17 @@ a
 1others-test/src/test/java/mock/MyServiceTest.java,e\2\e225d76115387053f915a73c3eeed0cd06af1d32
 c
 3others-test/src/test/java/mock/MyProcessorTest.java,6\7\67ba8ca884d2a2bc1f4daab101eaa9be22050cbf
+y
+Ispring-cloud-test/src/test/java/com/feign/client/MyServiceClientTest.java,8\6\86e4be42fa0ca1d105f3d52389bff44a453ec361
+Ö
+Uspring-cloud-test/src/test/java/com/spring/cloud/feign/client/FeignExceptionTest.java,f\a\fa1555559a466a8e39803f2341290f25656dfc61
+Å
+Qspring-cloud-test/src/main/java/com/spring/cloud/feign/client/ProductService.java,7\b\7b47ec7e05757587148752766c4fa23cbd97a21a
+í
+bspring-cloud-test/src/test/java/com/spring/cloud/feign/client/SpringFeignClientControllerTest.java,5\a\5a290062492e74815b8400e274fbbf7cdf3823a8
 }
 Mspring-test/src/test/java/spring/exception/SpringControllerExceptionTest.java,8\0\80194014d9656b4709e26b78a8be2ee69d2d4405
+~
+Nspring-test/src/test/java/spring/controller/HomeControllerIntegrationTest.java,8\6\86858ad3dd48603a70a91f9daddce9d4ae336498
+s
+Cspring-test/src/test/java/spring/controller/HomeControllerTest.java,6\9\693cbe17cea41e73e8c743548354867cf25eb564
