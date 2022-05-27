@@ -151,8 +151,6 @@ y
 Ispring-cloud-test/src/test/java/com/feign/client/MyServiceClientTest.java,8\6\86e4be42fa0ca1d105f3d52389bff44a453ec361
 Å
 Qspring-cloud-test/src/main/java/com/spring/cloud/feign/client/ProductService.java,7\b\7b47ec7e05757587148752766c4fa23cbd97a21a
-í
-bspring-cloud-test/src/test/java/com/spring/cloud/feign/client/SpringFeignClientControllerTest.java,5\a\5a290062492e74815b8400e274fbbf7cdf3823a8
 }
 Mspring-test/src/test/java/spring/exception/SpringControllerExceptionTest.java,8\0\80194014d9656b4709e26b78a8be2ee69d2d4405
 ~

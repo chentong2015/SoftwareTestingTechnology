@@ -25,7 +25,6 @@ class SpringFeignClientControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
-    // TODO. Spring FeignClient的mock必须使用.thenAnswer()来设置返回的ResponseEntity !!
     @Test
     void testInsertProductWithExceptionAndResponseBody() throws Exception {
         byte[] content = getRequestBodyContent();
