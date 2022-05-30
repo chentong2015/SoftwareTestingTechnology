@@ -28,7 +28,7 @@ class SpringFeignClientControllerTest {
     @Test
     void testInsertProductWithExceptionAndResponseBody() throws Exception {
         byte[] content = getRequestBodyContent();
-        ProductService productService = Mockito.mock(ProductService.class);
+        ProductServiceFeignClient productService = Mockito.mock(ProductServiceFeignClient.class);
         Mockito.when(productService.testInsertProduct(anyString(), any(Product.class)))
                 .thenAnswer(invocationOnMock ->
                         new ResponseEntity<>("Product already exists", HttpStatus.BAD_REQUEST)

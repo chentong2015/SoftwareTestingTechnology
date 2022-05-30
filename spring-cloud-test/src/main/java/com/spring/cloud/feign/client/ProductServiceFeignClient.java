@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 // TODO. 注意
 //  1. 在初始化构建的时候，这里的feign client必须要能够构建出来，必须设置url
 //     否则会抛出Failed to load ApplicationContext异常
-//  2. 这里url所对于的server必须启动，才能进行IT测试
+//  2. 可以mock掉ProductService Feign Client，mock throw exception 则无需url
 @FeignClient(value = "product-service", url = "http://localhost:5679/")
-public interface ProductService {
+public interface ProductServiceFeignClient {
 
     // 这里和要发送请求的Service Controller的方法一致
     @PostMapping(value = "/products/{id}", consumes = "application/json;charset=UTF-8")

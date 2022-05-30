@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringFeignClientController {
 
-    private final ProductService productService;
+    private final ProductServiceFeignClient productService;
 
     // TODO. 自动注入，注入Spring Feign Client bean
     @Autowired
-    public SpringFeignClientController(ProductService productService) {
+    public SpringFeignClientController(ProductServiceFeignClient productService) {
         this.productService = productService;
     }
 
