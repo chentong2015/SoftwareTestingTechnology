@@ -1,7 +1,9 @@
 package spring;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 // https://spring.io/guides/gs/testing-web/
 // https://www.baeldung.com/spring-boot-testing
@@ -38,5 +40,14 @@ public class BaseSpringBootTesting {
     public static void main(String[] args) {
         System.out.println("Start application");
         SpringApplication.run(BaseSpringBootTesting.class, args);
+    }
+
+    // 使用CommandLineRunner在app启动之后，执行自定义的逻辑和配置
+    @Bean
+    public CommandLineRunner commandLineRunner() {
+        return args -> {
+            System.out.println("Post config application");
+            // try .. catch
+        };
     }
 }

@@ -17,8 +17,6 @@ q
 Aspring-test/src/main/java/spring/repositories/HomeRepository.java,b\9\b978aeddb0133a1c9f0665bf62f25d507f76aa6c
 C
 junit5-test/pom.xml,1\0\10c6fcf2be0eb8e90ff3d52f02c5ee3a82276d9b
-k
-;spring-test/src/main/java/spring/BaseSpringBootTesting.java,0\c\0c18144c555a02d8b753f388dd42e9e5cb9b0b92
 d
 4junit5-test/src/main/java/base/model/CoffeeType.java,f\8\f80650ce5a241e36ef6b5d736810414908b6156d
 i
@@ -121,12 +119,8 @@ o
 ?spring-test/src/main/java/spring/controller/HomeController.java,a\f\af76e936cafe511ae0e0b5fb13e4d94c0ea581f8
 g
 7spring-test/src/main/java/spring/datamodel/MyClass.java,0\d\0d83785b786c6f982ca6a1a62b1db77c91cba347
-x
-Hspring-cloud-test/src/main/java/com/feign/client/MyServiceException.java,d\2\d2802f1e74d3a00c2de6382258bdac9d013c5072
 C
 others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
-I
-spring-cloud-test/pom.xml,b\8\b82bb13e442362100fb4ac453f369526838cdb71
 Ž
 ^spring-cloud-test/src/main/java/com/spring/cloud/feign/client/SpringFeignClientController.java,a\d\ad8cdd6635c11a50bf98c2e24f2b4c8efe7235e1
 c
@@ -149,3 +143,5 @@ d
 4others-test/src/test/java/pact/PactBrokerSource.java,2\c\2ce0f5e1803fa9bd1ac2f615afddbf9b56dffb66
 d
 4others-test/src/test/java/pact/PactConsumerTest.java,c\f\cfe45060ba00723107f3de2cca7e1b0d56549df8
+z
+Jspring-cloud-test/src/main/java/com/spring/cloud/feign/client/Product.java,a\6\a64c06ec3929c731a60bc8ed8cfa86909c4c1bbd
