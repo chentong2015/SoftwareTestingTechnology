@@ -1,6 +1,5 @@
 package os.conditons;
 
-import com.junit5.testing.TestOnMac;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.DisabledOnOs;
 import org.junit.jupiter.api.condition.EnabledOnOs;

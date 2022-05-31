@@ -41,8 +41,8 @@ public class JUnit4AssertionsTest {
     public void testThrowException() {
         MyJUnit4Class instance = new MyJUnit4Class();
         // Pass a lambda expression, to call the method, and no input parameters
-        Assert.assertThrows(Exception.class, () -> instance.throwException());
-        Assert.assertThrows("Assert throw exception", Exception.class, () -> instance.throwException());
+        Assert.assertThrows(Exception.class, instance::throwException);
+        Assert.assertThrows("Assert throw exception", Exception.class, instance::throwException);
     }
 
     // Compares two arrays of regular types 比较两个常规类型的数组

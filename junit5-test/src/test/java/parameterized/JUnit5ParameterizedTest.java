@@ -34,14 +34,15 @@ class JUnit5ParameterizedTest {
 
     // 使用方法作为测试源，对参数数据进行加工，多次测试Case
     static IntStream range() {
-        return IntStream.range(0, 20).skip(10); // 取11 - 19的区间值
+        // 取11 - 19的区间值
+        return IntStream.range(0, 20).skip(10);
     }
 
     // 文件第一行的title将不会被作为测试数据读取，注意字段的匹配和对应
     @ParameterizedTest
-    @CsvFileSource(resources = "/counties.csv", numLinesToSkip = 1)
-    void testWithCsvFileSourceFromClasspath(String country, int reference) {
-        assertNotNull(country);
-        assertNotEquals(0, reference);
+    @CsvFileSource(resources = "/users.csv", numLinesToSkip = 1)
+    void testWithCsvFileSourceFromClasspath(String username, int age) {
+        assertNotNull(username);
+        assertNotEquals(15, age);
     }
 }
