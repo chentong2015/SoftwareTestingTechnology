@@ -19,10 +19,10 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-// 添加IT测试注解，并自动装配MockMvc，才能完成自动注入
+// 1. 添加IT测试注解，并自动装配MockMvc，才能完成自动注入
 @SpringBootTest
 @AutoConfigureMockMvc
-public class HomeControllerTest {
+public class HomeControllerMockMvcTest {
 
     // MockMvc: send HTTP requests into the DispatcherServlet and make assertions about the result
     // MockHttpServletRequest:
@@ -88,6 +88,7 @@ public class HomeControllerTest {
         byte[] content = ByteStreams.toByteArray(resourceAsStream);
 
         // 将从/resources资源文件夹中获取的数据作为请求的content传递
+        // 注明content的类型type, 匹配提供的数据类型
         mockMvc.perform(post("/post")
                         .content(content)
                         .contentType(MediaType.APPLICATION_JSON))
