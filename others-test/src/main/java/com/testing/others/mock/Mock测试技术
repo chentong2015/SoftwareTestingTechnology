@@ -1,14 +1,17 @@
-TODO: Mock for Unit test
-https://site.mockito.org/
-https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
-https://www.logicbig.com/tutorials/unit-testing/mockito/mockito-getting-started.html
+什么是Mock测试 ?
+在测试过程中，将实际要输出的逻辑进行替换，使用假的结果来验证测试
 
-TODO. Mock Test 在测试过程中，将实际要输出的逻辑进行替换，使用假的结果来验证测试
-Mockito
-Powermock
+TODO. Mockito.thenAnswer()和Mockito.thenReturn()有什么区别 ?
+
 EasyMock
+   https://easymock.org/user-guide.html
+Mockito
+   https://site.mockito.org/
+   https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
+   https://www.logicbig.com/tutorials/unit-testing/mockito/mockito-getting-started.html
+Powermock
+   https://www.javatpoint.com/mockito-powermock 对mock技术的强化
 JMockIt
 JMock
 MockRunner
 
-TODO. Mockito.thenAnswer()和Mockito.thenReturn()有什么区别 ?
