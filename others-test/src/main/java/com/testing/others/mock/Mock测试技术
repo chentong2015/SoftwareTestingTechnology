@@ -1,7 +1,6 @@
-什么是Mock测试 ?
-在测试过程中，将实际要输出的逻辑进行替换，使用假的结果来验证测试
+Mock测试: 在测试过程中，将实际要输出的逻辑进行替换，使用假的结果来验证测试
 
-TODO. Mockito.thenAnswer()和Mockito.thenReturn()有什么区别 ?
+Mockito.thenAnswer()和Mockito.thenReturn()有什么区别 ?
 
 EasyMock
    https://easymock.org/user-guide.html

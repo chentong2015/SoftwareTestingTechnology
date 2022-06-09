@@ -1,9 +1,8 @@
-package rules;
+package test.rules;
 
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.RuleChain;
-import test.rules.ConsoleOutTestRule;
 
 import static org.junit.Assert.assertTrue;
 

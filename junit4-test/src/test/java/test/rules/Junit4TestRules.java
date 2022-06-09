@@ -1,4 +1,4 @@
-package rules;
+package test.rules;
 
 import base.junit4.testing.MyServiceException;
 import org.junit.Assert;
@@ -91,19 +91,4 @@ public class Junit4TestRules {
         // errorCollector.addError(new Throwable("Another thing went wrong!"));
         // errorCollector.checkThat("Hello World", not(containsString("ERROR!")));
     }
-
-    // 7. 自定义一个测试的外部资源
-    // Set up an external resource before a test, such as a file or a database connection
-    @Rule
-    public final ExternalResource externalResource = new ExternalResource() {
-        @Override
-        protected void before() throws Throwable {
-            // code to set up a specific external resource.
-        }
-
-        @Override
-        protected void after() {
-            // code to tear down the external resource
-        }
-    };
 }

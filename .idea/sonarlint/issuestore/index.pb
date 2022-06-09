@@ -39,8 +39,6 @@ w
 Gjunit4-test/src/test/java/base/junit4/testing/ConsoleOutputTesting.java,0\f\0f35ce9237fd08e8c2c38861c0173be2e4548b56
 C
 junit4-test/pom.xml,a\c\acd6ba5e5491d08fa2450fe00920139bff528c42
-d
-4junit4-test/src/test/java/rules/Junit4TestRules.java,7\8\78b6aa685a4607fdfc7fa2d94d31336a25eb2767
 n
 >junit4-test/src/test/java/rules/PerformanceLoggerTestRule.java,1\f\1f4be5efb05ac7faea79076127344ecddbc0b037
 j
