@@ -44,19 +44,19 @@ public class JUnit5AssertionsTest {
     }
 
     @Test
-    public void testArrayInt() {
-        int[] values1 = {1, 2, 4};
-        int[] values2 = {1, 2, 4};
-        Assertions.assertArrayEquals(values1, values2);
-        Assertions.assertArrayEquals(values1, values2, "Compare two array equals");
+    public void testAssertNotThrow() {
+        MyJUnit5Class instance = new MyJUnit5Class();
+        // Assertions.assertDoesNotThrow(instance::throwException);
+        Assertions.assertDoesNotThrow(instance::testFunction);
     }
 
+    // Junit5的double不需要添加delta第三个参数来进行比较
     @Test
-    public void testArrayDouble() {
+    public void testArrayInt() {
         double[] values1 = {1, 2, 4};
         double[] values2 = {1, 2, 4};
-        Assertions.assertArrayEquals(values1, values2, 0);
-        Assertions.assertArrayEquals(values1, values2, 0, "Compare two array equals");
+        Assertions.assertArrayEquals(values1, values2);
+        Assertions.assertArrayEquals(values1, values2, "Compare two array equals");
     }
 
     @Test
@@ -67,19 +67,12 @@ public class JUnit5AssertionsTest {
         Assertions.assertNotSame(instance1, instance2, "Check not same objects");
     }
 
-    // Some new assert functions of JUnit 5 --------------------------------------------
-    @Test
-    public void testAssertNotThrow() {
-        MyJUnit5Class instance = new MyJUnit5Class();
-        // Assertions.assertDoesNotThrow(instance::throwException);
-        Assertions.assertDoesNotThrow(instance::testFunction);
-    }
-
+    // new for junit 5
     @Test
     public void testAssertInstanceOf() {
         MyJUnit5Class instance = new MyJUnit5Class();
-        Assertions.assertInstanceOf(MyJUnit5Class.class, instance);
         Assertions.assertInstanceOf(Object.class, instance);
+        Assertions.assertInstanceOf(MyJUnit5Class.class, instance);
         Assertions.assertInstanceOf(Object.class, instance, "testAssertInstanceOf message");
     }
 

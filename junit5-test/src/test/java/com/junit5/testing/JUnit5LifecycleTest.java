@@ -19,9 +19,11 @@ public class JUnit5LifecycleTest {
         System.out.println("Set up");
     }
 
+    // 基础的单元测试方法
     @Test
-    public void testBaseJUnit() {
+    public void testUnit() {
         System.out.println("my unit test");
+        Assertions.assertTrue(true);
     }
 
     @Disabled("for demonstration purposes")

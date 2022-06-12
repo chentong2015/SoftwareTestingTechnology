@@ -12,15 +12,14 @@ public class Junit5RepeatedAndOrderedTest {
     public void repeatedTest() {
         System.out.println("this is a test");
     }
-
-    // TODO. 测试方法执行的默认Order值 int DEFAULT = 1073741823;
-    //       严格按照这个值来判断执行的先后顺序
+    
+    // 默认Order值DEFAULT = 1073741823; 按照值的大小顺序执行
     @Test
     @Order(4)
     void lastTest() {
         System.out.println("last test");
     }
-    
+
     @Test
     @Order(3)
     void thirdTest() {
