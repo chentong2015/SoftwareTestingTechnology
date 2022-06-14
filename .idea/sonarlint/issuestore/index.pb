@@ -19,8 +19,6 @@ M
 core-tdd-test-pyramid/pom.xml,3\f\3f4c79ea45bc36c3e5cd6cf35362ab8475ef4f1e
 r
 Bothers-test/src/main/java/com/testing/others/mock/MyProcessor.java,6\0\60ae9901b6512c918ffe0fc58b8cf70db20e3907
-~
-Nothers-test/src/main/java/com/testing/others/hamcrest/JavaHamcrestTesting.java,3\9\39e2754ddadd25eeb5d84aa3750e6e9267b8f9c0
 r
 Bcore-tdd-test-pyramid/src/main/java/testing/AutomationTesting.java,a\3\a3c8176a52fb7a98cd401e55422a357b15a955ba
 p
@@ -117,8 +115,6 @@ p
 @junit4-test/src/main/java/base/junit4/testing/MyJUnit4Class.java,5\0\501984d2fcc36cf7f1d54725754a1c97c7b19a1e
 w
 Gjunit4-test/src/test/java/base/junit4/testing/JUnit4AssertionsTest.java,1\e\1e5817f954acc847bda1efe8a7a986ebc2aafb3e
-v
-Fjunit4-test/src/test/java/base/junit4/testing/JUnit4LifecycleTest.java,3\a\3aaa91682485f1b2861521d304ac904120f3cf70
 Y
 )junit5-test/src/main/java/Junit5UserGuide,b\8\b808ee2bd29c29fb1d2fdb200b557106856b33bc
 t
@@ -151,3 +147,19 @@ i
 9junit4-test/src/test/java/test/rules/Junit4TestRules.java,a\5\a501f8535e942d6ca8f87e08036d3b221afe2997
 ˆ
 Xjunit4-test/src/test/java/test/rules/external/resource/ExternalResourceTestRuleTest.java,e\d\ed242ea9257b3f1b0cb0d5cd40543f2eea5cd9c0
+u
+Ejunit5-test/src/main/java/com/junit5/testing/InjectionForTesting.java,a\e\aecf940b11c80bbaedeb2edc5dbfbfae8877681e
+o
+?junit5-test/src/main/java/com/junit5/testing/MyJUnit5Class.java,b\8\b8903d43f546aa11dc50df105b6f3dbf4e9953a3
+v
+Fjunit5-test/src/test/java/com/junit5/testing/JUnit5AssertionsTest.java,6\a\6ad31171383d8e51b77c321f042e2c2e076c228a
+u
+Ejunit5-test/src/test/java/com/junit5/testing/JUnit5LifecycleTest.java,c\a\ca0526bd798578c9cf2437a1143ef64786fa2de8
+~
+Njunit5-test/src/test/java/com/junit5/testing/Junit5RepeatedAndOrderedTest.java,5\7\570d30740cd17b572c86bec3f19dd3077f4ddd7f
+t
+Djunit5-test/src/test/java/parameterized/JUnit5ParameterizedTest.java,a\4\a4cc214b4dba7cf008010a65fc7c3b2a6a8a6739
+C
+junit5-test/pom.xml,1\0\10c6fcf2be0eb8e90ff3d52f02c5ee3a82276d9b
+p
+@junit5-test/src/test/java/com/junit5/testing/JUnit5TestInfo.java,9\4\94a869b9612fe84a2b18ac63ef912bb7f192d4cb
