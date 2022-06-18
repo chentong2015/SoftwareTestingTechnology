@@ -1,12 +1,6 @@
 
-p
-@others-test/src/main/java/com/testing/others/mock/MyService.java,f\9\f91c97f6c5621e92aa719438905e2e50a1b03a08
-t
-Dothers-test/src/main/java/com/testing/others/mock/MyServiceUtil.java,d\3\d3ea14ab4800d4494fff091182379ff6dc868d5c
 d
 4spring-test/src/main/java/spring/datamodel/User.java,2\a\2a382ec5012465b1e7fe50ad72473d1fde13b617
-i
-9others-test/src/test/java/powermock/PowerMockitoTest.java,3\4\3403f995d2c34c9ec6aa8a9dd56546bad21226a1
 i
 9core-tdd-test-pyramid/src/main/java/nfr/testing/README.md,4\b\4bd7159812be8b67c62a5971c549f99fdba2bab9
 y
@@ -15,8 +9,6 @@ Icore-tdd-test-pyramid/src/main/java/nfr/testing/NonFunctionalTesting.java,4\6\
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 M
 core-tdd-test-pyramid/pom.xml,3\f\3f4c79ea45bc36c3e5cd6cf35362ab8475ef4f1e
-r
-Bothers-test/src/main/java/com/testing/others/mock/MyProcessor.java,6\0\60ae9901b6512c918ffe0fc58b8cf70db20e3907
 r
 Bcore-tdd-test-pyramid/src/main/java/testing/AutomationTesting.java,a\3\a3c8176a52fb7a98cd401e55422a357b15a955ba
 p
@@ -45,8 +37,6 @@ g
 ^spring-cloud-test/src/main/java/com/spring/cloud/feign/client/SpringFeignClientController.java,a\d\ad8cdd6635c11a50bf98c2e24f2b4c8efe7235e1
 a
 1others-test/src/test/java/mock/MyServiceTest.java,e\2\e225d76115387053f915a73c3eeed0cd06af1d32
-z
-Jothers-test/src/main/java/com/testing/others/pact/PactContractTesting.java,2\8\2896f5a93882d75e896f8dcf43bf87859b4da17e
 d
 4others-test/src/test/java/pact/PactBrokerSource.java,2\c\2ce0f5e1803fa9bd1ac2f615afddbf9b56dffb66
 d
@@ -73,10 +63,6 @@ y
 Ispring-cloud-test/src/test/java/com/feign/client/MyCustomRetryerTest.java,d\e\de0648c4da04ea85a0f9166d7c56245ac235ad9c
 u
 Espring-cloud-test/src/main/java/com/feign/client/MyCustomRetryer.java,e\f\effd6d15c4c2873577747bdfee93106f5560e1e5
-c
-3others-test/src/test/java/mock/MyProcessorTest.java,6\7\67ba8ca884d2a2bc1f4daab101eaa9be22050cbf
-c
-3others-test/src/test/java/mock/DemoMockitoTest.java,b\7\b7580dbe8682baf85f9939e678bd8cc7916629f6
 }
 Mspring-test/src/test/java/spring/exception/SpringControllerExceptionTest.java,8\0\80194014d9656b4709e26b78a8be2ee69d2d4405
 c
@@ -127,8 +113,6 @@ j
 :spring-test/src/test/java/spring/SpringIocExampleTest.java,4\b\4b39d2e4577906ac3852f7b5262c08ce5eba3e20
 q
 Aspring-test/src/test/java/spring/SpringCommandLineRunnerTest.java,a\1\a158ffd98bbbe16432155533e2da1e9a8ca141aa
-r
-Bothers-test/src/main/java/com/testing/others/mock/Mock测试技术,3\7\37ecb872f733aa97eb76b4dc80db8095670d72f6
 l
 <junit4-test/src/main/java/test/rules/ConsoleOutTestRule.java,5\3\539ae009fc0a65d29d797b4335eb71d1e73cd3ff
 q

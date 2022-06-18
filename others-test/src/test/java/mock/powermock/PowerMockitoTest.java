@@ -1,4 +1,4 @@
-package powermock;
+package mock.powermock;
 
 import com.testing.others.mock.MyServiceUtil;
 import org.junit.Assert;
@@ -11,7 +11,7 @@ import org.powermock.modules.junit4.PowerMockRunner;
 import static org.mockito.Mockito.mockStatic;
 
 // TODO. PowerMock更强大的Mock测试
-// 1. Mock constuctor
+// 1. Mock constructor
 // 2. Mock final class
 // 3. Mock final methods
 // 4. Mock static methods
