@@ -19,6 +19,13 @@
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- TODO. JUnit5默认不包含hamcrest依赖，需要自定义添加 -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>2.2</version>
+            <scope>test</scope>
+        </dependency>
 
         <!-- Since Mockito 3.4.0 now possible to mock static method -->
         <dependency>

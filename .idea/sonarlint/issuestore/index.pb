@@ -1,6 +1,4 @@
 
-€
-Pothers-test/src/main/java/com/testing/others/bats/core/BashAutomatedTesting.java,5\2\523fe9aed45bc16f8aa9514907326ba6fd32d48f
 p
 @others-test/src/main/java/com/testing/others/mock/MyService.java,f\9\f91c97f6c5621e92aa719438905e2e50a1b03a08
 t
@@ -33,8 +31,6 @@ u
 Ejunit4-test/src/test/java/parameterized/JUnit4ParameterizedTest2.java,b\c\bcf4610c94d2cfa9ee242a6b260a04d3b2309144
 w
 Gjunit4-test/src/test/java/base/junit4/testing/ConsoleOutputTesting.java,0\f\0f35ce9237fd08e8c2c38861c0173be2e4548b56
-C
-junit4-test/pom.xml,a\c\acd6ba5e5491d08fa2450fe00920139bff528c42
 ‰
 Yspring-test/src/test/java/spring/integration/test/SpringIntegrationTestConfiguration.java,4\a\4aa2b3c1cd7414abe26de74eaecf3b526ad8f1df
 q
@@ -45,8 +41,6 @@ C
 spring-test/pom.xml,c\7\c7625a888887a7c0171f689d9b5a03829f4a1573
 g
 7spring-test/src/main/java/spring/datamodel/MyClass.java,0\d\0d83785b786c6f982ca6a1a62b1db77c91cba347
-C
-others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
 Ž
 ^spring-cloud-test/src/main/java/com/spring/cloud/feign/client/SpringFeignClientController.java,a\d\ad8cdd6635c11a50bf98c2e24f2b4c8efe7235e1
 a
