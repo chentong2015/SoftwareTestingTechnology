@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.lessThan;
 // Hamcrest: matcher library http://hamcrest.org/JavaHamcrest/tutorial
 // 1. 提高测试断言的可读性，使得测试的逻辑更加的清晰，方便debug
 // 2. 提供丰富的匹配规则，提高测试中的Diagnostics
-public class HamcrestBasicsTest {
+public class HamcrestBasicTest {
 
     // 提供实际的值和一个用于验证的匹配器(判断不同的条件和约束)
     // public static <T> void assertThat(T actual, Matcher<? super T> matcher)
@@ -21,6 +21,7 @@ public class HamcrestBasicsTest {
         Assertions.assertEquals(20, 10 + 10, "test equals failed message");
 
         // Hamcrest matcher assert
+        // TODO. is()传递matcher作为参数，不能传递null作为参数
         assertThat(10 + 10, is(20));
         // Providing a Custom Error Message
         assertThat("assert failed reason", 10 + 10, is(20));
