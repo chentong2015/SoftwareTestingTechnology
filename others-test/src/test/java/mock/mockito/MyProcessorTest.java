@@ -1,15 +1,15 @@
-package mock;
+package mock.mockito;
 
-import com.testing.others.mock.MyProcessor;
-import com.testing.others.mock.MyService;
 import junit.framework.TestCase;
+import mock.mockito.model.MyProcessor;
+import mock.mockito.model.MyService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 class MyProcessorTest {
 
-    // TODO: 使用模拟的接口来注入构造器，使用模拟的接口调用返回值
+    // TODO: 使用模拟的接口来注入构造器，使用模拟的接口调用返回值 
     @Test
     void process() {
         MyService myService = Mockito.mock(MyService.class);
@@ -56,7 +56,6 @@ class MyProcessorTest {
         }
     }
 
-
     // TODO: Mock异常发生之后，内部处理后返回的默认值 ==> 原始的方法上没有捕获该异常，已经被内部处理
     //      由于内部处理之后，不会再次抛出异常，检测只需要测试返回的属性
     @Test
@@ -64,8 +63,8 @@ class MyProcessorTest {
         MyService myService = Mockito.mock(MyService.class);
         Mockito.when(myService.doSomething2()).thenThrow(new Exception("Cannot process"));
         MyProcessor myProcessor = new MyProcessor(myService);
-        String returnedValue = myProcessor.process3();
 
+        String returnedValue = myProcessor.process3();
         Assertions.assertEquals(returnedValue, "default-value");
     }
 

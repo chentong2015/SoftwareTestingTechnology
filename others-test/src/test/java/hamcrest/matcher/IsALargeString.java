@@ -1,10 +1,12 @@
 package hamcrest.matcher;
 
 import org.hamcrest.Description;
+import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;
 
 public class IsALargeString extends TypeSafeMatcher {
 
+    // Define matching rules
     // Check if the string is a large string
     @Override
     protected boolean matchesSafely(Object o) {
@@ -19,7 +21,7 @@ public class IsALargeString extends TypeSafeMatcher {
     }
 
     // 创建一个静态的方法作为引用，使用方法名称来使用传递自定义的matcher
-    // public static Matcher isALargeString() {
-    //     return new IsALargeString();
-    // }
+    public static Matcher isALargeString() {
+        return new IsALargeString();
+    }
 }

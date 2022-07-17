@@ -1,4 +1,4 @@
-package com.testing.others.mock;
+package mock.mockito.model;
 
 public class MyProcessor {
 

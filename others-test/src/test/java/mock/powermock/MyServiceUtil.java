@@ -1,4 +1,4 @@
-package com.testing.others.mock;
+package mock.powermock;
 
 public class MyServiceUtil {
 

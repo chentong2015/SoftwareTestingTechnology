@@ -10,8 +10,8 @@ import java.util.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-// Hamcrest Test Examples 只介绍一些常用的matchers
-public class HamcrestMatchersTest {
+// Hamcrest Test Examples: some common matchers
+public class HamcrestCommonMatchersTest {
 
     // Asserting Boolean Values
     @Test
@@ -36,6 +36,7 @@ public class HamcrestMatchersTest {
         MyHamcrestClass instance1 = new MyHamcrestClass("java");
         MyHamcrestClass instance2 = new MyHamcrestClass("java");
         MyHamcrestClass instance3 = new MyHamcrestClass("hamcrest");
+        // check two instances are equals
         assertThat(instance1, equalTo(instance2));
         assertThat(instance1, not(instance3));
     }
@@ -46,6 +47,7 @@ public class HamcrestMatchersTest {
     void shouldReferToSameObject() {
         MyHamcrestClass instance1 = new MyHamcrestClass("java");
         MyHamcrestClass instance2 = instance1;
+        // check two instance are the same
         assertThat(instance1, sameInstance(instance2));
     }
 
@@ -69,9 +71,9 @@ public class HamcrestMatchersTest {
     @Test
     @DisplayName("Should contain the same elements")
     public void shouldContainSameElements() {
-        final List<Integer> actual = Arrays.asList(1, 2, 3);
-        final List<Integer> expected = Arrays.asList(1, 2, 3);
-        assertThat(actual, equalTo(expected));
+        final List<Integer> list1 = Arrays.asList(1, 2, 3);
+        final List<Integer> list2 = Arrays.asList(1, 2, 3);
+        assertThat(list1, equalTo(list2));
     }
 
     @Test
@@ -84,11 +86,13 @@ public class HamcrestMatchersTest {
 
         assertThat(list, hasSize(2));
         assertThat(list, hasItem(first));
-        // contains(item...) 传递全局的参数
+
+        // contains(item...) 传递list中包含的所有元素
         assertThat(list, contains(first, second));
         assertThat(list, containsInAnyOrder(second, first));
-        // not(matcher) 传递一个比较器参数
-        assertThat(list, not(hasItem(new Object())));
+
+        Object third = new Object();
+        assertThat(list, not(hasItem(third)));
     }
 
     // Asserting Maps

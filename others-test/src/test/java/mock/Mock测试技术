@@ -1,0 +1,9 @@
+Mock测试: 在测试过程中，将实际要输出的逻辑进行替换，使用假的结果来验证测试
+
+Mockito
+Powermock
+EasyMock
+JMockIt
+JMock
+MockRunner
+
