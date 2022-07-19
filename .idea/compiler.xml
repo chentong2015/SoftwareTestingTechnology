@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="core-tdd-test-pyramid" />
+        <module name="mockikto-testing" />
+        <module name="powermock-testing" />
         <module name="junit5-test" />
         <module name="spring-test" />
         <module name="test-pyramid-tdd" />
-        <module name="others-test" />
         <module name="spring-cloud-test" />
         <module name="TestingInJava" />
         <module name="junit4-test" />

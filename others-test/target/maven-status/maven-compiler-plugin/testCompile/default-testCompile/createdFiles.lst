@@ -1,5 +1,13 @@
 pact\PactConsumerTest.class
-mock\MockitoTestDemo.class
-powermock\PowerMockitoTest.class
-mock\MyProcessorTest.class
-mock\MyServiceTest.class
+pact\PactBrokerSource.class
+hamcrest\matcher\IsALargeString.class
+mock\powermock\PowerMockitoTest.class
+mock\mockito\MyMockitoServiceTest.class
+hamcrest\HamcrestBasicTest.class
+hamcrest\HamcrestCommonMatchersTest.class
+mock\mockito\MockitoTest.class
+hamcrest\HamcrestCustomMatcherTest.class
+mock\mockito\MockitoTest$1.class
+mock\powermock\MyServiceUtil.class
+mock\mockito\MyMockitoInterfaceTest.class
+mock\mockito\MyMockitoClassTest.class

@@ -1,18 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: pact.PactConsumerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.956 sec <<< FAILURE!
-runTest(pact.PactConsumerTest)  Time elapsed: 0.92 sec  <<< FAILURE!
-java.lang.AssertionError: Pact Test function failed with an exception, possibly due to ExpectedButNotReceived(expectedRequests=[	method: GET
-	path: /
-	query: {}
-	headers: {}
-	matchers: MatchingRules(rules={})
-	generators: Generators(categories={})
-	body: MISSING])
-	at au.com.dius.pact.consumer.junit.JUnitTestSupport.validateMockServerResult(JUnitTestSupport.kt:79)
-	at au.com.dius.pact.consumer.junit.BaseProviderRule.validateResult(BaseProviderRule.java:200)
-	at au.com.dius.pact.consumer.junit.BaseProviderRule$1.evaluate(BaseProviderRule.java:100)
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE!
+runTest(pact.PactConsumerTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.IncompatibleClassChangeError: Expected static method au.com.dius.pact.core.support.expressions.ExpressionParser.parseExpression(Ljava/lang/String;Lau/com/dius/pact/core/support/expressions/DataType;)Ljava/lang/Object;
+	at au.com.dius.pact.consumer.junit.BaseProviderRule.getPacts(BaseProviderRule.java:213)
+	at au.com.dius.pact.consumer.junit.BaseProviderRule$1.evaluate(BaseProviderRule.java:79)
 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
@@ -35,22 +28,4 @@ java.lang.AssertionError: Pact Test function failed with an exception, possibly 
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: org.junit.ComparisonFailure: expected:<[{"responsetest": true}]> but was:<[org.apache.http.client.entity.LazyDecompressingInputStream@7d42c224]>
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at pact.PactConsumerTest.runTest(PactConsumerTest.java:58)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at au.com.dius.pact.consumer.junit.BaseProviderRule.lambda$runPactTest$2(BaseProviderRule.java:185)
-	at au.com.dius.pact.consumer.BaseMockServer.runAndWritePact(MockHttpServer.kt:135)
-	at au.com.dius.pact.consumer.ConsumerPactRunnerKt.runConsumerTest(ConsumerPactRunner.kt:32)
-	at au.com.dius.pact.consumer.junit.BaseProviderRule.runPactTest(BaseProviderRule.java:183)
-	at au.com.dius.pact.consumer.junit.BaseProviderRule$1.evaluate(BaseProviderRule.java:99)
-	... 22 more
 

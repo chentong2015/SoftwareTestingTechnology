@@ -1,6 +1,6 @@
-com\testing\others\bats\core\BashAutomatedTesting.class
+base\mock\testing\mockito\MyMockitoInterface.class
 com\testing\others\pact\PactContractTesting.class
-com\testing\others\mock\MyService.class
-com\testing\others\hamcrest\JavaHamcrestTesting.class
-com\testing\others\mock\MyProcessor.class
-com\testing\others\mock\MyServiceUtil.class
+com\testing\others\hamcrest\MyHamcrestClass.class
+base\mock\testing\mockito\MyMockitoService.class
+com\testing\others\hamcrest\Person.class
+base\mock\testing\mockito\MyMockitoClass.class
