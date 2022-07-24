@@ -8,18 +8,17 @@ public class MyMockitoService {
         this.myService = myService;
     }
 
-    public String process() {
-        int returnInteger = myService.doSomething();
-        return "My Integer is: " + returnInteger;
+    public String getServiceValue() {
+        return "Value is: " + myService.doSomething();
     }
 
-    public String process2() throws Exception {
+    public String getServiceValueWithException() throws Exception {
         int returnInteger = myService.doSomething2();
-        return "My Integer is: " + returnInteger;
+        return "Value is: " + returnInteger;
     }
 
     // 内部处理异常，然后返回默认的值
-    public String process3() {
+    public String getValueWithoutThrowException() {
         try {
             int returnInteger = myService.doSomething2();
             return "My Integer is: " + returnInteger;

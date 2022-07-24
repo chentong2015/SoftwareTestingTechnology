@@ -8,7 +8,7 @@ import static org.mockito.ArgumentMatchers.anyString;
 
 public class MyMockitoClassTest {
 
-    // 正常适用Junit来测试定义的方法(original method)
+    // 使用Junit测试定义方法(original method)
     @Test
     public void testSayHello() {
         MyMockitoClass instance = new MyMockitoClass();
@@ -20,16 +20,27 @@ public class MyMockitoClassTest {
     public void mockSayHello() {
         MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);
         Mockito.when(mockClass.sayHello("java")).thenReturn("hi: java");
-        // test the mock method, not the original method
+
+        // Test the mock method, not the original method
         // we know the return value because we define the result value
         Assertions.assertEquals("hi: java", mockClass.sayHello("java"));
+
+        // Make sure the mock method has been called 必须确定调用指定的方法，传递指定的参数
+        // Argument(s) are different! Wanted:
+        // myMockitoClass.sayHello("java1");
+        //  --> at com.mockito.testing.MyMockitoClassTest.mockSayHello(MyMockitoClassTest.java:29)
+        // Actual invocations have different arguments:
+        // myMockitoClass.sayHello("java");
+        //  --> at com.mockito.testing.MyMockitoClassTest.mockSayHello(MyMockitoClassTest.java:26)
+        Mockito.verify(mockClass).sayHello("java1");
     }
 
     @Test
-    public void mockSayHello2() {
+    public void mockSayHelloToAnything() {
         MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);
         // 注意这里的ArgumentMatcher参数匹配器
         Mockito.when(mockClass.sayHello(anyString())).thenReturn("hi: anything");
+
         // In this way, we can use the mock method to do other tests more complex
         Assertions.assertEquals("hi: anything", mockClass.sayHello("java"));
         Assertions.assertEquals("hi: anything", mockClass.sayHello("test"));
@@ -39,6 +50,7 @@ public class MyMockitoClassTest {
     public void mockCalculate() {
         MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);
         Mockito.when(mockClass.calculate(2)).thenReturn(100);
+
         Assertions.assertEquals(100, mockClass.calculate(2));
     }
 
