@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import static org.mockito.ArgumentMatchers.anyString;
+import static org.mockito.Mockito.atLeastOnce;
+import static org.mockito.Mockito.times;
 
 public class MyMockitoClassTest {
 
@@ -32,7 +34,11 @@ public class MyMockitoClassTest {
         // Actual invocations have different arguments:
         // myMockitoClass.sayHello("java");
         //  --> at com.mockito.testing.MyMockitoClassTest.mockSayHello(MyMockitoClassTest.java:26)
+
+        // 三种验证方法被调用的方式
         Mockito.verify(mockClass).sayHello("java1");
+        Mockito.verify(mockClass, times(1)).sayHello("java1");
+        Mockito.verify(mockClass, atLeastOnce()).sayHello("java1");
     }
 
     @Test

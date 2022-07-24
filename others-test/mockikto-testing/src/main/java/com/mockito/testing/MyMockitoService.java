@@ -13,8 +13,7 @@ public class MyMockitoService {
     }
 
     public String getServiceValueWithException() throws Exception {
-        int returnInteger = myService.doSomething2();
-        return "Value is: " + returnInteger;
+        return "Value is: " + myService.doSomething2();
     }
 
     // 内部处理异常，然后返回默认的值

@@ -16,6 +16,8 @@ public class MyMockitoServiceTest {
         String returnedValue = myProcessor.getServiceValue();
 
         Assertions.assertEquals("Value is: 10", returnedValue);
+        // 验证mock掉的接口方法被调用了
+        Mockito.verify(myService).doSomething();
     }
 
     // TODO: 模拟返回的UncheckedException异常: 原始的方法上可以不写该异常

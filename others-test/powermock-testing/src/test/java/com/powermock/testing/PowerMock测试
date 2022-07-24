@@ -1,0 +1,7 @@
+
+1. 是否需要同时提供api和modules两种项目依赖 ?
+2. 如何解决WARNING: An illegal reflective access operation has occurred ?
+3. 如何验证mock的方法被调用了 ?
+
+https://www.javatpoint.com/mockito-powermock
+https://www.softwaretestinghelp.com/mock-private-static-void-methods-mockito/#:~:text=For%20Mockito%2C%20there%20is%20no,to%20avoid%20static%2Ffinal%20methods.

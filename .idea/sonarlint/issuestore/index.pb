@@ -161,11 +161,5 @@ x
 Hspring-test/src/test/java/spring/controller/HomeControllerMockMvcIT.java,5\5\556a81bf1c238bbcdae84ae25f524c68f4d04c97
 T
 $others-test/mockikto-testing/pom.xml,1\6\16b1a6942d046c249ad663e15d298ea29163ba45
-
-Oothers-test/mockikto-testing/src/test/java/com/mockito/testing/MockitoTest.java,5\3\53eb52a77b304f59e6dc7ef67d5ba9a4ba584bb1
-„
-Tothers-test/powermock-testing/src/main/java/com/powermock/testing/MyServiceUtil.java,e\d\ed8b0e2ab69a74366547e04ee481e70626e524fa
 C
 others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
-U
-%others-test/powermock-testing/pom.xml,b\e\be05dfb3217fd77f3123d7fad72074179794674f

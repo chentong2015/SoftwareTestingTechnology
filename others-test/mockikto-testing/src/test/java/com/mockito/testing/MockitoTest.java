@@ -12,7 +12,7 @@ import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-// TODO. 要mock掉的方法一般带有返回值
+// TODO. mock的方法一般带有返回值, 一般都是public公开的方法
 // 1. Mockito.thenReturn() & .thenThrow() 推荐适用这两个方式来mock方法的结果
 // 2. Mockito.thenAnswer() 提供一种回调机制，自定义一个回调的Answer(匿名类)
 
