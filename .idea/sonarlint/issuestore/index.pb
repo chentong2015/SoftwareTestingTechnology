@@ -163,3 +163,7 @@ T
 $others-test/mockikto-testing/pom.xml,1\6\16b1a6942d046c249ad663e15d298ea29163ba45
 C
 others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
+„
+Tothers-test/mockikto-testing/src/main/java/com/mockito/testing/MyMockitoService.java,a\b\ab3fac16f8c046fc8767b9526d0d379817885ff6
+†
+Vothers-test/mockikto-testing/src/main/java/com/mockito/testing/MyMockitoInterface.java,c\b\cb5f3b28a77d5920d6e09c632309626ab9ea3bf2

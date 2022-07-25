@@ -23,7 +23,6 @@ public class MyPowermockTest {
     // 3. Mock private methods
     @Test
     public void testMockPrivateMethod() throws Exception {
-        // MyPowermockClass myPowermockClass =
         MyPowermockClass mockClass = PowerMockito.spy(new MyPowermockClass("name"));
         // mock指定名称的私有方法, 支持传递私有方法的参数
         PowerMockito.doReturn("private: test").when(mockClass, "getNamePrivate", "test");
@@ -37,6 +36,10 @@ public class MyPowermockTest {
         PowerMockito.mockStatic(MyPowermockClass.class);
         PowerMockito.when(MyPowermockClass.getNameStatic("test")).thenReturn("static: ok");
         Assert.assertEquals("static: ok", MyPowermockClass.getNameStatic("test"));
+
+        // 低版本的通过该方式来验证是否静态方法被调用
+        // PowerMockito.verifyStatic();
+        // MyPowermockClass.getNameStatic("test")
     }
 
     // 5. Mock final methods

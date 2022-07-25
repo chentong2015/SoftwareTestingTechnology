@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
-import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.atLeastOnce;
 import static org.mockito.Mockito.times;
 
@@ -36,30 +35,19 @@ public class MyMockitoClassTest {
         //  --> at com.mockito.testing.MyMockitoClassTest.mockSayHello(MyMockitoClassTest.java:26)
 
         // 三种验证方法被调用的方式
-        Mockito.verify(mockClass).sayHello("java1");
-        Mockito.verify(mockClass, times(1)).sayHello("java1");
-        Mockito.verify(mockClass, atLeastOnce()).sayHello("java1");
-    }
-
-    @Test
-    public void mockSayHelloToAnything() {
-        MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);
-        // 注意这里的ArgumentMatcher参数匹配器
-        Mockito.when(mockClass.sayHello(anyString())).thenReturn("hi: anything");
-
-        // In this way, we can use the mock method to do other tests more complex
-        Assertions.assertEquals("hi: anything", mockClass.sayHello("java"));
-        Assertions.assertEquals("hi: anything", mockClass.sayHello("test"));
+        Mockito.verify(mockClass).sayHello("java");
+        Mockito.verify(mockClass, times(1)).sayHello("java");
+        Mockito.verify(mockClass, atLeastOnce()).sayHello("java");
     }
 
     @Test
     public void mockCalculate() {
         MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);
         Mockito.when(mockClass.calculate(2)).thenReturn(100);
-
         Assertions.assertEquals(100, mockClass.calculate(2));
     }
 
+    // 对于要mock方法抛出的异常，使用.thenThrow()指定抛出异常的类型
     @Test
     public void mockThrowException() {
         MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);
