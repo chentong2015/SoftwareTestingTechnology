@@ -19,6 +19,7 @@ public class MockitoThenAnswerTest {
         MyMockitoClass mockClass = mock(MyMockitoClass.class);
         when(mockClass.sayHello(anyString())).thenAnswer(
                 new Answer() {
+                    // Provide the callback function
                     public Object answer(InvocationOnMock invocation) {
                         Object[] args = invocation.getArguments();
                         Object mock = invocation.getMock();

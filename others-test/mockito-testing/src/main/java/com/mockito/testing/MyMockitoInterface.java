@@ -2,8 +2,7 @@ package com.mockito.testing;
 
 public interface MyMockitoInterface {
 
-    int doSomething();
+    int test();
 
-    int doSomething2() throws Exception;
-
+    int testWithException() throws Exception;
 }

@@ -9,17 +9,17 @@ public class MyMockitoService {
     }
 
     public String getServiceValue() {
-        return "Value is: " + myService.doSomething();
+        return "Value is: " + myService.test();
     }
 
     public String getServiceValueWithException() throws Exception {
-        return "Value is: " + myService.doSomething2();
+        return "Value is: " + myService.testWithException();
     }
 
     // 内部处理异常，然后返回默认的值
     public String getValueWithoutThrowException() {
         try {
-            int returnInteger = myService.doSomething2();
+            int returnInteger = myService.testWithException();
             return "My Integer is: " + returnInteger;
         } catch (Exception e) {
             System.out.println("-- exception thrown in MyProcess --");

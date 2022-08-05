@@ -6,9 +6,10 @@ import org.mockito.Mockito;
 
 import static org.mockito.ArgumentMatchers.*;
 
+// TODO. Mockito提供丰富的ArgumentMatchers参数匹配条件，替代传递的(实际)参数
+// Mockito provides many Argument Matchers to match the parameters
 public class MockitoArgumentMatchersTest {
 
-    // TODO. Mockito提供丰富的ArgumentMatchers参数匹配条件，替代传递的(实际)参数
     @Test
     public void mockSayHelloToAnything() {
         MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);

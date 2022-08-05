@@ -11,13 +11,13 @@ public class MyMockitoServiceTest {
     @Test
     void process() {
         MyMockitoInterface myService = Mockito.mock(MyMockitoInterface.class);
-        Mockito.when(myService.doSomething()).thenReturn(10);
+        Mockito.when(myService.test()).thenReturn(10);
         MyMockitoService myProcessor = new MyMockitoService(myService);
         String returnedValue = myProcessor.getServiceValue();
 
         Assertions.assertEquals("Value is: 10", returnedValue);
         // 验证mock掉的接口方法被调用了
-        Mockito.verify(myService).doSomething();
+        Mockito.verify(myService).test();
     }
 
     // TODO: 模拟返回的UncheckedException异常: 原始的方法上可以不写该异常
@@ -25,7 +25,8 @@ public class MyMockitoServiceTest {
     @Test
     public void processTestUncheckedException() {
         MyMockitoInterface myService = Mockito.mock(MyMockitoInterface.class);
-        Mockito.when(myService.doSomething()).thenThrow(new RuntimeException("Cannot get value"));
+        // RuntimeException and its subclasses are unchecked exceptions
+        Mockito.when(myService.test()).thenThrow(new RuntimeException("Cannot get value"));
         MyMockitoService myProcessor = new MyMockitoService(myService);
         try {
             String value = myProcessor.getServiceValue();
@@ -40,7 +41,8 @@ public class MyMockitoServiceTest {
     public void processTestCheckedException() throws Exception {
         MyMockitoInterface myService = Mockito.mock(MyMockitoInterface.class);
 
-        Mockito.when(myService.doSomething2()).thenThrow(new Exception("Cannot process"));
+        // Checked exceptions
+        Mockito.when(myService.testWithException()).thenThrow(new Exception("Cannot process"));
         MyMockitoService myProcessor = new MyMockitoService(myService);
         try {
             String value = myProcessor.getServiceValueWithException();
@@ -50,13 +52,13 @@ public class MyMockitoServiceTest {
         }
     }
 
-    
+
     // TODO: Mock异常发生之后，内部处理后返回的默认值 ==> 原始的方法上没有捕获该异常，已经被内部处理
     //      由于内部处理之后，不会再次抛出异常，检测只需要测试返回的属性
     @Test
     public void processTestHandleException() throws Exception {
         MyMockitoInterface myService = Mockito.mock(MyMockitoInterface.class);
-        Mockito.when(myService.doSomething2()).thenThrow(new Exception("Cannot process"));
+        Mockito.when(myService.testWithException()).thenThrow(new Exception("Cannot process"));
         MyMockitoService myProcessor = new MyMockitoService(myService);
 
         String returnedValue = myProcessor.getValueWithoutThrowException();
@@ -68,7 +70,7 @@ public class MyMockitoServiceTest {
     @Test
     public void processTest() {
         MyMockitoInterface myService = Mockito.mock(MyMockitoInterface.class);
-        Mockito.doThrow(new RuntimeException("Cannot process")).when(myService).doSomething();
+        Mockito.doThrow(new RuntimeException("Cannot process")).when(myService).test();
         MyMockitoService myProcessor = new MyMockitoService(myService);
         try {
             String value = myProcessor.getServiceValue();
