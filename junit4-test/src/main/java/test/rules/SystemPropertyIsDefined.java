@@ -6,7 +6,23 @@ import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
 
 // TODO. JUnit5直接通过Operating System Conditions注解来实现
-public class OperationSystemTestRule implements TestRule {
+public class SystemPropertyIsDefined implements TestRule {
+
+    private final String propertyName;
+    private final String optionalPropertyName;
+
+    //~ ----------------------------------------------------------------------------------------------------------------
+    //~ Constructors
+    //~ ----------------------------------------------------------------------------------------------------------------
+
+    public SystemPropertyIsDefined(String propertyName) {
+        this(propertyName, "empty");
+    }
+
+    public SystemPropertyIsDefined(String propertyName, String optionalPropertyName) {
+        this.propertyName = propertyName;
+        this.optionalPropertyName = optionalPropertyName;
+    }
 
     @Override
     public Statement apply(Statement statement, Description description) {
