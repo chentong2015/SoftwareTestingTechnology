@@ -8,6 +8,7 @@
     <artifactId>TestingInJava</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>core-tdd-test-pyramid</module>
         <module>junit4-test</module>
@@ -15,6 +16,6 @@
         <module>others-test</module>
         <module>spring-test</module>
         <module>spring-cloud-test</module>
+        <module>core-maven-automated-test</module>
     </modules>
-
 </project>

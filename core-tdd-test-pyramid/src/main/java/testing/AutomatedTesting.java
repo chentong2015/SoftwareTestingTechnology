@@ -10,7 +10,7 @@ package testing;
 // 1. System: End to end, check the application meets its requirements, run the app, slow
 // 2. Aggregate: Slower, less brittle, whole component, set of classes
 // 3. Unit: Single unit functionality, one method, class or small module, fast to run
-public class AutomationTesting {
+public class AutomatedTesting {
 
     // 1. Types of tests
     //   Unit tests:

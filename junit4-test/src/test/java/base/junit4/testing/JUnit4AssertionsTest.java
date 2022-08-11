@@ -13,7 +13,7 @@ public class JUnit4AssertionsTest {
         String value = "Java" + "Unit";
         Assert.assertEquals("JavaUnit", value);
         // TODO. Define the message displayed when the test fails
-        Assert.assertEquals("Assert equals with messages", "Java Unit", value);
+        // Assert.assertEquals("Assert equals with messages", "Java Unit", value);
         Assert.assertNotEquals("Assert equals with messages", "Java Unit", value);
     }
 

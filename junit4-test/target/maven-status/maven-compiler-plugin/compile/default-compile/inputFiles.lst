@@ -1,5 +1,4 @@
-D:\Work My Projects\Testing Master\JavaTestingMaster\junit4-test\src\main\java\com\junit4\testing\ConsoleOutTestRule.java
+D:\Work My Projects\Testing Master\JavaTestingMaster\junit4-test\src\main\java\test\rules\ConsoleOutTestRule.java
 D:\Work My Projects\Testing Master\JavaTestingMaster\junit4-test\src\main\java\base\junit4\testing\MyJUnit4Class.java
-D:\Work My Projects\Testing Master\JavaTestingMaster\junit4-test\src\main\java\com\junit4\testing\ExternalResourceTestRule.java
-D:\Work My Projects\Testing Master\JavaTestingMaster\junit4-test\src\main\java\com\junit4\testing\OperationSystemTestRule.java
+D:\Work My Projects\Testing Master\JavaTestingMaster\junit4-test\src\main\java\test\rules\OperationSystemTestRule.java
 D:\Work My Projects\Testing Master\JavaTestingMaster\junit4-test\src\main\java\base\junit4\testing\MyServiceException.java

@@ -1,10 +1,8 @@
 package test.rules;
 
 import base.junit4.testing.MyServiceException;
-import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.contrib.java.lang.system.SystemOutRule;
 import org.junit.rules.*;
 
 import java.io.File;
@@ -45,14 +43,14 @@ public class Junit4TestRules {
     }
 
     // 3. 测试对于控制台输出的测试
-    @Rule
-    public final SystemOutRule systemOutRule = new SystemOutRule().enableLog();
+    // @Rule
+    // public final SystemOutRule systemOutRule = new SystemOutRule().enableLog();
 
-    @Test
-    public void givenSystemOutRule_whenInvokePrintln_thenLogSuccess() {
-        System.out.println("Hello");
-        Assert.assertEquals("Hello", systemOutRule.getLog().trim());
-    }
+    // @Test
+    // public void givenSystemOutRule_whenInvokePrintln_thenLogSuccess() {
+    //     System.out.println("Hello");
+    //     Assert.assertEquals("Hello", systemOutRule.getLog().trim());
+    // }
 
     // 4. 测试异常输出的Rule
     // TODO. 推荐使用The recommended alternative is to use assertThrows()

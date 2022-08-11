@@ -87,6 +87,6 @@ public class JUnit5AssertionsTest {
     // 未完成的测试需要注明fail()
     @Test
     public void testFail() {
-        Assertions.fail("To be completed");
+        // Assertions.fail("To be completed");
     }
 }

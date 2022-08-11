@@ -4,7 +4,6 @@ import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
 
-
 public abstract class ExternalResourceRule implements TestRule {
 
     public ExternalResourceRule() {

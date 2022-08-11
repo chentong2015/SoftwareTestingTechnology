@@ -26,12 +26,12 @@
             <version>4.13</version>
         </dependency>
 
-        <!-- 用于测试System Console的输出信息 -->
+        <!-- 用于测试System Console的输出信息
         <dependency>
             <groupId>com.github.stefanbirkner</groupId>
             <artifactId>system-rules</artifactId>
             <version>1.19.0</version>
             <scope>test</scope>
-        </dependency>
+        </dependency> -->
     </dependencies>
 </project>

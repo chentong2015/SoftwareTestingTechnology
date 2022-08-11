@@ -5,11 +5,11 @@ import org.junit.Test;
 
 public class ExternalResourceTestRuleTest {
 
-    // 一种测试的扩展"Rule"规则
+    // TODO. @Rule必须声明成public公开的可访问性
     @Rule
-    ExternalResourceRuleImpl externalResourceDB = new ExternalResourceRuleImpl();
+    public ExternalResourceRuleImpl externalResourceDB = new ExternalResourceRuleImpl();
 
-    // TODO. 在执行单元测试的过程中，外部资源DataSource完成了建立连接和关闭连接的操作
+    // 在执行单元测试的过程中，外部资源DataSource完成了建立连接和关闭连接的操作
     @Test
     public void testExternalResource() {
         // Insert data object to database

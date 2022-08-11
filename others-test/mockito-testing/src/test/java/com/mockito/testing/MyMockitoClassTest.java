@@ -29,10 +29,10 @@ public class MyMockitoClassTest {
         // Make sure the mock method has been called 必须确定调用指定的方法，传递指定的参数
         // Argument(s) are different! Wanted:
         // myMockitoClass.sayHello("java1");
-        //  --> at com.mockito.testing.MyMockitoClassTest.mockSayHello(MyMockitoClassTest.java:29)
+        //   --> at com.mockito.testing.MyMockitoClassTest.mockSayHello(MyMockitoClassTest.java:29)
         // Actual invocations have different arguments:
         // myMockitoClass.sayHello("java");
-        //  --> at com.mockito.testing.MyMockitoClassTest.mockSayHello(MyMockitoClassTest.java:26)
+        //   --> at com.mockito.testing.MyMockitoClassTest.mockSayHello(MyMockitoClassTest.java:26)
 
         // 三种验证方法被调用的方式
         Mockito.verify(mockClass).sayHello("java");
@@ -51,12 +51,13 @@ public class MyMockitoClassTest {
     @Test
     public void mockThrowException() {
         MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);
-        Mockito.when(mockClass.testException()).thenThrow(new RuntimeException("mock error"));
+        // can only throw unchecked exception
+        Mockito.when(mockClass.testException()).thenThrow(new RuntimeException("error1"));
         try {
             mockClass.testException();
         } catch (RuntimeException exception) {
-            System.out.println("check the mock exception message we defined");
-            Assertions.assertEquals("mock error", exception.getMessage());
+            System.out.println("check throw exception");
+            Assertions.assertEquals("error1", exception.getMessage());
         }
     }
 }

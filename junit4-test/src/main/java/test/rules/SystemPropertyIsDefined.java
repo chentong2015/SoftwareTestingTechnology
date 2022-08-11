@@ -5,15 +5,15 @@ import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;
 
-// TODO. JUnit5直接通过Operating System Conditions注解来实现
+// TODO. 验证设置了指定的系统名称及值, 使用时直接添加到测试类中(每个单元测试都会检查ClassRule)
+// @ClassRule
+// public static SystemPropertyIsDefined systemProperty = new SystemPropertyIsDefined("name");
+//
+// JUnit5直接通过Operating System Conditions注解来实现
 public class SystemPropertyIsDefined implements TestRule {
 
     private final String propertyName;
     private final String optionalPropertyName;
-
-    //~ ----------------------------------------------------------------------------------------------------------------
-    //~ Constructors
-    //~ ----------------------------------------------------------------------------------------------------------------
 
     public SystemPropertyIsDefined(String propertyName) {
         this(propertyName, "empty");

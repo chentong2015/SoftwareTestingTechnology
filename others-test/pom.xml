@@ -12,7 +12,7 @@
     <artifactId>others-test</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>mockikto-testing</module>
+        <module>mockito-testing</module>
         <module>powermock-testing</module>
     </modules>
 
