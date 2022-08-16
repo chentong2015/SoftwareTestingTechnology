@@ -79,8 +79,6 @@ v
 Fjunit4-test/src/test/java/base/junit4/testing/JUnit4LifecycleTest.java,3\a\3aaa91682485f1b2861521d304ac904120f3cf70
 u
 Ejunit5-test/src/test/java/com/junit5/testing/JUnit5LifecycleTest.java,c\a\ca0526bd798578c9cf2437a1143ef64786fa2de8
-c
-3core-tdd-test-pyramid/src/main/java/测试的规范,f\c\fcdfe85ef514f262fb526a4d16e8d9c0f3b77f28
 Y
 )junit4-test/src/main/java/JUnit4UserGuide,3\4\3447facc6b1ac8d757ace1025b799508af014171
 p
@@ -127,14 +125,8 @@ j
 Mspring-test/src/test/java/spring/exception/SpringControllerExceptionTest.java,8\0\80194014d9656b4709e26b78a8be2ee69d2d4405
 x
 Hspring-test/src/test/java/spring/controller/HomeControllerMockMvcIT.java,5\5\556a81bf1c238bbcdae84ae25f524c68f4d04c97
-�
-Qothers-test/powermock-testing/src/test/java/com/powermock/testing/PowerMock测试,9\7\9712d4648fce45f5e3a3004095572521eb1bdc13
 U
 %others-test/powermock-testing/pom.xml,b\e\be05dfb3217fd77f3123d7fad72074179794674f
-�
-Vothers-test/powermock-testing/src/test/java/com/powermock/testing/MyPowermockTest.java,b\e\beeb8302f0d7413dd3b05ccabaa7212db10a6b94
-�
-Wothers-test/powermock-testing/src/main/java/com/powermock/testing/MyPowermockClass.java,b\a\ba48086989291d573be69d675dbe312c2574b10b
 v
 Fjunit5-test/src/test/java/com/junit5/testing/JUnit5AssertionsTest.java,6\a\6ad31171383d8e51b77c321f042e2c2e076c228a
 w
@@ -151,8 +143,6 @@ o
 Xjunit4-test/src/test/java/test/rules/external/resource/ExternalResourceTestRuleTest.java,e\d\ed242ea9257b3f1b0cb0d5cd40543f2eea5cd9c0
 w
 Gjunit4-test/src/test/java/base/junit4/testing/JUnit4AssertionsTest.java,1\e\1e5817f954acc847bda1efe8a7a986ebc2aafb3e
-j
-:core-tdd-test-pyramid/src/main/好的自动化测试标准,f\f\ff343364f3d33b02e12d652d9226aa342252b326
 p
 @core-tdd-test-pyramid/src/main/java/testing/SoftwareTesting.java,5\c\5c18d1b340b819c7bff32b818ce8e7eca15607f3
 q
@@ -163,8 +153,6 @@ g
 7core-tdd-test-pyramid/src/test/java/tdd/Calculator.java,f\2\f295da3967d09bb3a641fbdb24204a91fc1134c5
 C
 junit5-test/pom.xml,1\0\10c6fcf2be0eb8e90ff3d52f02c5ee3a82276d9b
-�
-Tcore-maven-automated-test/src/test/java/maven/automated/test/SystemPropertyTest.java,d\9\d915d9a5069bc1da8cfe6a4879d7fa82c22ce0c7
 Q
 !core-maven-automated-test/pom.xml,a\c\ac68b2a3b0a6c1dc0adc6fef74956a439f400d59
 q
@@ -173,8 +161,6 @@ l
 <junit4-test/src/main/java/test/rules/ConsoleOutTestRule.java,5\3\539ae009fc0a65d29d797b4335eb71d1e73cd3ff
 i
 9junit4-test/src/test/java/test/rules/Junit4TestRules.java,a\5\a501f8535e942d6ca8f87e08036d3b221afe2997
-{
-Kothers-test/mockito-testing/src/main/java/com/mockito/testing/Mockito测试,6\6\666af010438ae0445d9d97700c2a9a9901c4c7cb
 C
 others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
 S
@@ -193,7 +179,21 @@ Uothers-test/mockito-testing/src/main/java/com/mockito/testing/MyMockitoInterfac
 Xothers-test/mockito-testing/src/test/java/com/mockito/testing/MockitoThenAnswerTest.java,2\e\2ee80e25e665404ff85a56ad7d4a3f36ed5bfc1a
 �
 Qothers-test/mockito-testing/src/main/java/com/mockito/testing/MyMockitoClass.java,0\b\0b23f833b0981f68e5be80abbf5032d9b0e816b8
-Y
-)core-maven-automated-test/测试自动化,7\4\7426251b717c2174634ddb8317f7c0648197246f
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+�
+Tcore-maven-automated-test/src/test/java/maven/automated/test/SystemPropertyTest.java,d\9\d915d9a5069bc1da8cfe6a4879d7fa82c22ce0c7
+j
+:core-tdd-test-pyramid/src/main/好的自动化测试标准,f\f\ff343364f3d33b02e12d652d9226aa342252b326
+c
+3core-tdd-test-pyramid/src/main/java/测试的规范,f\c\fcdfe85ef514f262fb526a4d16e8d9c0f3b77f28
+Y
+)core-maven-automated-test/测试自动化,7\4\7426251b717c2174634ddb8317f7c0648197246f
+�
+Wothers-test/powermock-testing/src/main/java/com/powermock/testing/MyPowermockClass.java,b\a\ba48086989291d573be69d675dbe312c2574b10b
+�
+Qothers-test/powermock-testing/src/test/java/com/powermock/testing/PowerMock测试,9\7\9712d4648fce45f5e3a3004095572521eb1bdc13
+�
+Vothers-test/powermock-testing/src/test/java/com/powermock/testing/MyPowermockTest.java,b\e\beeb8302f0d7413dd3b05ccabaa7212db10a6b94
+{
+Kothers-test/mockito-testing/src/main/java/com/mockito/testing/Mockito测试,6\6\666af010438ae0445d9d97700c2a9a9901c4c7cb
