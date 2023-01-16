@@ -1,7 +1,5 @@
 package spring;
 
-
-import javafx.application.Application;
 import org.junit.runner.RunWith;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,8 +7,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import spring.config.SecurityAutoConfiguration;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-// TODO. 在集成测试时，移除指定的配置Configuration的设置，配置测试的环境
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
+// 在集成测试时，移除指定的配置Configuration的设置，配置测试的环境
 @EnableAutoConfiguration(exclude = SecurityAutoConfiguration.class)
 public class SpringExcludeAutoConfigureTest {
 
