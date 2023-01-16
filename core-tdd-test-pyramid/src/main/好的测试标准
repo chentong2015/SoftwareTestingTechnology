@@ -13,7 +13,7 @@ TODO: 什么是好的测试Unit Test
 4. 注意可以提取公共的重复代码
 
 
-Good Practices 什么才是好的测试 ?
+TODO: Good Practices 什么才是好的测试 ?
 1. Well named: executable documentation, maintenance, readability
    测试的名称需要足够的清楚，表明要测试的内容
    使用domain terminology + natural language + be descriptive
