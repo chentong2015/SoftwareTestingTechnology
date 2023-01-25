@@ -7,7 +7,7 @@
 
 测试的细节划分
 Unit Test: 直接在JVM中完成
-Integration Test: 需要启动Service服务，然后才能进行的测试(判断条件)
+Integration Test: 需要启动Service服务 / 一般可在production chain软件发布链上进行
 Component Test
 Fake / Mock Test
 Package Test

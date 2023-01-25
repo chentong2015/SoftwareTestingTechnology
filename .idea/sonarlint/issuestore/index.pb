@@ -189,7 +189,7 @@ k
 ;spring-test/src/main/java/spring/BaseSpringBootTesting.java,0\c\0c18144c555a02d8b753f388dd42e9e5cb9b0b92
 t
 Dspring-test/src/test/java/spring/SpringExcludeAutoConfigureTest.java,a\2\a2d580855f64b72ed4757595d61f63f5e80549ee
-a
-1core-tdd-test-pyramid/src/main/Test Best Practice,b\3\b3749188e22e175a71aecbc5b43d5a5ab8671ef2
-a
-1core-tdd-test-pyramid/src/main/好的测试标准,8\3\833a2a90e5d4c64f6f5d1654c0d9bbd90792c44c
+d
+4core-tdd-test-pyramid/src/test/java/tdd/TddTest.java,1\a\1a3da1e1748eb07dd861ce2b513a1ba99cce3f25
+g
+7core-tdd-test-pyramid/src/test/java/tdd/Calculator.java,f\2\f295da3967d09bb3a641fbdb24204a91fc1134c5
