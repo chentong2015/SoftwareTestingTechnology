@@ -16,6 +16,7 @@
         <module name="core-maven-automated-test" />
         <module name="TestingInJava" />
         <module name="junit4-test" />
+        <module name="junit-migration-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

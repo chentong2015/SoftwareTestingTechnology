@@ -46,7 +46,7 @@ public class JUnit5TestInfo {
 
     // Junit5 测试获取方法对应显示的名称: 大小写敏感 !!
     @Test
-    @DisplayName("This is my test")
+    @DisplayName("this is my test")
     @Tag("My tag")
     void test2(TestInfo testInfo) {
         String expected = "this is my test";

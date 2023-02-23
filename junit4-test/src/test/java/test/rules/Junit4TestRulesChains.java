@@ -3,6 +3,8 @@ package test.rules;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.RuleChain;
+import test.rules.demo.ConsoleOutTestRule;
+import test.rules.demo.PerformanceLoggerTestRule;
 
 import static org.junit.Assert.assertTrue;
 

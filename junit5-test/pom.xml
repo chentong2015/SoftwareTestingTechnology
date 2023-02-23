@@ -17,11 +17,11 @@
     </properties>
 
     <dependencies>
-        <!-- Junit 版本5的单元测试依赖 -->
+        <!-- TODO. 在具体子模块中设置的dependency scope -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.8.2</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

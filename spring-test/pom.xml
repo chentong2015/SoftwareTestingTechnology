@@ -60,10 +60,8 @@
             <version>2.6.2</version>
         </dependency>
 
-        <!-- Starting with Spring Boot 2.4
-             JUnit 5’s vintage engine has been removed from spring-boot-starter-test.
-             If we still want to write tests using JUnit 4
-             移除掉其中hamcrest测试的类库 -->
+        <!-- spring-boot-starter-test Starting from 2.4 : JUnit 5’s vintage engine has been removed
+             TODO. 这里必须手动添加，以便支持JUnit 4单元测试 -->
         <dependency>
             <groupId>org.junit.vintage</groupId>
             <artifactId>junit-vintage-engine</artifactId>
