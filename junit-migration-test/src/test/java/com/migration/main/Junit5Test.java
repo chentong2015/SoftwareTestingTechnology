@@ -10,4 +10,9 @@ public class Junit5Test {
         System.out.println("run junit 5 test");
         Assertions.assertTrue(true);
     }
+
+    @Test
+    public void testThrowException() {
+        // Assertions.assertThrows(Exception.class, callSomeMethods());
+    }
 }

@@ -38,3 +38,5 @@ public class JUnit4ParameterizedTest {
         Assert.assertEquals(valueExpected, instance.compute(valueInput));
     }
 }
+
+

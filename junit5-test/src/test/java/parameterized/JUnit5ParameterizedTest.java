@@ -41,13 +41,13 @@ class JUnit5ParameterizedTest {
         return IntStream.range(0, 20).skip(10);
     }
 
+    // 作为MethodSource的方法本质上提供的是String[]字符串数组
     @ParameterizedTest
     @MethodSource("getParameterValue")
     void testWithRangeMethodSource2(String argument) {
         assertNotEquals("item", argument);
     }
 
-    // 作为MethodSource的方法本质上提供的是String[]字符串数组
     static String[] getParameterValue() {
         return new String[]{"item1", "item2"};
     }

@@ -10,4 +10,9 @@ public class Junit4Test {
         System.out.println("run junit 4 test");
         Assert.assertTrue(true);
     }
+
+    @Test(expected = Exception.class)
+    public void testThrowException() {
+        // callSomeMethods();
+    }
 }
