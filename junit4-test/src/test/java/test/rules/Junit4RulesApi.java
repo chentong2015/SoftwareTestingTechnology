@@ -17,16 +17,12 @@ import static org.junit.Assert.assertTrue;
 // 2. Enhance tests by running some code around a test case execution
 // 3. 类似于@Before and @After annotations注解的作用
 // 4. 在多个Test classes中都需要连接和关闭资源，则可以通过Rule将改操作隔离出来，重用
-public class Junit4TestRules {
+public class Junit4RulesTest {
 
     // 1. 测试测试获取方法的名称
     // TODO. @Rule注解的类型必须是实现了org.junit.rules.TestRule的类型
     @Rule
     public TestName name = new TestName();
-
-    // TODO. 作用在Test Class类上面的Rule(每个单元测试都会检查ClassRule)
-    // @ClassRule
-    // public static SystemPropertyIsDefined systemProperty = new SystemPropertyIsDefined("name");
 
     @Test
     public void testMethodName() {
