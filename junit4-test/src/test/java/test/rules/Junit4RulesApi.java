@@ -12,12 +12,7 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-// Junit4提供的预定义规则Rules，作为类库的一部分，测试的加强和扩展
-// 1. A number of useful, predefined rules as part of the library.
-// 2. Enhance tests by running some code around a test case execution
-// 3. 类似于@Before and @After annotations注解的作用
-// 4. 在多个Test classes中都需要连接和关闭资源，则可以通过Rule将改操作隔离出来，重用
-public class Junit4RulesTest {
+public class Junit4RulesApi {
 
     // 1. 测试测试获取方法的名称
     // TODO. @Rule注解的类型必须是实现了org.junit.rules.TestRule的类型

@@ -1,5 +1,5 @@
 升级Junit4测试框架到Junit5，兼容两种Junit
-Junit5相当于是重写Junit4，抹去drawbacks
+https://junit.org/junit5/docs/current/user-guide/#migrating-from-junit4-running
 
 - Junit4 A single jar library contains the entire framework
 - JUnit 5 Get more granularity and can import only what's necessary

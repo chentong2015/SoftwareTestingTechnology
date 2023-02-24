@@ -133,3 +133,17 @@ q
 Aspring-test/src/test/java/spring/service/UserServiceMockTest.java,6\d\6d90422b3c45f8784a1df12dce5ef01b0e17d2f6
 ^
 .core-tdd-test-pyramid/src/main/测试的认识,6\9\69d995836967c3e203817bb5cf3a7b98fdc85020
+y
+Icore-tdd-test-pyramid/src/main/java/nfr/testing/NonFunctionalTesting.java,4\6\462a44224d3f51c82d3a0a71a00cfe11a96355bf
+C
+junit4-test/pom.xml,a\c\acd6ba5e5491d08fa2450fe00920139bff528c42
+�
+Pjunit4-test/src/test/java/test/rules/external/resource/ExternalResourceRule.java,7\6\7695f6e1c29d1c14db1c6168cf0abe954ac17134
+o
+?junit5-test/src/main/java/com/junit5/testing/MyJUnit5Class.java,b\8\b8903d43f546aa11dc50df105b6f3dbf4e9953a3
+q
+Acore-tdd-test-pyramid/src/main/java/testing/AutomatedTesting.java,0\7\078ea004c58d7e6b587bc86e83510875560199f4
+p
+@core-tdd-test-pyramid/src/main/java/testing/SoftwareTesting.java,5\c\5c18d1b340b819c7bff32b818ce8e7eca15607f3
+t
+Dcore-tdd-test-pyramid/src/main/java/testing/InjectionForTesting.java,5\3\5312887e98319050d48e3df3c6ccd2ebda4e6ca1
