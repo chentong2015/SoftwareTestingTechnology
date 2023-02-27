@@ -69,12 +69,6 @@ q
 Aspring-test/src/main/java/spring/repositories/HomeRepository.java,b\9\b978aeddb0133a1c9f0665bf62f25d507f76aa6c
 i
 9spring-test/src/main/java/spring/service/HomeService.java,d\a\da8694e69b5a29b61341025bf2d7fb1793169771
-U
-%others-test/powermock-testing/pom.xml,b\e\be05dfb3217fd77f3123d7fad72074179794674f
-C
-others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
-S
-#others-test/mockito-testing/pom.xml,b\9\b91a3d09afa8efb4d6e6249b6d3f344b8ad61723
 …
 Uothers-test/mockito-testing/src/test/java/com/mockito/testing/MyMockitoClassTest.java,2\8\28ef74c358151c5fc564dc9b3dd159f537b82eaf
 ‡

@@ -1,20 +1,14 @@
 package extension.rules;
 
-import org.junit.jupiter.api.extension.BeforeAllCallback;
 import org.junit.jupiter.api.extension.BeforeEachCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 
-public class LoggingExtension implements BeforeAllCallback, BeforeEachCallback {
+public class LoggingForMethodExtension implements BeforeEachCallback {
 
     private final String message;
 
-    public LoggingExtension(String message) {
+    public LoggingForMethodExtension(String message) {
         this.message = message;
-    }
-
-    @Override
-    public void beforeAll(ExtensionContext extensionContext) throws Exception {
-        System.out.println("Type {} In beforeAll : {}" + extensionContext.getDisplayName());
     }
 
     @Override

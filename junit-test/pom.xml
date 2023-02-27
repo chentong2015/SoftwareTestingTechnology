@@ -23,12 +23,19 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- TODO. 在父类的dependencyManagement中不要设置scope的约束 -->
+            <!-- TODO. 在父类的dependencyManagement中不要设置scope的约束
+                       以下的两个依赖版本必须兼容一致 -->
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-api</artifactId>
                 <version>5.8.2</version>
                 <!-- <scope>test</scope> -->
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-engine</artifactId>
+                <version>5.8.2</version>
+                <scope>test</scope>
             </dependency>
 
             <dependency>

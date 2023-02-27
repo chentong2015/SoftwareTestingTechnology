@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class JUnit4ParameterizedTest2 {
+public class JUnit4ParameterizedMasterTest {
 
     // 专门用于测试的字段，每一次的值将会在构造器中设置
     // 只能适用于pulic的字段

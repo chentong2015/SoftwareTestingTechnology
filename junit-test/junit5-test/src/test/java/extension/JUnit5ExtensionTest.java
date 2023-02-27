@@ -1,6 +1,6 @@
 package extension;
 
-import extension.rules.EnvironmentExtension;
+import extension.condition.EnvironmentExtension;
 import extension.rules.TracingUnitTestRule;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 // @ExtendWith: 可以同时添加多个Extension的扩展
 @ExtendWith({TracingUnitTestRule.class, EnvironmentExtension.class})
 class JUnit5ExtensionTest {
-
+    
     @Test
     void testTracingRule() {
         System.out.println("running unit test");
