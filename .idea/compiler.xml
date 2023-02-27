@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="core-tdd-test-pyramid" />
-        <module name="powermock-testing" />
         <module name="junit5-test" />
         <module name="spring-test" />
-        <module name="mockito-testing" />
         <module name="test-pyramid-tdd" />
+        <module name="core-tdd-test-pyramid" />
+        <module name="powermock-testing" />
+        <module name="mockito-testing" />
+        <module name="base-junit-common-api" />
         <module name="spring-cloud-test" />
         <module name="core-maven-automated-test" />
         <module name="TestingInJava" />
@@ -22,6 +23,7 @@
     <bytecodeTargetLevel>
       <module name="power-mock-testing" target="11" />
       <module name="test-ng" target="11" />
+      <module name="untitled" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>

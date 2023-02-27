@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/core-tdd-test-pyramid/pom.xml" />
         <option value="$PROJECT_DIR$/others-test/mockito-testing/pom.xml" />
         <option value="$PROJECT_DIR$/junit-migration-test/pom.xml" />
+        <option value="$PROJECT_DIR$/junit-test/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

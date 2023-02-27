@@ -1,0 +1,13 @@
+os\conditons\JUnit5OsConditions.class
+os\conditons\TestOnMac.class
+extension\rules\LoggingExtension.class
+extension\JUnit5ExtensionTest.class
+extension\rules\TracingUnitTestRule.class
+parameterized\JUnit5ParameterizedTest.class
+extension\JUnit5RegisterExtensionTest.class
+com\junit5\testing\JUnit5AssertionsTest.class
+extension\rules\EnvironmentExtension.class
+com\junit5\testing\JUnit5LifecycleTest.class
+com\common\api\JunitCommonClassTest.class
+com\junit5\testing\Junit5RepeatedAndOrderedTest.class
+com\junit5\testing\JUnit5TestInfo.class

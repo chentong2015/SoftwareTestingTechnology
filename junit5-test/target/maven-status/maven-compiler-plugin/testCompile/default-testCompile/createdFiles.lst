@@ -1,8 +1,0 @@
-os\conditons\JUnit5OsConditions.class
-com\junit5\testing\JUnit5AssertionsTest.class
-os\conditons\TestOnMac.class
-parameterized\JUnit5ParameterizedTest.class
-com\junit5\testing\JUnit5LifecycleTest.class
-rules\extensions\JUnit5ExtensionModel.class
-com\junit5\testing\Junit5RepeatedAndOrderedTest.class
-com\junit5\testing\JUnit5TestInfo.class

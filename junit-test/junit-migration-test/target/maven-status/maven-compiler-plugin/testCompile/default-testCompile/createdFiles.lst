@@ -1,0 +1,4 @@
+com\migration\main\JUnit5HamcrestTest.class
+com\migration\main\Junit4Test.class
+com\migration\main\JUnit5MockitoTest.class
+com\migration\main\Junit5Test.class
