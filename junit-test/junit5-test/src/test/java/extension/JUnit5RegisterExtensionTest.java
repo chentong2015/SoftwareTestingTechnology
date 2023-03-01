@@ -8,8 +8,9 @@ import org.junit.jupiter.api.extension.RegisterExtension;
 
 public class JUnit5RegisterExtensionTest {
 
-    // 注解在静态属性上(推荐): registered at the class level 应该注册在类层级
-    // Can access the extension as an object in the test content directly.
+    // 注解在静态属性上(推荐):
+    // 1. registered at the class level 应该注册在类层级
+    // 2. Can access the extension as an object in the test content directly.
     @RegisterExtension
     static LoggingForClassExtension staticExtension = new LoggingForClassExtension("static logging");
 

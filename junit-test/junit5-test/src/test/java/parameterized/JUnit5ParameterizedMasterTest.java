@@ -17,16 +17,20 @@ class JUnit5ParameterizedMasterTest {
         System.out.println("before each");
     }
 
+    // 为每个单元测试提供多个参数的输入，以便执行一个方法多次
+    // 1. 传递的参数在测试执行前会交给ParameterResolver处理
+    // 2. 在单元测试的方法上可以不写参数(如果方法内部没有直接使用参数)
     @ParameterizedTest
     @MethodSource("getProviders")
-    void testParameterized1(String value) {
-        // 这里的参数在测试执行前会交给ParameterResolver处理
-        System.out.println(value);
+    void testParameterized() {
+        int[] nums = {1, 2, 3};
         Assumptions.assumeTrue(true);
     }
 
-    // 为每个单元测试提供多个参数的输入，以便执行一个方法多次 => 无需重复方法
+    // TODO. 提供的方法参数必须具有指定类型的Return Type
+    // return type: 'Stream<?>', 'Iterator<?>', 'Iterable<?>' or 'Object[]'
     static String[] getProviders() {
+        System.out.println("create parameters ...");
         return new String[]{"provider1", "provider2", "provider3"};
     }
 
