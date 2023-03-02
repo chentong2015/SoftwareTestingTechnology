@@ -22,6 +22,7 @@ class JunitCommonClassTest {
         Assertions.assertTrue(true);
     }
 
+    // TODO. classpath中两个相同的文件在被读取时会报错 !!
     // 使用test-api中classpath下的文件: 优先选择当前项目classpath下的CSV文件
     @Test
     void testClasspathResources() throws IOException {

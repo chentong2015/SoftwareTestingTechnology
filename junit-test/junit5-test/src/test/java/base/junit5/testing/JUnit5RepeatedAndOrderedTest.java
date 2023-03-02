@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 // MethodOrderer 指定测试方法的执行顺序
 // @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class Junit5RepeatedAndOrderedTest {
+public class JUnit5RepeatedAndOrderedTest {
 
     // 指定重复测试的次数
     @RepeatedTest(5)
