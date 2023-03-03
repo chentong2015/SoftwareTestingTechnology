@@ -199,3 +199,9 @@ Qjunit-test/junit5-test/src/test/java/base/junit5/testing/JUnit5LifecycleTest.ja
 Wjunit-test/junit5-test/src/test/java/base/junit5/testing/beforeeach/DataSourceTest.java,e\d\ed1bad2b2f7fd078bcb21018450761c1c7381cd8
 ‹
 [junit-test/junit5-test/src/test/java/base/junit5/testing/beforeeach/AbstractSourceTest.java,6\6\66d481224e22e60fbf0d156a6ef2f4674f1817ba
+
+Ojunit-test/junit5-test/src/test/java/base/junit5/testing/JUnit5Assumptions.java,7\9\79cd4d83429a1a118cc26694dcc73fa41956fefa
+}
+Mjunit-test/junit5-test/src/test/java/com/common/api/JunitCommonClassTest.java,e\5\e541da381a57b8156b1be8286baf548e327bea7a
+
+Ojunit-test/junit5-test/src/test/java/parameterized/inherit/SubSubClassTest.java,8\a\8abd59f0fc998ee0fa5129a1567d56222b0090ec
