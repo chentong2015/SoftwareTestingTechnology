@@ -1,5 +1,6 @@
 package base.junit5.testing.beforeeach;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -20,5 +21,16 @@ public abstract class AbstractSourceTest {
     public void testSuperClass() {
         System.out.println("call super class");
         Assertions.assertTrue(true);
+    }
+
+    @Test
+    public void testOverride() {
+        System.out.println("test override");
+        Assertions.assertTrue(true);
+    }
+
+    @AfterEach
+    public void afterEach() {
+        System.out.println("after each === ");
     }
 }
