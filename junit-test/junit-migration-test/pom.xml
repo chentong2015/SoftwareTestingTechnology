@@ -19,30 +19,6 @@
             <version>5.9.2</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.9.2</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-junit-jupiter</artifactId>
-            <version>4.6.1</version>
-            <scope>test</scope>
-        </dependency>
-
-        <!-- TODO. junit-vintage-engine会依赖于JUnit4, vintage-engine是TestEngine的实现
-                   JUnit Vintage aids running JUnit 4 tests within the JUnit 5 context. -->
-        <!-- 这个依赖只会作用到当前项目 -->
-        <dependency>
-            <groupId>org.junit.vintage</groupId>
-            <artifactId>junit-vintage-engine</artifactId>
-            <version>5.9.2</version>
-            <scope>compile</scope>
-        </dependency>
-
         <!-- 传递性依赖: 设置maven-surefire-plugin能够执行junit5 tests -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -57,6 +33,23 @@
             <artifactId>junit</artifactId>
             <version>4.13.1</version>
             <scope>compile</scope>
+        </dependency>
+
+        <!-- TODO. junit-vintage-engine会依赖于JUnit4, vintage-engine是TestEngine的实现
+                   JUnit Vintage aids running JUnit 4 tests within the JUnit 5 context. -->
+        <!-- 这个依赖只会作用到当前项目 -->
+        <dependency>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
+            <version>5.9.2</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>4.6.1</version>
+            <scope>test</scope>
         </dependency>
 
         <!-- <dependency>
