@@ -1,10 +1,10 @@
-package basebeans;
+package spring.model;
 
 public class BaseBeanConfigurer {
 
     private String name;
     private int count;
-    
+
     public String getName() {
         return name;
     }

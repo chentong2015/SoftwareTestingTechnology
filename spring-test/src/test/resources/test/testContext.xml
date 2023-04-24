@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="beanConfig" class="basebeans.BaseBeanConfigurer">
+    <bean id="beanConfig" class="spring.model.BaseBeanConfigurer">
         <!-- 如果Java Bean重新自定义了构造器，则需要配置构造器的参数传递 -->
         <property name="name" value="test name"/>
         <property name="count" value="10"/>
