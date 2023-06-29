@@ -145,8 +145,6 @@ U
 Xjunit-test/junit-migration-test/src/test/java/com/migration/main/JUnit5HamcrestTest.java,e\1\e131c6bd92ec892ad8ceb5cd213342bf4430bcbe
 C
 others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
-N
-junit-test/junit5-test/pom.xml,e\5\e5db9e3b13a8fc4467c5baa532bbb435074c499f
 z
 Jjunit-test/junit5-test/src/main/java/com/junit5/testing/MyJUnit5Class.java,8\0\805b0e1cd77d8783d59e9b51e9c35f8462ca9b53
 ‡
@@ -183,8 +181,6 @@ Rjunit-test/junit5-test/src/test/java/extension/condition/EnvironmentExtension.j
 Ojunit-test/junit5-test/src/test/java/extension/JUnit5RegisterExtensionTest.java,a\1\a149ec4bd86dcd577aa6efbfda05af522561643a
 …
 Ujunit-test/junit5-test/src/test/java/parameterized/JUnit5ParameterizedMasterTest.java,e\f\effb5c02f634879c4e4aa95fb9fe571961557920
-ƒ
-Sjunit-test/junit5-test/src/test/java/extension/rules/AbstractDatabaseExtension.java,8\7\87bc07e1f08d7c28d4a86eea2bf5a8ddbfa70bed
 |
 Ljunit-test/junit5-test/src/test/java/parameterized/inherit/SubClassTest.java,b\8\b8a9ad20d620170f1323e8aabee5aa564a3ea6ed
 
@@ -199,8 +195,6 @@ Wjunit-test/junit4-test/src/test/java/base/junit4/testing/beforeeach/DataSourceT
 Wjunit-test/junit5-test/src/test/java/base/junit5/testing/beforeeach/DataSourceTest.java,e\d\ed1bad2b2f7fd078bcb21018450761c1c7381cd8
 ‚
 Rjunit-test/junit5-test/src/test/java/extension/rules/LoggingForClassExtension.java,6\3\63e5fa052962806d9f1fea5e44e7df2968d4ad59
-ƒ
-Sjunit-test/junit5-test/src/test/java/extension/rules/ExternalResourceExtension.java,f\3\f3e04369eb184cb95c1784f9b45abd462c011bd9
 
 Ojunit-test/junit4-test/src/test/java/parameterized/JUnit4ParameterizedTest.java,b\c\bca5d31ddb30a7c958fc57ba4eb8e61f2eddc3ae
 N
@@ -227,3 +221,15 @@ W
 Mjunit-test/junit5-test/src/test/java/com/common/api/JunitCommonClassTest.java,e\5\e541da381a57b8156b1be8286baf548e327bea7a
 Ž
 ^others-test/mockito-testing/src/test/java/com/mockito/testing/MockitoArgumentMatchersTest.java,e\4\e4d2edda365e8aec1fd8be2b3cf685da9bdfca0d
+‰
+Yspring-test/src/test/java/spring/integration/test/SpringIntegrationTestConfiguration.java,4\a\4aa2b3c1cd7414abe26de74eaecf3b526ad8f1df
+q
+Aspring-test/src/test/java/spring/SpringCommandLineRunnerTest.java,a\1\a158ffd98bbbe16432155533e2da1e9a8ca141aa
+t
+Dspring-test/src/test/java/spring/SpringExcludeAutoConfigureTest.java,a\2\a2d580855f64b72ed4757595d61f63f5e80549ee
+k
+;spring-test/src/main/java/spring/BaseSpringBootTesting.java,0\c\0c18144c555a02d8b753f388dd42e9e5cb9b0b92
+j
+:spring-test/src/test/java/spring/SpringIocExampleTest.java,4\b\4b39d2e4577906ac3852f7b5262c08ce5eba3e20
+n
+>spring-test/src/test/java/spring/model/BaseBeanConfigurer.java,3\c\3c8504ed793a714c5d8be84779f5cf138ff125e3
