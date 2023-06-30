@@ -8,7 +8,7 @@ import java.util.List;
 // TODO. Junit5 vs Junit4 测试类和测试方法
 // - JUnit4 requires test class and test method to be public
 // - JUnit5 recommends to use the default package visibility, package-private level
-// - Junit5 如果设置public则需要抑制提示的警告
+// https://github.com/pmd/pmd/issues/3239
 @SuppressWarnings("PMD.JUnit5TestShouldBePackagePrivate")
 public class JUnit5SuppressWarnings extends AbstractClass {
 
