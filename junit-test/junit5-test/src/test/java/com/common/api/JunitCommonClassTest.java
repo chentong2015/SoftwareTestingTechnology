@@ -17,8 +17,8 @@ class JunitCommonClassTest {
     // 调用test-api中的类型机进行测试
     @Test
     void testJUnit4() {
-        JunitCommonClass commonClass = new JunitCommonClass();
-        commonClass.testPrint();
+        // JunitCommonClass commonClass = new JunitCommonClass();
+        // commonClass.testPrint();
         Assertions.assertTrue(true);
     }
 

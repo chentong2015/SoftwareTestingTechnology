@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-// Compare to JUnit4 Assertions 知道如何使用其中一种，则自然知道如何使用另外一种
 public class JUnit5AssertionsTest {
 
     @Test
