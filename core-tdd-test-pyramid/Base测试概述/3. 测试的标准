@@ -6,25 +6,21 @@ The common Structure of Tests 测试的基本三个步骤
 每个测试只能测试一个行为
 Note: the name of the method is the behaviors
 
-TODO: 什么是好的测试Unit Test
+什么是好的单元测试(Unit Test
 1. 单元测试一定要相互独立, 没有任何依赖 ==> 单元测试方法的执行顺序不确定, 并非按照方法的声明顺序 !!
 2. 如果涉及到配置文件或者源文件的读取，需要分离开每个单独的文件
 3. 如果Unit Test需要测试Server的启动和关闭，则每一个测试都需要单独的开闭
 4. 注意可以提取公共的重复代码
 
-
-TODO: Good Practices 什么才是好的测试 ?
+什么才是好的测试(Good Practices) ?
 1. Well named: executable documentation, maintenance, readability
    测试的名称需要足够的清楚，表明要测试的内容
    使用domain terminology + natural language + be descriptive
-
 2. Behavior not implementation
    测试的是行为，而不是类型的实现方式: 只考虑public API，不测试private的内容，不做更改
-
 3. DRY: not repeat code
    提供共同的的代码
    定义测试的数据成constant
-
 4. Diagnostics: check output, debug and fix it
    AssertTure(order.size() == 1)  => 如果出错，之会显示AssertionError
    AssertEquals(1, order.size()); => 断言能够显示具体的信息，方便测试

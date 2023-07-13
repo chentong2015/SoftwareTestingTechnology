@@ -1,8 +1,6 @@
 
 d
 4spring-test/src/main/java/spring/datamodel/User.java,2\a\2a382ec5012465b1e7fe50ad72473d1fde13b617
-i
-9core-tdd-test-pyramid/src/main/java/nfr/testing/README.md,4\b\4bd7159812be8b67c62a5971c549f99fdba2bab9
 g
 7spring-test/src/main/java/spring/datamodel/MyClass.java,0\d\0d83785b786c6f982ca6a1a62b1db77c91cba347
 �
@@ -87,14 +85,10 @@ Vothers-test/powermock-testing/src/test/java/com/powermock/testing/MyPowermockTe
 Kothers-test/mockito-testing/src/main/java/com/mockito/testing/Mockito测试,6\6\666af010438ae0445d9d97700c2a9a9901c4c7cb
 �
 Tcore-maven-automated-test/src/test/java/maven/automated/test/SystemPropertyTest.java,d\9\d915d9a5069bc1da8cfe6a4879d7fa82c22ce0c7
-Y
-)core-maven-automated-test/测试自动化,7\4\7426251b717c2174634ddb8317f7c0648197246f
 d
 4core-tdd-test-pyramid/src/test/java/tdd/TddTest.java,1\a\1a3da1e1748eb07dd861ce2b513a1ba99cce3f25
 g
 7core-tdd-test-pyramid/src/test/java/tdd/Calculator.java,f\2\f295da3967d09bb3a641fbdb24204a91fc1134c5
-a
-1core-tdd-test-pyramid/src/main/好的测试标准,8\3\833a2a90e5d4c64f6f5d1654c0d9bbd90792c44c
 x
 Hspring-test/src/test/java/spring/controller/HomeControllerMockMvcIT.java,5\5\556a81bf1c238bbcdae84ae25f524c68f4d04c97
 z
@@ -107,20 +101,6 @@ x
 Hspring-test/src/test/java/spring/service/ControllerServiceAsyncTest.java,1\1\11edc513cdc181cb11ebf05968073dbdd614200e
 q
 Aspring-test/src/test/java/spring/service/UserServiceMockTest.java,6\d\6d90422b3c45f8784a1df12dce5ef01b0e17d2f6
-^
-.core-tdd-test-pyramid/src/main/测试的认识,6\9\69d995836967c3e203817bb5cf3a7b98fdc85020
-y
-Icore-tdd-test-pyramid/src/main/java/nfr/testing/NonFunctionalTesting.java,4\6\462a44224d3f51c82d3a0a71a00cfe11a96355bf
-q
-Acore-tdd-test-pyramid/src/main/java/testing/AutomatedTesting.java,0\7\078ea004c58d7e6b587bc86e83510875560199f4
-p
-@core-tdd-test-pyramid/src/main/java/testing/SoftwareTesting.java,5\c\5c18d1b340b819c7bff32b818ce8e7eca15607f3
-t
-Dcore-tdd-test-pyramid/src/main/java/testing/InjectionForTesting.java,5\3\5312887e98319050d48e3df3c6ccd2ebda4e6ca1
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-Q
-!core-maven-automated-test/pom.xml,a\c\ac68b2a3b0a6c1dc0adc6fef74956a439f400d59
 �
 Sjunit-test/base-junit-common-api/src/main/java/com/common/api/JunitCommonClass.java,d\a\da71bd61cb096144f979fc1faea8e10f7de5bee4
 X
@@ -247,3 +227,5 @@ Mjunit-test/junit5-test/src/test/java/com/common/api/JunitCommonClassTest.java,
 \junit-test/junit5-test/src/test/java/base/junit5/testing/SuppressWarnings/AbstractClass.java,d\6\d66c9a70c5882f3ee2095163f6b55f801f18eafb
 �
 Wjunit-test/junit5-test/src/test/java/extension/parameter/ProviderParameterResolver.java,d\3\d337ad8382f7997397b1ab14ef631abeb0d88e45
+�
+ejunit-test/junit5-test/src/test/java/base/junit5/testing/SuppressWarnings/JUnit5SuppressWarnings.java,a\5\a5ea9f52f5b3f22a1bce5a46085bb3eb54877d0f
