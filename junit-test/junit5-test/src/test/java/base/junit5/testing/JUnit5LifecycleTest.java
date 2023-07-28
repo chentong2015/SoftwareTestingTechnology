@@ -21,14 +21,14 @@ public class JUnit5LifecycleTest {
 
     // 基础的单元测试方法
     @Test
-    public void testUnit() {
+    void testUnit() {
         System.out.println("my unit test");
         Assertions.assertTrue(true);
     }
 
     @Disabled("for demonstration purposes")
     @Test
-    public void testDisabled() {
+    void testDisabled() {
         System.out.println("test disabled");
     }
 

@@ -33,6 +33,7 @@ public class JUnit4LifecycleTest {
     // There are three more special annotations
     // 1. @Ignore
     @Ignore("why disabled")
+    @Test
     public void ignoreTest() {
         System.out.println("This test should be ignored");
         Assert.assertTrue(true);
