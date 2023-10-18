@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>junit-test</artifactId>
+        <artifactId>migration</artifactId>
         <groupId>org.example</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -19,10 +19,23 @@
             <version>5.9.2</version>
             <scope>compile</scope>
         </dependency>
+
         <!-- 传递性依赖: 设置maven-surefire-plugin能够执行junit5 tests -->
+        <!-- TODO. Test Engine支撑向上执行Junit5 Tests -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.9.2</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!-- TODO. junit-vintage-engine会依赖于JUnit4
+              JUnit Vintage aids running vintage tests (based on JUnit 3.8 and 4) within JUnit 5 context.
+        实战场景: 当前的测试框架升级之后构建在JUnit5之上，所有使用当前框架的项目在自动测试阶段
+        由于JUnit5的存在会导致忽略项目中junit4的测试，必须通过添加vintage来激活测试 -->
+        <dependency>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
             <version>5.9.2</version>
             <scope>compile</scope>
         </dependency>
@@ -32,16 +45,6 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.1</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <!-- TODO. junit-vintage-engine会依赖于JUnit4, vintage-engine是TestEngine的实现
-                   JUnit Vintage aids running JUnit 4 tests within the JUnit 5 context. -->
-        <!-- 这个依赖只会作用到当前项目 -->
-        <dependency>
-            <groupId>org.junit.vintage</groupId>
-            <artifactId>junit-vintage-engine</artifactId>
-            <version>5.9.2</version>
             <scope>compile</scope>
         </dependency>
 

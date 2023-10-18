@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/others-test/mockito-testing/pom.xml" />
         <option value="$PROJECT_DIR$/junit-migration-test/pom.xml" />
         <option value="$PROJECT_DIR$/junit-test/pom.xml" />
+        <option value="$PROJECT_DIR$/junit-test/migration/junit-test-error/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

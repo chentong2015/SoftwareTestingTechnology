@@ -18,8 +18,6 @@
         <module>base-junit-common-api</module>
         <module>junit4-test</module>
         <module>junit5-test</module>
-        <module>junit-migration-test</module>
-        <module>junit-migration-test-project</module>
     </modules>
 
     <dependencyManagement>
