@@ -1,0 +1,36 @@
+TODO:  Test Pyramid Practical 测试金字塔
+https://martinfowler.com/bliki/TestPyramid.html
+https://insights.thoughtworks.cn/practical-test-pyramid/
+
+Types of tests:
+1. Unit tests
+   low level, highly focused, quick 只测试单一的功能, 没有使用额外的资源
+2. Integration tests
+   higher level, things work together, may use other dependencies'
+   integration tests focus on integrating different layers of the application
+   keep the integration tests separated from the unit tests and should not run along with the unit tests
+3. Subcutaneous tests
+   involve a large portion of system
+   just below surface of UI, can test all the UI components together
+4. Functional user interface tests
+   Test UI components
+   UI element as end user
+   Full stack testing
+   Slow to execute
+
+在实战项目中可能根据不同的层面对于测试进行划分:
+测试的主要划分
+1. Test offline
+2. test online
+1. test unitaire
+2. test composant
+3. test package, 800 par jours
+
+测试的细节划分
+Unit Test: 直接在JVM中完成
+Integration Test: 需要启动Service服务/可在production chain上进行
+Component Test
+Fake / Mock Test
+Package Test
+Release test
+

@@ -19,14 +19,10 @@ z
 Jspring-cloud-test/src/main/java/com/feign/client/MyServiceFeignClient.java,e\a\ea9e98a117de6c1642de5b28971995cb10eac2ad
 x
 Hspring-cloud-test/src/main/java/com/feign/client/MyServiceException.java,d\2\d2802f1e74d3a00c2de6382258bdac9d013c5072
-y
-Ispring-cloud-test/src/test/java/com/feign/client/MyServiceClientTest.java,8\6\86e4be42fa0ca1d105f3d52389bff44a453ec361
 �
 Uspring-cloud-test/src/test/java/com/spring/cloud/feign/client/FeignExceptionTest.java,f\a\fa1555559a466a8e39803f2341290f25656dfc61
 I
 spring-cloud-test/pom.xml,b\8\b82bb13e442362100fb4ac453f369526838cdb71
-y
-Ispring-cloud-test/src/test/java/com/feign/client/MyCustomRetryerTest.java,d\e\de0648c4da04ea85a0f9166d7c56245ac235ad9c
 u
 Espring-cloud-test/src/main/java/com/feign/client/MyCustomRetryer.java,e\f\effd6d15c4c2873577747bdfee93106f5560e1e5
 �
@@ -37,8 +33,6 @@ q
 Aspring-test/src/main/java/spring/exception/NotFoundException.java,d\a\da50398a168aaa2c6f3e240ae3d86fb010a61a96
 v
 Fspring-test/src/main/java/spring/config/SecurityAutoConfiguration.java,5\7\57502a293c316b9bb6144f449b1026e85e6b420a
-l
-<others-test/src/test/java/bats/core/Bats-core自动化测试,2\f\2f64f5bdcc30435e6d041d28be049f00d4081551
 z
 Jothers-test/src/main/java/com/testing/others/pact/PactContractTesting.java,2\8\2896f5a93882d75e896f8dcf43bf87859b4da17e
 i
@@ -73,12 +67,6 @@ Qothers-test/powermock-testing/src/test/java/com/powermock/testing/PowerMock测�
 Vothers-test/powermock-testing/src/test/java/com/powermock/testing/MyPowermockTest.java,b\e\beeb8302f0d7413dd3b05ccabaa7212db10a6b94
 {
 Kothers-test/mockito-testing/src/main/java/com/mockito/testing/Mockito测试,6\6\666af010438ae0445d9d97700c2a9a9901c4c7cb
-d
-4core-tdd-test-pyramid/src/test/java/tdd/TddTest.java,1\a\1a3da1e1748eb07dd861ce2b513a1ba99cce3f25
-g
-7core-tdd-test-pyramid/src/test/java/tdd/Calculator.java,f\2\f295da3967d09bb3a641fbdb24204a91fc1134c5
-}
-Mspring-test/src/test/java/spring/exception/SpringControllerExceptionTest.java,8\0\80194014d9656b4709e26b78a8be2ee69d2d4405
 �
 Sjunit-test/base-junit-common-api/src/main/java/com/common/api/JunitCommonClass.java,d\a\da71bd61cb096144f979fc1faea8e10f7de5bee4
 X
@@ -91,12 +79,6 @@ cjunit-test/junit4-test/src/test/java/test/rules/external/resource/ExternalResou
 [junit-test/junit4-test/src/test/java/test/rules/external/resource/ExternalResourceRule.java,5\8\5892a617baa98e12edb44b7981fe7e01a831edc7
 �
 Ujunit-test/junit4-test/src/test/java/parameterized/JUnit4ParameterizedMasterTest.java,9\0\907b1048b59d1f9d7f1e1764461ce2d97332cab8
-S
-#others-test/mockito-testing/pom.xml,b\9\b91a3d09afa8efb4d6e6249b6d3f344b8ad61723
-U
-%others-test/powermock-testing/pom.xml,b\e\be05dfb3217fd77f3123d7fad72074179794674f
-C
-others-test/pom.xml,7\b\7be0ba31c9f8fc21fe0507477f141ba1dffb45f3
 �
 Sjunit-test/junit5-test/src/test/java/extension/rules/LoggingForMethodExtension.java,e\8\e891b268905372e456939d6b635e629798c28570
 
@@ -163,30 +145,6 @@ Mjunit-test/junit5-test/src/test/java/com/common/api/JunitCommonClassTest.java,
 Wjunit-test/junit5-test/src/test/java/extension/parameter/ProviderParameterResolver.java,d\3\d337ad8382f7997397b1ab14ef631abeb0d88e45
 �
 ejunit-test/junit5-test/src/test/java/base/junit5/testing/SuppressWarnings/JUnit5SuppressWarnings.java,a\5\a5ea9f52f5b3f22a1bce5a46085bb3eb54877d0f
-o
-?core-tdd-test-pyramid/Base测试概述/2. 测试分类及认识,1\3\1365887e424455bcb78341952485c5edf916276e
-i
-9core-tdd-test-pyramid/Base测试概述/3. 测试的标准,b\e\bebc35c12200dbfed16d6ea9a0e2857ce6ad4742
-t
-Dcore-tdd-test-pyramid/src/main/java/testing/InjectionForTesting.java,5\3\5312887e98319050d48e3df3c6ccd2ebda4e6ca1
-q
-Acore-tdd-test-pyramid/src/main/java/testing/AutomatedTesting.java,0\7\078ea004c58d7e6b587bc86e83510875560199f4
-l
-<core-tdd-test-pyramid/Base测试概述/1. 软件测试基础,b\d\bd1695b5558eac9646d30ee88e6a0811aebb3169
-p
-@core-tdd-test-pyramid/src/main/java/pyramid/BaseTestPyramid.java,4\7\475e19cac703b6360554892a50a89fdb99421b99
-i
-9core-tdd-test-pyramid/src/main/java/nfr/testing/README.md,4\b\4bd7159812be8b67c62a5971c549f99fdba2bab9
-r
-Bcore-tdd-test-pyramid/src/main/java/nfr/testing/非功能性测试,2\2\22e628a78a766d5751bf2e707275f02d4ee290bc
-�
-Xjunit-test/junit-migration-test/src/test/java/com/migration/main/JUnit5HamcrestTest.java,e\1\e131c6bd92ec892ad8ceb5cd213342bf4430bcbe
-�
-Wjunit-test/junit-migration-test/src/test/java/com/migration/main/JUnit5MockitoTest.java,d\e\dee48d2b23a88e389182e6fb06ba8a319c4a66cf
-�
-Pjunit-test/junit-migration-test/src/test/java/com/migration/main/Junit4Test.java,d\c\dc00a0051e51d7853527c2dc9af17958249ec473
-�
-Pjunit-test/junit-migration-test/src/test/java/com/migration/main/Junit5Test.java,9\6\968298a45a8301dd09476b800d9f85f375611d67
 �
 Qjunit-test/junit5-test/src/test/java/base/junit5/testing/JUnit5LifecycleTest.java,b\a\ba227394e7a72bc6d00d3c32167d4c56cdde58f0
 }
@@ -213,24 +171,12 @@ Uothers-test/mockito-testing/src/test/java/com/mockito/testing/MyMockitoClassTes
 Qjunit-test/junit4-test/src/test/java/base/junit4/testing/JUnit4LifecycleTest.java,4\1\417df824639ea1f2315762aa5d6f480bccc3b88a
 �
 Rjunit-test/junit4-test/src/test/java/base/junit4/testing/JUnit4AssertionsTest.java,6\9\6921c4de6a183f7d92eb04abadc8946711ecd687
-i
-9core-tdd-test-pyramid/IDEA断点测试/IDEA Debug Testing,c\5\c574be5a318839beae26b8913bb225481254157e
 x
 Hspring-test/src/test/java/spring/service/ControllerServiceAsyncTest.java,1\1\11edc513cdc181cb11ebf05968073dbdd614200e
 N
 junit-test/junit5-test/pom.xml,e\5\e5db9e3b13a8fc4467c5baa532bbb435074c499f
-W
-'junit-test/junit-migration-test/pom.xml,d\3\d3e5944eebe8d63d0e59d97f6a8173a6f0dd55fc
 u
 Espring-test/src/main/java/spring/controller/HomeControllerAdvice.java,7\5\750311b723c27b4b3c9e30fd4939e92ec35d670c
-o
-?spring-test/src/main/java/spring/controller/HomeController.java,a\f\af76e936cafe511ae0e0b5fb13e4d94c0ea581f8
-z
-Jspring-test/src/test/java/spring/controller/HomeControllerMockMvcTest.java,1\6\1684d02f0533d9a92e104df64cc2258cf4c2622a
-x
-Hspring-test/src/test/java/spring/controller/HomeControllerMockMvcIT.java,5\5\556a81bf1c238bbcdae84ae25f524c68f4d04c97
-}
-Mspring-test/src/test/java/spring/controller/HomeControllerMvcBuilderTest.java,7\b\7b09f8cfb044ceee26208bcb8a53930cd1e4b3e1
 q
 Aspring-test/src/test/java/spring/service/UserServiceMockTest.java,6\d\6d90422b3c45f8784a1df12dce5ef01b0e17d2f6
 C
@@ -243,3 +189,21 @@ Zjunit-test/junit5-test/src/test/java/base/junit5/testing/JUnit5RepeatedAndOrder
 Ujunit-test/junit5-test/src/test/java/parameterized/JUnit5ParameterizedMasterTest.java,e\f\effb5c02f634879c4e4aa95fb9fe571961557920
 
 Ojunit-test/junit5-test/src/test/java/parameterized/JUnit5ParameterizedTest.java,6\3\63d78ad4b79622dd136bf8464124498cbca1ce99
+
+Ojunit-test/migration/junit-migration-test-project/src/test/java/Junit4Test.java,5\f\5f416efcf8377d663a1b50005ba31275c30f028f
+
+Ojunit-test/migration/junit-migration-test-project/src/test/java/Junit5Test.java,a\9\a9353e5791d8343982fe79ede5540ca9dea00b1f
+i
+9junit-test/migration/junit-migration-test-project/pom.xml,5\1\51efc4b7a442876ea8c7d9cad46aa8b031e35947
+z
+Jjunit-test/migration/junit-test-error/src/test/java/main/JUnitTesting.java,a\9\a92deed744b5f7b8ca5ca567f37a6bd5da6e26f8
+B
+junit-test/pom.xml,6\8\687a2d54b6da35dcbbde81c647066a27696a4157
+L
+junit-test/migration/pom.xml,e\0\e036eaaea2057e38d9ca21741d3fdf1247941eba
+~
+Njunit-test/migration/junit-test-error/src/test/java/main/JUnit5 Test Error.txt,4\c\4c58f6691ed8273b813f36fad86fc159255d0d21
+W
+'junit-test/migration/测试框架迁移,a\2\a234918c138ad66466377d7dfb35ffc921b8ea8f
+a
+1junit-test/migration/junit-migration-test/pom.xml,1\7\1724e1cee417ea023231f69be7c7afd7bb0a2caa

@@ -20,6 +20,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 // 1. 添加IT测试注解，并自动装配MockMvc，才能完成自动注入
+// 2. @SpringBootTest注解会在测试时启动SpringBootApplication !!
 @SpringBootTest
 @AutoConfigureMockMvc
 public class HomeControllerMockMvcTest {

@@ -1,0 +1,7 @@
+https://cucumber.io/docs/bdd/
+
+Behaviour-Driven Development (BDD) is the software development process
+
+Business-readable tests
+   document application, no technical 在开发团队和业务团队之间更好的沟通
+   Scenario: number addition 可以阅读的，用于描述软件的行为

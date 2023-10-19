@@ -1,0 +1,17 @@
+TODO. TDD的本质
+实战项目中虽然测试满足一定的覆盖率(Test Coverage)，但是无法满足新增功能的测试
+通过TDD来驱动新增的变更，能够保证测试覆盖的准确性 !!
+
+TDD定律：在编写生成代码之前，先编写测试代码
+0. 如果在编程生产代码之后编写测试，可能发现生产代码无法测试
+1. 通过单元测试来驱动源码的开发，通过让单元测试通过来迭代项目源码
+2. 直接修改单元测试的逻辑而使其通过是不合理的做法 !!
+3. 所有的测试之所以能通过，全都是建立在源码的基础上
+
+TDD最佳实践(原则):
+1. 先写测试代码
+2. 再写生产代码使得测试通过，有了测试代码，才能更好的设计生产代码
+3. 再refactoring重构生产代码
+1. Write the test cases before codes
+2. Use the test cases to drive the design of code
+3. Refactor (cleanup) the code after testing

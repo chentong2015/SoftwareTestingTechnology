@@ -11,10 +11,6 @@
 
     <artifactId>others-test</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>mockito-testing</module>
-        <module>powermock-testing</module>
-    </modules>
 
     <dependencies>
         <!-- 注意：作用域最好约束在test范围内 -->
