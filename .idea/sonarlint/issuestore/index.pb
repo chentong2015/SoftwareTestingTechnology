@@ -5,10 +5,6 @@ g
 7spring-test/src/main/java/spring/datamodel/MyClass.java,0\d\0d83785b786c6f982ca6a1a62b1db77c91cba347
 �
 ^spring-cloud-test/src/main/java/com/spring/cloud/feign/client/SpringFeignClientController.java,a\d\ad8cdd6635c11a50bf98c2e24f2b4c8efe7235e1
-d
-4others-test/src/test/java/pact/PactBrokerSource.java,2\c\2ce0f5e1803fa9bd1ac2f615afddbf9b56dffb66
-d
-4others-test/src/test/java/pact/PactConsumerTest.java,c\f\cfe45060ba00723107f3de2cca7e1b0d56549df8
 z
 Jspring-cloud-test/src/main/java/com/spring/cloud/feign/client/Product.java,a\6\a64c06ec3929c731a60bc8ed8cfa86909c4c1bbd
 �
@@ -33,40 +29,12 @@ q
 Aspring-test/src/main/java/spring/exception/NotFoundException.java,d\a\da50398a168aaa2c6f3e240ae3d86fb010a61a96
 v
 Fspring-test/src/main/java/spring/config/SecurityAutoConfiguration.java,5\7\57502a293c316b9bb6144f449b1026e85e6b420a
-z
-Jothers-test/src/main/java/com/testing/others/pact/PactContractTesting.java,2\8\2896f5a93882d75e896f8dcf43bf87859b4da17e
-i
-9others-test/src/test/java/hamcrest/HamcrestBasicTest.java,a\e\aec3f8f03613c9e7795a70a74ae9b39fdb05925d
-r
-Bothers-test/src/test/java/hamcrest/HamcrestCommonMatchersTest.java,4\7\4787169f6a36944bf3be60c621ec377ff5ab3f42
-z
-Jothers-test/src/main/java/com/testing/others/hamcrest/MyHamcrestClass.java,e\4\e45d325cfa91afe9fe0dee5bdd493c3d46996672
-q
-Aothers-test/src/main/java/com/testing/others/hamcrest/Person.java,a\b\abad6328ce81d19e4b62975ed1c4d5ff69c45764
-q
-Aothers-test/src/test/java/hamcrest/HamcrestCustomMatcherTest.java,f\d\fd9945e9e7b081df78812c4a29ea0b41c96094cd
-n
->others-test/src/test/java/hamcrest/matcher/IsALargeString.java,1\4\14747611edd9855e4010dc92b865a0a2a7151b2c
 i
 9spring-test/src/main/java/spring/service/UserService.java,5\e\5e4531ff3fdbb0e2f8ccc6c98de52cc60ca3e95c
 q
 Aspring-test/src/main/java/spring/repositories/HomeRepository.java,b\9\b978aeddb0133a1c9f0665bf62f25d507f76aa6c
 i
 9spring-test/src/main/java/spring/service/HomeService.java,d\a\da8694e69b5a29b61341025bf2d7fb1793169771
-�
-Wothers-test/mockito-testing/src/test/java/com/mockito/testing/MyMockitoServiceTest.java,5\8\588b2c2dfc2f79d3b59e33dfaa83c2e494aef795
-�
-Sothers-test/mockito-testing/src/main/java/com/mockito/testing/MyMockitoService.java,4\f\4f7bf0579dc92f1df37e15c636b12115a4e582fa
-�
-Uothers-test/mockito-testing/src/main/java/com/mockito/testing/MyMockitoInterface.java,5\e\5e677445795a94e21af8d1e5f67a78f84bb10fd8
-�
-Wothers-test/powermock-testing/src/main/java/com/powermock/testing/MyPowermockClass.java,b\a\ba48086989291d573be69d675dbe312c2574b10b
-�
-Qothers-test/powermock-testing/src/test/java/com/powermock/testing/PowerMock测试,9\7\9712d4648fce45f5e3a3004095572521eb1bdc13
-�
-Vothers-test/powermock-testing/src/test/java/com/powermock/testing/MyPowermockTest.java,b\e\beeb8302f0d7413dd3b05ccabaa7212db10a6b94
-{
-Kothers-test/mockito-testing/src/main/java/com/mockito/testing/Mockito测试,6\6\666af010438ae0445d9d97700c2a9a9901c4c7cb
 �
 Sjunit-test/base-junit-common-api/src/main/java/com/common/api/JunitCommonClass.java,d\a\da71bd61cb096144f979fc1faea8e10f7de5bee4
 X
@@ -151,12 +119,6 @@ Qjunit-test/junit5-test/src/test/java/base/junit5/testing/JUnit5LifecycleTest.ja
 Mjunit-test/junit4-test/src/test/java/com/common/api/JunitCommonClassTest.java,e\c\ec5a558a98f4884c769a891a2b0eba690159bf40
 N
 junit-test/junit4-test/pom.xml,7\1\71e28844960df15f4d6ab8a67000124001c49e16
-�
-Qothers-test/mockito-testing/src/main/java/com/mockito/testing/MyMockitoClass.java,0\b\0b23f833b0981f68e5be80abbf5032d9b0e816b8
-�
-Xothers-test/mockito-testing/src/test/java/com/mockito/testing/MockitoThenAnswerTest.java,2\e\2ee80e25e665404ff85a56ad7d4a3f36ed5bfc1a
-�
-^others-test/mockito-testing/src/test/java/com/mockito/testing/MockitoArgumentMatchersTest.java,e\4\e4d2edda365e8aec1fd8be2b3cf685da9bdfca0d
 t
 Dspring-test/src/test/java/spring/SpringExcludeAutoConfigureTest.java,a\2\a2d580855f64b72ed4757595d61f63f5e80549ee
 j
@@ -165,8 +127,6 @@ z
 Jjunit-test/junit5-test/src/main/java/com/junit5/testing/MyJUnit5Class.java,8\0\805b0e1cd77d8783d59e9b51e9c35f8462ca9b53
 �
 Rjunit-test/junit5-test/src/test/java/base/junit5/testing/JUnit5AssertionsTest.java,6\4\649c00f45502ffbb0baeff45d84e2e6d67ec601f
-�
-Uothers-test/mockito-testing/src/test/java/com/mockito/testing/MyMockitoClassTest.java,2\8\28ef74c358151c5fc564dc9b3dd159f537b82eaf
 �
 Qjunit-test/junit4-test/src/test/java/base/junit4/testing/JUnit4LifecycleTest.java,4\1\417df824639ea1f2315762aa5d6f480bccc3b88a
 �
@@ -207,3 +167,55 @@ W
 'junit-test/migration/测试框架迁移,a\2\a234918c138ad66466377d7dfb35ffc921b8ea8f
 a
 1junit-test/migration/junit-migration-test/pom.xml,1\7\1724e1cee417ea023231f69be7c7afd7bb0a2caa
+^
+.others-test/bats_core/Bats-core自动化测试,8\6\86c7b153a42974b239a0906c4cc39987bd721322
+e
+5others-test/test_ng/TestNG功能强大的测试框架,a\8\a89e5d5bb5951777779018fa962fa2935b26cb24
+X
+(others-test/mock/mockito-testing/pom.xml,e\5\e5181bc363a7ec914d78dd822453afa4d0561eed
+Z
+*others-test/mock/powermock-testing/pom.xml,1\5\15365a303d6690c862c898307e81829903b2f537
+T
+$others-test/hamcrest-testing/pom.xml,9\6\96918d7a17ff288d89782f858c1b91c75fc48a12
+P
+ others-test/pact-testing/pom.xml,6\e\6efe1eb119a332a8c86d5b0018cfc3ae77e9f790
+]
+-junit-test/migration/junit-test-error/pom.xml,1\b\1b9113c4d56b0633d36db6a516051937c0371433
+y
+Ispring-cloud-test/src/test/java/com/feign/client/MyServiceClientTest.java,8\6\86e4be42fa0ca1d105f3d52389bff44a453ec361
+y
+Ispring-cloud-test/src/test/java/com/feign/client/MyCustomRetryerTest.java,d\e\de0648c4da04ea85a0f9166d7c56245ac235ad9c
+o
+?spring-test/src/main/java/spring/controller/HomeController.java,a\f\af76e936cafe511ae0e0b5fb13e4d94c0ea581f8
+x
+Hspring-test/src/test/java/spring/controller/HomeControllerMockMvcIT.java,5\5\556a81bf1c238bbcdae84ae25f524c68f4d04c97
+}
+Mspring-test/src/test/java/spring/controller/HomeControllerMvcBuilderTest.java,7\b\7b09f8cfb044ceee26208bcb8a53930cd1e4b3e1
+}
+Mspring-test/src/test/java/spring/exception/SpringControllerExceptionTest.java,8\0\80194014d9656b4709e26b78a8be2ee69d2d4405
+z
+Jspring-test/src/test/java/spring/controller/HomeControllerMockMvcTest.java,1\6\1684d02f0533d9a92e104df64cc2258cf4c2622a
+`
+0core-testing/IDEA调试测试/IDEA Debug Testing,b\b\bb5879d07736dea1ccadf125fd5bf8e6fafcec18
+o
+?core-testing/4. NFR非功能性测试/Non-Functional Testing.md,2\f\2f8e90e23533e94cb5136add4d16d98413081c64
+h
+8core-testing/4. NFR非功能性测试/非功能性测试,7\e\7e1aadc07e406cd6e3c658b92f88dbbdba8dafc8
+Q
+!others-test/mock/Mock测试技术,a\3\a3415d5f4b76e80c2a8db3d13c867f6ef457314c
+f
+6core-testing/Test-Sample/java/InjectionForTesting.java,7\0\70d805669e029778c2cdae84176505442c004245
+i
+9core-testing/2. 软件测试划分/测试层次划分.txt,3\0\309b045a4a540a46013e89f42b949c22c5df85bc
+b
+2core-testing/Test-Sample/java/StepsForTesting.java,5\8\587918d31ff127b03d49ba9e4a0c0aaf1284c15a
+i
+9core-testing/1. 软件测试基础/2. 为什么测试.txt,3\a\3afe4dd8c160ce833da1fcc6029674bf8ff002b3
+f
+6core-testing/1. 软件测试基础/1. 基础概念.txt,f\b\fb89eff9e5703ea2d197a163354b74ceed814d7c
+i
+9core-testing/1. 软件测试基础/3. 测试的标准.txt,8\3\835bd303ed22db11e969f5d0a79032228ef5b52b
+_
+/core-testing/3. TDD/Test-Driven Development.txt,e\e\eea726c4d3a33a6a6a1602edb6ac029af1755ff6
+_
+/core-testing/3. DDD/Data-Driven Development.txt,a\2\a29f8fee46ebedfa3617d01f2799aadd2606e695

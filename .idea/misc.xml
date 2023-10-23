@@ -13,7 +13,6 @@
         <option value="$PROJECT_DIR$/others-test/mock/mockito-testing/pom.xml" />
         <option value="$PROJECT_DIR$/others-test/mock/powermock-testing/pom.xml" />
         <option value="$PROJECT_DIR$/others-test/pact-testing/pom.xml" />
-        <option value="$PROJECT_DIR$/others-test/cucumber-testing/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

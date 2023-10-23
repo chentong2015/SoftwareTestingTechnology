@@ -9,7 +9,6 @@
         <module name="junit5-test" />
         <module name="spring-test" />
         <module name="hamcrest-testing" />
-        <module name="cucumber-testing" />
         <module name="core-tdd-test-pyramid" />
         <module name="powermock-testing" />
         <module name="pact-testing" />
@@ -25,6 +24,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="core-maven-automated-test" target="11" />
+      <module name="cucumber-testing" target="17" />
       <module name="power-mock-testing" target="11" />
       <module name="test-ng" target="11" />
       <module name="test-pyramid-tdd" target="11" />
