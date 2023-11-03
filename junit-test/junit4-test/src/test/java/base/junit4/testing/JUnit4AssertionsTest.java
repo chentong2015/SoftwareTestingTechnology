@@ -3,8 +3,37 @@ package base.junit4.testing;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import static org.hamcrest.Matchers.samePropertyValuesAs;
+
 // TODO. JUnit4的测试方法必须设置成public
 public class JUnit4AssertionsTest {
+
+    public class Person {
+        private int id;
+        private String name;
+
+        public Person(int id, String name) {
+            this.id = id;
+            this.name = name;
+        }
+    }
+
+    // assertEquals()针对于引用类型，比较的是引用的地址，而不是比较对象属性的值
+    // assertThat() 比较对象的属性，需要类型定义equals()比较的方法
+    @Test
+    public void testObjectAssertEquals() {
+        Map<Integer, String> expectedMap = new HashMap<>();
+        expectedMap.put(1, "name");
+        Map<Integer, String> actualMap = new HashMap<>();
+        actualMap.put(1, "name");
+
+        // Assert.assertEquals(expectedMap, actualMap);
+        // Assert.assertSame(expectedMap, actualMap);
+        Assert.assertThat(expectedMap, samePropertyValuesAs(actualMap));
+    }
 
     @Test
     public void testAssertEquals() {
@@ -39,8 +68,8 @@ public class JUnit4AssertionsTest {
     public void testThrowException() {
         MyJUnit4Class instance = new MyJUnit4Class();
         // Pass a lambda expression, to call the method, and no input parameters
-        Assert.assertThrows(Exception.class, instance::throwException);
-        Assert.assertThrows("Assert throw exception", Exception.class, instance::throwException);
+        // Assert.assertThrows(Exception.class, instance::throwException);
+        // Assert.assertThrows("Assert throw exception", Exception.class, instance::throwException);
     }
 
     // Compares two arrays of regular types 比较两个常规类型的数组

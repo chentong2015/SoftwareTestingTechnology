@@ -12,6 +12,7 @@
         <module name="core-tdd-test-pyramid" />
         <module name="powermock-testing" />
         <module name="pact-testing" />
+        <module name="mockikto-testing" />
         <module name="mockito-testing" />
         <module name="base-junit-common-api" />
         <module name="spring-cloud-test" />

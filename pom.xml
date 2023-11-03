@@ -10,7 +10,6 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>core-tdd-test-pyramid</module>
         <module>junit-test</module>
         <module>others-test</module>
         <module>spring-test</module>
