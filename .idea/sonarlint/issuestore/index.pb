@@ -127,8 +127,6 @@ Rjunit-test/junit5-test/src/test/java/base/junit5/testing/JUnit5AssertionsTest.j
 Qjunit-test/junit4-test/src/test/java/base/junit4/testing/JUnit4LifecycleTest.java,4\1\417df824639ea1f2315762aa5d6f480bccc3b88a
 x
 Hspring-test/src/test/java/spring/service/ControllerServiceAsyncTest.java,1\1\11edc513cdc181cb11ebf05968073dbdd614200e
-N
-junit-test/junit5-test/pom.xml,e\5\e5db9e3b13a8fc4467c5baa532bbb435074c499f
 u
 Espring-test/src/main/java/spring/controller/HomeControllerAdvice.java,7\5\750311b723c27b4b3c9e30fd4939e92ec35d670c
 q
@@ -171,8 +169,6 @@ y
 Ispring-cloud-test/src/test/java/com/feign/client/MyCustomRetryerTest.java,d\e\de0648c4da04ea85a0f9166d7c56245ac235ad9c
 o
 ?spring-test/src/main/java/spring/controller/HomeController.java,a\f\af76e936cafe511ae0e0b5fb13e4d94c0ea581f8
-x
-Hspring-test/src/test/java/spring/controller/HomeControllerMockMvcIT.java,5\5\556a81bf1c238bbcdae84ae25f524c68f4d04c97
 }
 Mspring-test/src/test/java/spring/controller/HomeControllerMvcBuilderTest.java,7\b\7b09f8cfb044ceee26208bcb8a53930cd1e4b3e1
 }
@@ -211,3 +207,11 @@ X
 Ojunit-test/junit5-test/src/test/java/parameterized/JUnit5ParameterizedTest.java,6\3\63d78ad4b79622dd136bf8464124498cbca1ce99
 …
 Ujunit-test/junit5-test/src/test/java/parameterized/JUnit5ParameterizedMasterTest.java,e\f\effb5c02f634879c4e4aa95fb9fe571961557920
+L
+junit-test/migration/pom.xml,e\0\e036eaaea2057e38d9ca21741d3fdf1247941eba
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+‚
+Rjunit-test/junit4-test/src/test/java/base/junit4/testing/JUnit4AssertionsTest.java,6\9\6921c4de6a183f7d92eb04abadc8946711ecd687
+x
+Hspring-test/src/test/java/spring/controller/HomeControllerMockMvcIT.java,5\5\556a81bf1c238bbcdae84ae25f524c68f4d04c97
