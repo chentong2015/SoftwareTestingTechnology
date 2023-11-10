@@ -30,8 +30,7 @@ public class JUnit4AssertionsTest {
         Map<Integer, String> actualMap = new HashMap<>();
         actualMap.put(1, "name");
 
-        // Assert.assertEquals(expectedMap, actualMap);
-        // Assert.assertSame(expectedMap, actualMap);
+        Assert.assertNotEquals(expectedMap, actualMap);
         Assert.assertThat(expectedMap, samePropertyValuesAs(actualMap));
     }
 
@@ -99,13 +98,15 @@ public class JUnit4AssertionsTest {
         Assert.assertArrayEquals("Compare two array equals", values1, values2, 0);
     }
 
+    // assertSame() 比较的是否为同一个对象，比较实例的reference地址
     @Test
     public void testSame() {
         MyJUnit4Class instance1 = new MyJUnit4Class();
         MyJUnit4Class instance2 = new MyJUnit4Class();
-        // They are not the same, two objects, two instances
+
         // Assert.assertSame(instance1, instance2);
         // Assert.assertSame("Check same objects", instance1, instance2);
+
         Assert.assertNotSame(instance1, instance2);
         Assert.assertNotSame("Check not same objects", instance1, instance2);
     }
