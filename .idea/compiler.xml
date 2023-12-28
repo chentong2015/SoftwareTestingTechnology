@@ -18,7 +18,6 @@
         <module name="spring-cloud-test" />
         <module name="junit-test-error" />
         <module name="junit-migration-test-project" />
-        <module name="TestingInJava" />
         <module name="junit4-test" />
         <module name="junit-migration-test" />
       </profile>

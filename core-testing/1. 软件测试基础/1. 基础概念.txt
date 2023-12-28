@@ -9,6 +9,9 @@
 2. 单元测试是用来验证系统中个别机制的<白盒测试>
    <白盒测试>设计代码覆盖标准：控制流测试, 数据流测试, 分支测试, 语句覆盖, 判定覆盖, 修正条件/判定覆盖, 主要路径测试, 路径测试
 
+TODO. 测试出错的处理方式
+单元测试不通过，优先需要考虑的是源码而不是直接修改Tests使其通过
+
 TODO. Test Code Coverage 测试代码的覆盖率
 单元测试的覆盖率要求测试的对"程序逻辑"的覆盖，和测试方法的数量没有关系 !!
 1. IntelliJ IDEA code coverage:
@@ -17,13 +20,6 @@ TODO. Test Code Coverage 测试代码的覆盖率
    Part of the Eclipse Foundation, integrate with Ant, Maven, Gradle, Jenkins, Visual Studio, IDEA ..
 3. EMMA & Cobertura 不再更新
 
-Assert断言
-一种常用的调试方式, 断言用于保证程序最基本、关键的正确性
-启动JVM时使用-enableassertions或者-ea标记来激活断言
-
-Failure: 和程序代码的异常有关
-An assertion failed
-Suggests the code is broken
-
-Error: 断言的错误，没有达到预期的结果
-An exception was thrown at any point in the test
+Assert：enable JVM parameters "-enableassertions" & "-ea" 一种常用的调试方式, 断言保证程序最基本、关键的正确性
+Failure: An assertion failed 和程序代码的异常有关
+Error: An exception was thrown at any point in test 断言的错误，没有达到预期的结果

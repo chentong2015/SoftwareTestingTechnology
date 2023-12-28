@@ -10,13 +10,15 @@ FIRST：快速，独立，可重复，自足验证，及时(在生产代码之�
 
 什么才是好的测试(Good Practices) ?
 1. Well named: executable documentation, maintenance, readability
-   测试的名称需要足够的清楚，表明要测试的内容
-   使用domain terminology + natural language + be descriptive
+   - 测试的class类型需要以Test名称结尾
+   - 测试的名称需要足够的清楚，表明要测试的内容
+   - 使用domain terminology + natural language + be descriptive
 2. Behavior not implementation
-   测试的是行为，而不是类型的实现方式: 只考虑public API，不测试private的内容，不做更改
+   - 测试的是行为，而不是类型的实现方式
+   - 只考虑public API，不测试private的内容，不做更改
 3. DRY: not repeat code
-   提供共同的的代码
-   定义测试的数据成constant
+   - 提取共同的代码，或者提供测试的辅助类
+   - 定义测试的数据成constant
 4. Diagnostics: check output, debug and fix it
    AssertTure(order.size() == 1)  => 如果出错，之会显示AssertionError
    AssertEquals(1, order.size()); => 断言能够显示具体的信息，方便测试

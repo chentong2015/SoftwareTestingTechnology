@@ -208,14 +208,16 @@ Hspring-test/src/test/java/spring/controller/HomeControllerMockMvcIT.java,5\5\5
 B
 junit-test/pom.xml,6\8\687a2d54b6da35dcbbde81c647066a27696a4157
 N
-junit-test/junit5-test/pom.xml,e\5\e5db9e3b13a8fc4467c5baa532bbb435074c499f
-N
 junit-test/junit4-test/pom.xml,7\1\71e28844960df15f4d6ab8a67000124001c49e16
 d
 4core-testing/CustomModules/自定义测试框架.txt,a\8\a85b4f87be3562285ff2c93b0d477500633c17b9
-\
-,core-testing/3. BDD/is_it_friday_yet.feature,5\2\527b9721eadc29269b7ef831cdc83075ad101ec9
 X
 (core-testing/3. BDD/Cucumber Testing.txt,4\2\42b7ba67b6488127856ec9e80b64d5f51957bd6c
 e
 5core-testing/3. BDD/ Behaviour-Driven Development.txt,f\6\f64f46e165cc2486a866f7d5376b81fbeb097701
+�
+Rjunit-test/junit4-test/src/test/java/base/junit4/testing/JUnit4AssertionsTest.java,6\9\6921c4de6a183f7d92eb04abadc8946711ecd687
+\
+,core-testing/3. BDD/is_it_friday_yet.feature,5\2\527b9721eadc29269b7ef831cdc83075ad101ec9
+N
+junit-test/junit5-test/pom.xml,e\5\e5db9e3b13a8fc4467c5baa532bbb435074c499f
