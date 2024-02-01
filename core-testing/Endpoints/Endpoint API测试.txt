@@ -1,0 +1,18 @@
+1. Postman Endpoint API测试工具
+- 配置测试header和body
+- 提供security和token认证参数
+
+2. Apache JMeter 测试压测工具
+- Test Plan
+  - Thread Group
+      Number of Threads (Users): 200 要压测的(并发)线程数
+      Ramp-Up Period in seconds: 0   所有的线程数在多久的时间段内发送完成
+      Loop Count: 4                  压测循环的次数
+    - HTTP Request
+        Method: GET  Path: http://192.168.0.60/testStock
+        Aggregate Report
+        保存Report.jmx
+
+Add a "Config Element > HTTP Header Manager" to "Post a Valid JSON"
+Name: Content-Type
+Value: application/json
