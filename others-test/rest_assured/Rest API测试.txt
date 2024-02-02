@@ -1,0 +1,2 @@
+Rest Assured 用于Rest API测试, 验证返回数据
+https://github.com/rest-assured/rest-assured/wiki/Usage

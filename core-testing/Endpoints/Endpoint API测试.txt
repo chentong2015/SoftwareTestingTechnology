@@ -13,6 +13,6 @@
         Aggregate Report
         保存Report.jmx
 
-Add a "Config Element > HTTP Header Manager" to "Post a Valid JSON"
-Name: Content-Type
-Value: application/json
+  Add a "Config Element > HTTP Header Manager" to "Post a Valid JSON"
+  Name: Content-Type
+  Value: application/json
