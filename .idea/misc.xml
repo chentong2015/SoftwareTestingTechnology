@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/core-maven-automated-test/pom.xml" />
         <option value="$PROJECT_DIR$/core-tdd-test-pyramid/pom.xml" />
         <option value="$PROJECT_DIR$/power-mock-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-test/pom.xml" />
         <option value="$PROJECT_DIR$/test-ng/pom.xml" />
       </set>
     </option>

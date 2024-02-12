@@ -14,7 +14,6 @@
         <module name="pact-testing" />
         <module name="mockito-testing" />
         <module name="base-junit-common-api" />
-        <module name="spring-cloud-test" />
         <module name="junit-test-error" />
         <module name="junit-migration-test-project" />
         <module name="junit4-test" />
@@ -25,6 +24,7 @@
       <module name="core-maven-automated-test" target="11" />
       <module name="cucumber-testing" target="17" />
       <module name="power-mock-testing" target="11" />
+      <module name="spring-cloud-test" target="11" />
       <module name="test-ng" target="11" />
       <module name="test-pyramid-tdd" target="11" />
       <module name="untitled" target="15" />

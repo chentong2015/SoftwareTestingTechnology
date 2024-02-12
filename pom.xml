@@ -12,8 +12,5 @@
     <modules>
         <module>junit-test</module>
         <module>others-test</module>
-        <module>spring-test</module>
-        <module>spring-cloud-test</module>
-        <module>junit-test/migration</module>
     </modules>
 </project>

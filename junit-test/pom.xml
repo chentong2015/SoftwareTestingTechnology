@@ -17,6 +17,7 @@
     <modules>
         <module>base-junit-common-api</module>
         <module>junit5-test</module>
+        <module>migration</module>
     </modules>
 
     <dependencyManagement>
