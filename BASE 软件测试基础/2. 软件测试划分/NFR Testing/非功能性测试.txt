@@ -1,10 +1,9 @@
-Non-Functional Testing Guide
+Non-Functional Testing
+非功能性测试独立于单元测试和简单的IT测试，而是检测软件的其他方面
+
+- End-to-End Tests
+- Acceptance Tests
+- Exploratory Testing: simultaneous learning, test design, and execution
+- Stress/Pressure Testing: 压力测试比不可少(压测数据，压测响应时间，压测内存影响)
+
 https://www.softwaretestinghelp.com/what-is-non-functional-testing/
-
-End-to-End Tests
-
-Acceptance Tests
-
-Exploratory Testing
-It involves the simultaneous design of the test and execution
-https://www.atlassian.com/continuous-delivery/software-testing/exploratory-testing
