@@ -1,0 +1,13 @@
+Powermock提供更加强大的Mock技术, 但是依赖于"运行时"的反射
+Powermock relies heavily on reflection and other techniques to provide its functionality.
+
+TODO. JDK compiler with this flag: --illegal-access=permit 参数配置
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl
+  (file:/C:/Users/tchen/.m2/repository/org/powermock/powermock-reflect/2.0.9/powermock-reflect-2.0.9.jar)
+  to method java.lang.Object.clone()
+WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+
+https://www.softwaretestinghelp.com/mock-private-static-void-methods-mockito/#:~:text=For%20Mockito%2C%20there%20is%20no,to%20avoid%20static%2Ffinal%20methods.

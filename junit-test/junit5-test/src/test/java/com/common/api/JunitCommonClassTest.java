@@ -52,7 +52,7 @@ class JunitCommonClassTest {
         File file = new File("table");
         URL baseUrl = file.toURL();
 
-        String tableList = "table-ordering.txt";
+        String tableList = "src/test/resources/table-ordering.txt";
         InputStream tableListStream = (new URL(baseUrl, tableList)).openStream();
         Assertions.assertTrue(true);
     }

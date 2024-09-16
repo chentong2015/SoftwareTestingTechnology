@@ -1,0 +1,10 @@
+JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
+JUnit Platform – all the extension frameworks: test execution, discovery, and reporting.
+JUnit Jupiter - programming model and extension model for writing tests and extensions in JUnit 5.
+JUnit Vintage – module allows backward compatibility with JUnit 4 or even JUnit 3.
+                It requires JUnit 4.12 or later to be present on the class path or module path.
+
+TODO. Junit5深入理解
+https://junit.org/junit5/docs/current/user-guide/
+https://www.vogella.com/tutorials/JUnit/article.html
+https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html

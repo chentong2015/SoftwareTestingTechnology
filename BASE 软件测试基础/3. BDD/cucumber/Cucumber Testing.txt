@@ -1,0 +1,15 @@
+https://cucumber.io/docs/guides/
+
+cucumber-java-skeleton初始项目结构
+https://github.com/cucumber/cucumber-java-skeleton/tree/main
+
+> mvn archetype:generate
+  -DarchetypeGroupId=io.cucumber
+  -DarchetypeArtifactId=cucumber-archetype
+  -DarchetypeVersion=7.14.0
+  -DgroupId=hellocucumber
+  -DartifactId=hellocucumber
+  -Dpackage=hellocucumber
+  -Dversion=1.0.0-SNAPSHOT
+  -DinteractiveMode=false
+

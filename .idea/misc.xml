@@ -14,6 +14,13 @@
         <option value="$PROJECT_DIR$/others-test/mock/powermock-testing/pom.xml" />
         <option value="$PROJECT_DIR$/others-test/pact-testing/pom.xml" />
         <option value="$PROJECT_DIR$/junit-test/junit4-test/pom.xml" />
+        <option value="$PROJECT_DIR$/others-test/mockito-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/others-test/mock/mockito-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/test-frameworks/hamcrest-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/test-frameworks/mockito-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/test-frameworks/mockito-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/test-frameworks/powermock-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/junit-test/junit-migration/junit-test-error/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -25,7 +32,6 @@
         <option value="$PROJECT_DIR$/test-ng/pom.xml" />
       </set>
     </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

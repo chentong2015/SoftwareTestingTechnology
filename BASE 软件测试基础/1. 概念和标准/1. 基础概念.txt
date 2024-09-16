@@ -1,0 +1,25 @@
+1. 黑盒测试 (功能测试、数据驱动测试 DDT):
+   测试者不了解程序的内部情况，不需了解程序代码、内部结构和编程语言, 只需要程序输入输出和系统功能
+   用户的角度针对软件界面、功能及外部结构进行测试，而不考虑程序内部逻辑结构
+2. 白盒测试 (透明盒测试、结构测试、逻辑驱动测试)
+   测试者了解待测试程序的内部结构、算法等信息，这是从程序设计者的角度对程序进行的测试
+   白盒测试可以应用于单元测试
+
+1. 验收测试是用来验证系统满足客户需求的<黑盒测试>
+2. 单元测试是用来验证系统中个别机制的<白盒测试>
+   <白盒测试>设计代码覆盖标准：控制流测试, 数据流测试, 分支测试, 语句覆盖, 判定覆盖, 修正条件/判定覆盖, 主要路径测试, 路径测试
+
+TODO. 测试出错的处理方式
+单元测试不通过，优先需要考虑的是源码而不是直接修改Tests使其通过
+
+TODO. Test Code Coverage 测试代码的覆盖率
+单元测试的覆盖率要求测试的对"程序逻辑"的覆盖，和测试方法的数量没有关系 !!
+1. IntelliJ IDEA code coverage:
+   plugin Coverage 插件, 运行时选择Run with coverage, 查看覆盖报告信息和测试率
+2. JaCoCo (Java code coverage):
+   Part of the Eclipse Foundation, integrate with Ant, Maven, Gradle, Jenkins, Visual Studio, IDEA ..
+3. EMMA & Cobertura 不再更新
+
+Assert：enable JVM parameters "-enableassertions" & "-ea" 一种常用的调试方式, 断言保证程序最基本、关键的正确性
+Failure: An assertion failed 和程序代码的异常有关
+Error: An exception was thrown at any point in test 断言的错误，没有达到预期的结果

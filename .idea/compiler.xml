@@ -11,23 +11,18 @@
         <module name="hamcrest-testing" />
         <module name="core-tdd-test-pyramid" />
         <module name="powermock-testing" />
-        <module name="pact-testing" />
+        <module name="mockito-sample" />
         <module name="mockito-testing" />
         <module name="base-junit-common-api" />
         <module name="junit-test-error" />
         <module name="junit-migration-test-project" />
+        <module name="test-frameworks" />
         <module name="junit4-test" />
         <module name="junit-migration-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="core-maven-automated-test" target="11" />
-      <module name="cucumber-testing" target="17" />
-      <module name="power-mock-testing" target="11" />
-      <module name="spring-cloud-test" target="11" />
-      <module name="test-ng" target="11" />
-      <module name="test-pyramid-tdd" target="11" />
-      <module name="untitled" target="15" />
+      <module name="pact-testing" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

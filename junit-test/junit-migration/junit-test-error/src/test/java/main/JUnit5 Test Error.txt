@@ -1,0 +1,24 @@
+org.junit.jupiter:junit-jupiter:5.5.2. 可能抛出如下错误, 需要升级到5.6以上
+
+Junit Test error : org/junit/jupiter/api/extension/ScriptEvaluationException
+
+`org/junit/jupiter/api/extension/ScriptEvaluationException
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/extension/ScriptEvaluationException
+    at java.lang.Class.forName0(Native Method)
+    at java.lang.Class.forName(Class.java:264)
+    at org.junit.jupiter.engine.extension.ScriptExecutionCondition$Evaluator.forName(ScriptExecutionCondition.java:153)
+    at org.junit.jupiter.engine.extension.ScriptExecutionCondition$Evaluator.forName(ScriptExecutionCondition.java:133)
+    at org.junit.jupiter.engine.extension.ScriptExecutionCondition.<init>(ScriptExecutionCondition.java:55)
+    at org.junit.jupiter.engine.extension.ScriptExecutionCondition.<init>(ScriptExecutionCondition.java:50)
+    at org.junit.jupiter.engine.extension.ExtensionRegistry.<clinit>(ExtensionRegistry.java:55)
+    at org.junit.jupiter.engine.descriptor.JupiterEngineDescriptor.prepare(JupiterEngineDescriptor.java:37)
+    at org.junit.jupiter.engine.descriptor.JupiterEngineDescriptor.prepare(JupiterEngineDescriptor.java:28)
+    at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$0(NodeTestTask.java:83)
+    at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+    ...
+Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.extension.ScriptEvaluationException
+    at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+    at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+    at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+    at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+    ... 50 more

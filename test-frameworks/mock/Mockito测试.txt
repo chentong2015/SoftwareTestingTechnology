@@ -1,0 +1,12 @@
+https://site.mockito.org/
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
+
+- Mock private method 不支持
+- Mock Static Class 测试静态内部类
+- Mock Abstract Class 测试支持
+  //convenience API, new overloaded spy() method:
+  SomeAbstract spy = spy(SomeAbstract.class);
+- Mocking abstract methods
+  // spying default methods of an interface (only available since 2.7.13)
+  Function<Foo, Bar> function = spy(Function.class);
+
