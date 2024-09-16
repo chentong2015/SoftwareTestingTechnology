@@ -22,7 +22,8 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- TODO. JUnit5默认不包含hamcrest依赖，需要自定义添加 -->
+        <!-- TODO. JUnit5默认不包含hamcrest依赖，需要自定义添加
+         hamcrest: Core API and libraries of hamcrest matcher framework -->
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest</artifactId>

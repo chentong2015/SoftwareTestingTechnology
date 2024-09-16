@@ -106,7 +106,6 @@ public class JUnit4AssertionsTest {
 
         // Assert.assertSame(instance1, instance2);
         // Assert.assertSame("Check same objects", instance1, instance2);
-
         Assert.assertNotSame(instance1, instance2);
         Assert.assertNotSame("Check not same objects", instance1, instance2);
     }

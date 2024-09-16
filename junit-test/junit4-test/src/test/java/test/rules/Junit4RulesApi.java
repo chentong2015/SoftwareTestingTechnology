@@ -9,6 +9,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import static org.hamcrest.CoreMatchers.instanceOf;
+import static org.hamcrest.CoreMatchers.isA;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -47,15 +49,15 @@ public class Junit4RulesApi {
     //     Assert.assertEquals("Hello", systemOutRule.getLog().trim());
     // }
 
-    // 4. 测试异常输出的Rule
-    // TODO. 推荐使用The recommended alternative is to use assertThrows()
+    // 4. 测试异常输出的Rule -> 推荐使用assertThrows()
     @Rule
     public ExpectedException exception = ExpectedException.none();
 
     @Test
     public void throw_exception_with_expected() throws MyServiceException {
         exception.expect(MyServiceException.class);
-        // exception.expectCause(isA(NullPointerException.class));
+        exception.expectCause(isA(NullPointerException.class));
+        exception.expectCause(instanceOf(NullPointerException.class));
         exception.expectMessage("This is illegal");
 
         // mock the method called to throw exception

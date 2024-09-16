@@ -28,7 +28,9 @@ public class SingleStaticMockRegistrationTest {
     //  or the mock will remain active on the current thread.
     @AfterEach
     public void tearDown() {
-        mockStatic.close();
+        if (mockStatic != null) {
+            mockStatic.close();
+        }
     }
 
     @Test

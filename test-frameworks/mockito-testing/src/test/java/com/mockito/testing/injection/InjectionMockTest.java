@@ -22,6 +22,7 @@ public class InjectionMockTest {
     private AutoCloseable autoCloseable;
 
     // TODO. 在自定义Mock方法前必须先实例化注入的Mock对象 !!
+    // Initializes objects annotated with Mockito annotations for given testClass: @Mock, @Spy, @Captor, @InjectMocks
     @BeforeEach
     public void setUps() {
         // MockitoAnnotations.initMocks(this); 已经废弃
