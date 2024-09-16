@@ -9,13 +9,6 @@ import static org.mockito.Mockito.times;
 
 public class MyMockitoClassTest {
 
-    // 使用Junit测试定义方法(original method)
-    @Test
-    public void testSayHello() {
-        MyMockitoClass instance = new MyMockitoClass();
-        Assertions.assertEquals("hello: java", instance.sayHello("java"));
-    }
-
     // Mock掉原始的类型(original class) 
     @Test
     public void mockSayHello() {

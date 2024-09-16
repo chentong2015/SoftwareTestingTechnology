@@ -29,9 +29,10 @@ public class HamcrestBasicTest {
         MatcherAssert.assertThat("assert failed reason", 10 + 10, Matchers.is(20));
     }
 
+    // assertThat: making a test assertion
+    // 获取用于测试的对象，通过Matchers比较器来进行判断
     @Test
-    public void test() {
-        // assertThat: making a test assertion
+    public void testAssertThat() {
         // is: is(Matcher<T> matcher)  传递另外一个matcher; 也可以传值
         // lessThan: lessThan(T value) 传递一个要比较的值
         MatcherAssert.assertThat(10 * 10, Matchers.lessThan(200));

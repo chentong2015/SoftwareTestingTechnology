@@ -3,9 +3,14 @@ package com.mockito.testing;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentMatcher;
+import org.mockito.ArgumentMatchers;
 import org.mockito.Mockito;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.mockito.ArgumentMatchers.*;
+import static org.mockito.Mockito.when;
 
 // TODO. Mockito提供丰富的ArgumentMatchers参数匹配条件，替代传递的(实际)参数
 // Mockito provides so many argument Matchers to match arguments
@@ -23,16 +28,6 @@ public class MockitoArgumentMatchersTest {
     }
 
     @Test
-    public void testCalculateAnything() {
-        MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);
-        Mockito.when(mockClass.calculate(anyInt())).thenReturn(10);
-
-        // No matter what parameter you pass, the returned value is the same
-        Assertions.assertEquals(10, mockClass.calculate(2));
-        Assertions.assertEquals(10, mockClass.calculate(0));
-    }
-
-    @Test
     public void testSayHelloToSubString() {
         MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);
         // 传递任何包含子字符串的参数，mock返回相同的结果
@@ -40,6 +35,29 @@ public class MockitoArgumentMatchersTest {
 
         Assertions.assertEquals("ok", mockClass.sayHello("java ab"));
         Assertions.assertEquals("ok", mockClass.sayHello("test ab"));
+    }
+
+    // TODO. 实参在匹配时能够推断具体的参数类型，无需显式地指定
+    @Test
+    public void testAnyListParameters() {
+        MyMockitoClass mockMyList = Mockito.mock(MyMockitoClass.class);
+        when(mockMyList.testListParameters(ArgumentMatchers.anyList())).thenReturn("AnyList");
+
+        List<List<String>> listList = new ArrayList<>();
+        List<List<String>> listList2 = new ArrayList<>();
+        listList2.add(List.of("item 1", "item 2"));
+        Assertions.assertEquals("AnyList", mockMyList.testListParameters(listList));
+        Assertions.assertEquals("AnyList", mockMyList.testListParameters(listList2));
+    }
+
+    @Test
+    public void testCalculateAnything() {
+        MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);
+        Mockito.when(mockClass.calculate(anyInt())).thenReturn(10);
+
+        // No matter what parameter you pass, the returned value is the same
+        Assertions.assertEquals(10, mockClass.calculate(2));
+        Assertions.assertEquals(10, mockClass.calculate(0));
     }
 
     @Test

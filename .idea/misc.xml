@@ -17,7 +17,6 @@
         <option value="$PROJECT_DIR$/others-test/mockito-sample/pom.xml" />
         <option value="$PROJECT_DIR$/others-test/mock/mockito-sample/pom.xml" />
         <option value="$PROJECT_DIR$/test-frameworks/hamcrest-testing/pom.xml" />
-        <option value="$PROJECT_DIR$/test-frameworks/mockito-sample/pom.xml" />
         <option value="$PROJECT_DIR$/test-frameworks/mockito-testing/pom.xml" />
         <option value="$PROJECT_DIR$/test-frameworks/powermock-testing/pom.xml" />
         <option value="$PROJECT_DIR$/junit-test/junit-migration/junit-test-error/pom.xml" />

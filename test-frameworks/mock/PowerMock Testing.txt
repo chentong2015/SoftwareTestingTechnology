@@ -1,0 +1,17 @@
+Powermock提供更加强大的Mock技术, 但是依赖于"运行时"的反射
+Powermock relies heavily on reflection and other techniques to provide its functionality.
+
+TODO. PowerMock is being a deprecated project and is not compatible with Java 11.
+低版本的powermock-mockito-release-full版本只能构建在JDK 8版本上
+PowerMock会在底层调用JDK反射，导致测试的时候出现Warning
+
+@RunWith(PowerMockRunner.class) 如果去掉@RunWith()注解，则会导致提醒
+   WARNING: An illegal reflective access operation has occurred
+   WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl
+     (file:/C:/Users/tchen/.m2/repository/org/powermock/powermock-reflect/2.0.9/powermock-reflect-2.0.9.jar)
+     to method java.lang.Object.clone()
+   WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+   WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+   WARNING: All illegal access operations will be denied in a future release
+
+@PowerMockIgnore("jdk.internal.reflect.*") 通过添加注解来忽略Warning提示

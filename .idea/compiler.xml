@@ -11,7 +11,6 @@
         <module name="hamcrest-testing" />
         <module name="core-tdd-test-pyramid" />
         <module name="powermock-testing" />
-        <module name="mockito-sample" />
         <module name="mockito-testing" />
         <module name="base-junit-common-api" />
         <module name="junit-test-error" />
@@ -22,7 +21,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="migration" target="17" />
+      <module name="mockito-sample" target="17" />
+      <module name="others-test" target="11" />
       <module name="pact-testing" target="17" />
+      <module name="TestingInJava" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -36,7 +36,7 @@ public class MyMockitoServiceTest {
     }
     
     // TODO: 模拟返回的UncheckedException异常: 原始的方法上可以不写该异常
-    //       只能使用Mockito mock抛出unchecked exception
+    //  只能使用Mockito mock抛出unchecked exception
     @Test
     public void processTestUncheckedException() {
         MyMockitoInterface myService = Mockito.mock(MyMockitoInterface.class);
@@ -52,7 +52,7 @@ public class MyMockitoServiceTest {
     }
 
     // TODO: Mock异常发生之后，内部处理后返回的默认值 ==> 原始的方法上没有捕获该异常，已经被内部处理
-    //      由于内部处理之后，不会再次抛出异常，检测只需要测试返回的属性
+    //  由于内部处理之后，不会再次抛出异常，检测只需要测试返回的属性
     @Test
     public void processTestHandleException() throws Exception {
         MyMockitoInterface myService = Mockito.mock(MyMockitoInterface.class);
@@ -64,7 +64,7 @@ public class MyMockitoServiceTest {
     }
 
     // TODO: 使用doThrow-when method检查异常的抛出
-    //       这种方式适用于没有返回值的方法, mock异常的抛出
+    //  这种方式适用于没有返回值的方法, mock异常的抛出
     @Test
     public void processTest() {
         MyMockitoInterface myService = Mockito.mock(MyMockitoInterface.class);

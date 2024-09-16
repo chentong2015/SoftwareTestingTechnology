@@ -1,9 +1,16 @@
 package com.mockito.testing;
 
+import java.util.List;
+
 public class MyMockitoClass {
 
     public String sayHello(String name) {
         return "hello: " + name;
+    }
+
+    public String testListParameters(List<List<String>> values) {
+        String value = "result";
+        return value + values.get(0).get(0);
     }
 
     public int calculate(int value) {
