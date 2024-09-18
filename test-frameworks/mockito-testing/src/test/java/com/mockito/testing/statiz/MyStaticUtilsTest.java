@@ -10,8 +10,7 @@ import java.util.Arrays;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-// TODO. add '-Xshare:off' for JVM Warning
-// 使用Mockito在Mock静态方法时，可能会抛出JVM提示，可以通过JvmArg参数来取消提醒
+// 测试Mock静态方法时，可能会抛出JVM提示，可以设置JvmArg参数'-Xshare:off'
 // OpenJDK 64-Bit Server VM warning:
 // Sharing is only supported for boot loader classes because bootstrap classpath has been appended
 public class MyStaticUtilsTest {

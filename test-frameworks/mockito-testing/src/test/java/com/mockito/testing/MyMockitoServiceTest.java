@@ -71,7 +71,7 @@ public class MyMockitoServiceTest {
         Mockito.doThrow(new RuntimeException("Cannot process")).when(myService).test();
         MyMockitoService myProcessor = new MyMockitoService(myService);
         try {
-            String value = myProcessor.getServiceValue();
+            myProcessor.getServiceValue();
             Assertions.fail();
         } catch (Exception e) {
             Assertions.assertTrue(e instanceof RuntimeException);
