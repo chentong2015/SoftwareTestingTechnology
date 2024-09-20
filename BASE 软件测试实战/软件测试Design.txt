@@ -1,0 +1,12 @@
+1. 在系统升级时，测试的数量不应该减少，需要保证覆盖基础的功能
+
+2. 设计要测试的Test Case或者Scenario通常需要考虑
+- 普通场景
+- 极限特殊场景
+- 场景的反面
+
+3. 单元测试名称规范: 推荐使用第二种
+- generateReportCustomerTest()
+- generate_report_customer_test()
+- whenGenerateReport_WithSampleXmlFile_ThenOutputCsvFile_WithoutError_OK()
+  名称过长，毫无意义，单元测试的代码应该能够说明测试的目的和用途
