@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
-// MethodOrderer 指定测试方法的执行顺序
+// MethodOrderer. 指定测试方法的执行顺序
 // @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class JUnit5RepeatedAndOrderedTest {
 

@@ -1,6 +1,7 @@
-Powermock依赖于"运行时"的反射
+TODO. Powermock依赖于"运行时"的反射
 - Powermock relies heavily on reflection and other techniques to provide its functionality.
-- Powermock implements WhiteBox testing case 白盒测试替代方案
+- Powermock implements WhiteBox 白盒测试
+  import org.powermock.reflect.Whitebox;
 
 TODO. PowerMock is being a deprecated project and is not compatible with Java 11.
 低版本的powermock-mockito-release-full版本只能构建在JDK 8版本上

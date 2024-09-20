@@ -1,0 +1,8 @@
+TODO. 不推荐创建Mock枚举类型来测试，会造成测试不稳定
+mockStatic of enum class is unstable:
+https://github.com/mockito/mockito/issues/2183
+
+Adding an enum value to test the default behaviour a a switch statement.
+1. Mock出未定义的Enum类型
+2. Mock方法Enum.valueOf("name")返回的枚举类型为前面定义的Mock Type
+3. 使用Switch语句判断并处理Mock Type并抛出异常
