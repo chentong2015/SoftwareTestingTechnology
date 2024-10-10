@@ -63,23 +63,18 @@ public class JUnit4AssertionsTest {
         Assert.assertNotNull("Assert not null message", instance);
     }
 
+    // TODO. JUnit 4.13 released for assertThrows() method
     @Test
     public void testThrowException() {
         MyJUnit4Class instance = new MyJUnit4Class();
+
         // Pass a lambda expression, to call the method, and no input parameters
-        // Assert.assertThrows(Exception.class, instance::throwException);
-        // Assert.assertThrows("Assert throw exception", Exception.class, instance::throwException);
+        Assert.assertThrows(Exception.class, instance::throwException);
+        Assert.assertThrows("Assert throw exception", Exception.class, instance::throwException);
     }
 
     // Compares two arrays of regular types 比较两个常规类型的数组
-    // 并且都是可以添加message的信息, 两两一组定义的方法
-    // Object[]
-    // boolean[]
-    // byte[]
-    // char[]
-    // short[]
-    // int[]
-    // long[]
+    // Object[] / boolean[] / byte[] / char[] / short[] / int[] / long[]
     @Test
     public void testArrayInt() {
         int[] values1 = {1, 2, 4};
