@@ -1,0 +1,11 @@
+SoapUI: RestAPI测试
+Automated testing tool for SOAP and REST APIs.
+
+Rest Assured RestAPI测试
+https://github.com/rest-assured/rest-assured/wiki/Usage
+
+Playwright: Web Page网页自动化测试
+https://github.com/microsoft/playwright
+https://playwright.dev/java/docs/intro
+
+Selunium/Webdriver: Web Page网页自动化测试
