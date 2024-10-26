@@ -1,9 +1,0 @@
-
-O
-java:S2699"-Add at least one assertion to this test case.(ãÂ±üÿÿÿÿ8¿Úõá1
-³
-java:S3577"•Rename class "JUnit5SuppressWarnings" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(—ã´8ÀÚõá1
-@
-java:S5786"Remove this 'public' modifier.(ãÂ±üÿÿÿÿ8Ã…Áâ1
-;
-java:S5786"Remove this 'public' modifier.(—ã´8Ó…Áâ1
