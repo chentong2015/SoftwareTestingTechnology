@@ -1,0 +1,12 @@
+TODO. Web Endpoints自动化测试
+- 使用框架自带的Web Client发送请求，验证Expect返回结果
+- 自定义编写Script脚本发送请求，测试返回结果
+- 使用第三方Library编写程序自定化测试请求和回复
+
+Rest Assured: RestAPI测试
+Testing and validating REST API services in Java
+https://rest-assured.io/
+
+SoapUI: RestAPI测试(付费)
+Automated testing tool for SOAP and REST APIs.
+
