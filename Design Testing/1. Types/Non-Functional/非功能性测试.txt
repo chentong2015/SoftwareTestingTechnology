@@ -1,0 +1,13 @@
+Non-Functional Testing:
+非功能性测试独立于单元测试和简单的IT测试，而是检测软件的其他方面
+https://www.softwaretestinghelp.com/what-is-non-functional-testing/
+
+- Performance Test: 代码的性能以及有效性测试
+- Regression Test: 回归测试，兼容低版本功能的测试
+- End-to-End Test: 端到端，软件组件之间的协同测试
+- Stress/Pressure Test: 压力测试比不可少(压测数据，响应时间，内存影响)
+
+- Security
+- Scalability
+- Acceptance Test
+- Exploratory Testing: simultaneous learning, test design, and execution

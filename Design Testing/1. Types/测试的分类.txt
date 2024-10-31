@@ -1,0 +1,18 @@
+按照测试的层面划分:
+1. Test offline
+2. test online
+1. test unitaire
+2. test composant
+3. test package, 800 par jours
+
+按照测试的细节划分:
+Unit Test: 直接在JVM中完成
+Integration Test: 需要启动Service服务/可在production chain上进行
+Component Test
+Fake / Mock Test
+Package Test
+Release test
+
+TODO:  Test Pyramid Practical 测试金字塔
+https://martinfowler.com/bliki/TestPyramid.html
+https://insights.thoughtworks.cn/practical-test-pyramid/

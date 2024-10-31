@@ -9,12 +9,6 @@ TODO: 程序开发人员为什么要了解软件测试 ?
 2. 测试永远不会失败，始终是固定的，和之后的代码变动没有关系
 3. 测试的失败具有随机性，呈现一定的概率性，无法真正交付
 
-Why do automate test ?
-1. Find problems before it's too big
-2. Performance, reliable
-3. Usability
-4. Easy to test and monitor, no fear changes
-
 TODO. 测试的目标
 0. 要明白测试的意义在哪儿，不要做一样的重复测试 !!
 1. 要保证方法中的什么逻辑被测试到(方法被测试到，不光是产生的结果)
