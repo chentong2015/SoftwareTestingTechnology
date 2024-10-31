@@ -1,0 +1,3 @@
+Simulation Test: 模拟软件界面的操作来测试软件的功能
+1. Jubula - GUI automation, Web automation
+2. Ranorex - Test Automation Tools

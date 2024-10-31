@@ -1,6 +1,0 @@
-Simulation Test:
-1. Jubula - GUI automation, Web automation
-2. Ranorex - Test Automation Tools
-
-自定义测试软件UI的界面:
-通过模拟软件界面的操作来测试软件的功能
