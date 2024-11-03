@@ -12,5 +12,6 @@
     <modules>
         <module>java-unit-test</module>
         <module>test-frameworks</module>
+        <module>webui-selenium</module>
     </modules>
 </project>

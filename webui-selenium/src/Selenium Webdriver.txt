@@ -1,0 +1,22 @@
+TODO. selenium-java
+Selenium provides support for the automation of web browsers.
+It provides extensions to emulate user interaction with browsers,
+a distribution server for scaling browser allocation,
+and the infrastructure for implementations of the W3C WebDriver specification.
+
+测试不同的浏览器需要下载不同的driver
+org.seleniumhq.selenium » selenium-chrome-driver
+org.seleniumhq.selenium » selenium-firefox-driver
+org.seleniumhq.selenium » selenium-safari-driver
+org.seleniumhq.selenium » selenium-edge-driver
+
+TODO. Driver Path Configuration
+1. Windows
+  在系统变量路径中添加driver路径
+  Environment Variables > Path Edit > New 'chromedriver.exe' filepath
+  设置系统属性的路径
+  System.setProperty("webdriver.chrome.driver", "folder/chromedriver.exe");
+
+2. Mac 配置在系统bin路径，自动检测
+  > unzip chromedriver_mac64.zip
+  > cp chromedriver /usr/local/bin
