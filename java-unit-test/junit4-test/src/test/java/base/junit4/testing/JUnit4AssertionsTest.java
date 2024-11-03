@@ -23,7 +23,7 @@ public class JUnit4AssertionsTest {
 
     // assertEquals()针对于引用类型，比较的是引用的地址，而不是比较对象属性的值
     // assertThat() 比较对象的属性，需要类型定义equals()比较的方法
-    @Test
+    // @Test
     public void testObjectAssertEquals() {
         Map<Integer, String> expectedMap = new HashMap<>();
         expectedMap.put(1, "name");

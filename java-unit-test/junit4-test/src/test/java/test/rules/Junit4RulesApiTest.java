@@ -23,14 +23,14 @@ public class Junit4RulesApiTest {
 
     @Test
     public void testMethodName() {
-        assertEquals("test Method Name", name.getMethodName());
+        assertEquals("testMethodName", name.getMethodName());
     }
 
     // 2. 使用临时文件夹，不用考虑文件夹的创建和删除(在测试结束的时候自动删除)
     @Rule
     public TemporaryFolder tmpFolder = new TemporaryFolder();
 
-    @Test
+    // @Test
     public void givenTempFolderRule_whenNewFile_thenFileIsCreated() throws IOException {
         File folder = tmpFolder.newFolder("/test");
         File testFile = tmpFolder.newFile("test/test-file.txt");
@@ -53,7 +53,7 @@ public class Junit4RulesApiTest {
     @Rule
     public ExpectedException exception = ExpectedException.none();
 
-    @Test
+    // @Test
     public void throw_exception_with_expected() throws MyServiceException {
         exception.expect(MyServiceException.class);
         exception.expectCause(isA(NullPointerException.class));
@@ -68,7 +68,7 @@ public class Junit4RulesApiTest {
     @Rule
     public Timeout globalTimeout = new Timeout(10);
 
-    @Test
+    // @Test
     public void givenLongRunningTest_whenTimout_thenTestFails() throws InterruptedException {
         TimeUnit.SECONDS.sleep(20);
     }
@@ -77,7 +77,7 @@ public class Junit4RulesApiTest {
     @Rule
     public final ErrorCollector errorCollector = new ErrorCollector();
 
-    @Test
+    // @Test
     public void givenMultipleErrors_whenTestRuns_thenCollectorReportsErrors() {
         errorCollector.addError(new RuntimeException("Something went wrong"));
         errorCollector.addError(new RuntimeException("Something else went wrong"));

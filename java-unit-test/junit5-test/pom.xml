@@ -38,7 +38,7 @@
 
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>base-junit-common-api</artifactId>
+            <artifactId>base-junit-api</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>

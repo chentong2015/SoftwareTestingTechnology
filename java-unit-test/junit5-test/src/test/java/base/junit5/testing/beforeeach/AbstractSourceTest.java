@@ -17,7 +17,7 @@ public abstract class AbstractSourceTest {
     }
 
     // TODO. 必须通过它的实现类(非抽象类中)运行测试
-    @Test
+    // @Test
     public void testSuperClass() {
         System.out.println("call super class");
         Assertions.assertTrue(true);

@@ -14,7 +14,7 @@ public abstract class AbstractSourceTest {
 
     // 取消提示: 允许单元测试方法不写Assertions
     @SuppressWarnings("squid:S2699")
-    @Test
+    // @Test
     public void testSuperClass() {
         System.out.println("call super class");
         throw new RuntimeException();

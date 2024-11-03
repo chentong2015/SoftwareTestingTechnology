@@ -1,5 +1,5 @@
-Bats-core:
-Bash Automated Testing System 脚本的单元测试
+Bats-core: 构建Bash脚本的单元测试
+Bash Automated Testing System
 1. Verify that the UNIX programs behave as expected.
 2. Bats file is a Bash script with special syntax for defining test cases.
 
