@@ -9,6 +9,9 @@ import java.util.Set;
 public class SeleniumWebDriver {
 
     public static void main(String[] args) throws InterruptedException {
+        // For Windows driver path
+        // System.setProperty("webdriver.chrome.driver", "folder/chromedriver.exe");
+
         WebDriver driver = new ChromeDriver();
         String openURL = "https://www.selenium.dev/";
         driver.get(openURL);
