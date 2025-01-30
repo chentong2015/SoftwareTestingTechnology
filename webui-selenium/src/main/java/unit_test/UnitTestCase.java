@@ -1,4 +1,4 @@
-package driver;
+package unit_test;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
