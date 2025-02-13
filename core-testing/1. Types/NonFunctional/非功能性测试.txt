@@ -1,0 +1,12 @@
+非功能性测试独立于单元测试和简单的IT测试，而是检测软件的其他方面
+
+- Performance: 代码的性能以及有效性测试
+- End-to-End: 端到端，软件组件之间的协同测试
+- Stress/Pressure: 压力测试比不可少(压测数据，响应时间，内存影响)
+- Limitation: 测试软件支持的最大数据的边界(有效数据范围)
+- Security
+- Scalability
+- Acceptance Test
+- Exploratory Testing
+
+https://www.softwaretestinghelp.com/what-is-non-functional-testing/
