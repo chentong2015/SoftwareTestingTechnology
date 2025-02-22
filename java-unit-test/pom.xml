@@ -13,7 +13,6 @@
         <module>base-junit-api</module>
         <module>junit4-test</module>
         <module>junit5-test</module>
-        <module>test-frameworks</module>
     </modules>
 
     <dependencyManagement>

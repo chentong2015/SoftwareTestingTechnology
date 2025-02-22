@@ -1,2 +1,0 @@
-基本覆盖了JUnit4测试的使用层面
-https://www.vogella.com/tutorials/JUnit4/article.html

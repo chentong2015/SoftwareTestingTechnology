@@ -1,3 +1,6 @@
+TODO. JUnit4 User Guide
+https://www.vogella.com/tutorials/JUnit4/article.html
+
 JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
 JUnit Platform – all the extension frameworks: test execution, discovery, and reporting.
 JUnit Jupiter - programming model and extension model for writing tests and extensions in JUnit 5.
@@ -8,3 +11,8 @@ TODO. Junit5深入理解
 https://junit.org/junit5/docs/current/user-guide/
 https://www.vogella.com/tutorials/JUnit/article.html
 https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html
+
+TODO. 实战项目场景
+根据特定需求自定义测试框架扩展(Junit4 Rule & Junit5 Extension)
+1. 自定义模块中Junit测试框架的依赖scope=compile，必须考虑依赖的传递性
+2. 自定义模块中Junit测试框架的依赖scope=test，需要将测试API打包并通过<type>test-jar</type引用

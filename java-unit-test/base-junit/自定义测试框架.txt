@@ -1,4 +1,0 @@
-实战项目场景:
-需要根据特定的需求来自定义测试框架的扩展(Junit4 Rule & Junit5 Extension)
-1. 自定义模块中Junit测试框架的依赖scope=compile，必须考虑依赖的传递性
-2. 自定义模块中Junit测试框架的依赖scope=test，需要将测试API打包并通过<type>test-jar</type引用

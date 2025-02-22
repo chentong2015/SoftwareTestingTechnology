@@ -5,10 +5,6 @@ import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.is;
-import static org.hamcrest.Matchers.lessThan;
-
 // Hamcrest: matcher library http://hamcrest.org/JavaHamcrest/tutorial
 // 1. 提高测试断言的可读性，使得测试的逻辑更加的清晰，方便debug
 // 2. 提供丰富的匹配规则，提高测试中的Diagnostics
