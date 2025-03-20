@@ -1,0 +1,10 @@
+TODO. Test Code Coverage 测试代码的覆盖率
+单元测试的覆盖率要求测试的对"程序逻辑"的覆盖，和测试方法的数量没有关系 !!
+IntelliJ IDEA code coverage:
+  plugin Coverage 插件, 运行时选择Run with coverage, 查看覆盖报告信息和测试率
+JaCoCo (Java code coverage):
+  Part of the Eclipse Foundation, integrate with Ant, Maven, Gradle, Jenkins, Visual Studio, IDEA ..
+
+Assert：enable JVM parameters "-enableassertions" & "-ea" 一种常用的调试方式，保证程序正确性
+Failure: An assertion failed 和程序代码的异常有关
+Error: An exception was thrown at any point in test 断言的错误，没有达到预期结果
