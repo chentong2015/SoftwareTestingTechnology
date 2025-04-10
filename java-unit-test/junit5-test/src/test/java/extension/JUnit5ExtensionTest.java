@@ -6,8 +6,9 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
-// JUnit5 Extension: Extension可以为测试提供扩展功能，比如在测试前后完成基础配置
-// @ExtendWith: 可以同时添加多个Extension的扩展
+// JUnit5 Extension 扩展
+// - 为测试提供扩展功能，比如在测试前后完成基础配置
+// - 可以通过注解同时添加多个Extension的扩展
 @ExtendWith({TracingUnitTestRule.class, EnvironmentExtension.class})
 class JUnit5ExtensionTest {
     
