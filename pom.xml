@@ -12,7 +12,7 @@
     <modules>
         <module>java-test-frameworks</module>
         <module>java-unit-test</module>
-        <module>junit-migration</module>
+        <module>java-unit-test-migration</module>
         <module>webui-selenium</module>
     </modules>
 </project>
