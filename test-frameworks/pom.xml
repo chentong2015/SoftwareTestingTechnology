@@ -9,5 +9,5 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>java-test-frameworks</artifactId>
+    <artifactId>test-frameworks</artifactId>
 </project>

@@ -10,9 +10,9 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>java-test-frameworks</module>
         <module>java-unit-test</module>
-        <module>java-unit-test-migration</module>
+        <module>junit-migration</module>
         <module>webui-selenium</module>
+        <module>test-frameworks</module>
     </modules>
 </project>
