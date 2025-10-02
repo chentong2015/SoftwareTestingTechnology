@@ -1,8 +1,4 @@
-TODO. 后端Endpoints判断请求的来源 ?
-测试时可能需要根据不同来源的请求执行不同的操作
-使用同一个Endpoint可能无法直接判断HttpRequest的来源(脚本发送,浏览器请求)
-
-TODO. Web Endpoints自动化测试
+Web Endpoints自动化测试
 - 使用框架自带的Web Client发送请求，验证Expect返回结果
 - 自定义编写Script脚本发送请求，测试返回结果
 - 使用第三方Library编写程序自定化测试请求和回复
@@ -13,4 +9,3 @@ https://rest-assured.io/
 
 SoapUI: RestAPI测试(付费)
 Automated testing tool for SOAP and REST APIs.
-
