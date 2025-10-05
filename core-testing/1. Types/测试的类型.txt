@@ -1,17 +1,25 @@
 按照测试的层面划分:
-1. Test offline
-2. test online
-1. test unitaire
-2. test composant
-3. test package, 800 par jours
+- Test offline
+- test online
+- test unitaire
+- test composant
+- test package, 800 par jours
 
 TODO. 按照测试的细节划分:
-Unit Test: 直接在JVM中完成, 测试最小的功能单元
-Integration Test: 启动Service服务, 能够测试一系列的功能
-Component Test: 测试不同服务(不同组项目)之间的依赖
-Package Test: 正对软件发布包的测试
-Release test: 发布版本实际软件的测试
+- Unit Test: 直接在JVM中完成, 测试最小的功能单元
+- Integration Test: 启动Service服务, 能够测试一系列的功能
+- Component Test: 测试不同服务(不同组项目)之间的依赖
+- Package Test: 正对软件发布包的测试
+- Release test: 发布版本实际软件的测试
 
 Test Pyramid Practical 测试金字塔
 https://martinfowler.com/bliki/TestPyramid.html
 https://insights.thoughtworks.cn/practical-test-pyramid/
+
+TODO. 黑盒测试 (功能测试、数据驱动测试 DDT): 验收测试
+测试者不了解程序的内部情况，不需了解程序代码、内部结构和编程语言, 只需要程序输入输出和系统功能
+用户的角度针对软件界面、功能及外部结构进行测试，而不考虑程序内部逻辑结构
+
+TODO. 白盒测试 (透明盒测试、结构测试、逻辑驱动测试): 单元测试
+测试者了解待测试程序的内部结构、算法等信息，这是从程序设计者的角度对程序进行的测试
+设计代码覆盖标准：控制流测试, 数据流测试, 分支测试, 语句覆盖, 判定覆盖, 修正条件/判定覆盖, 主要路径测试, 路径测试
