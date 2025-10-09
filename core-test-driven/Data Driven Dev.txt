@@ -1,5 +1,6 @@
-Data-driven Development
-数据驱动开发: 使用不同的数据执行同一个单一测试多次
+Data-driven Development 数据驱动开发:
+根据不同的数据源来完善开发的兼容性
+使用不同的数据执行同一个单一测试多次
 
 DDD is a software development process where data is used to drive decisions
 1. This data can come from many types of sources
