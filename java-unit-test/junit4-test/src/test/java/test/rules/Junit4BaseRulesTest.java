@@ -28,7 +28,6 @@ public class Junit4BaseRulesTest {
     @Test
     public void testRule() throws InterruptedException {
         System.out.println("my unit test");
-        Thread.sleep(2000);
         assertTrue(true);
     }
 
