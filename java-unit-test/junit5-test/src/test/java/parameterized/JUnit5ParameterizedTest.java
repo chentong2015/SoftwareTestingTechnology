@@ -29,7 +29,7 @@ class JUnit5ParameterizedTest {
         assertTrue(argument > 0 && argument < 4);
     }
 
-    // TODO. 这里的MethodSource可以通过全路径调用其他package包中的方法
+    // TODO. MethodSource可以通过全路径调用其他package包的方法
     @ParameterizedTest
     @MethodSource("range")
     void testWithRangeMethodSource(int argument) {

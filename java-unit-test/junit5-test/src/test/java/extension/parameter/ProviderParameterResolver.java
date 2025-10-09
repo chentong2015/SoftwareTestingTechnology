@@ -6,15 +6,13 @@ import org.junit.jupiter.api.extension.ParameterResolutionException;
 import org.junit.jupiter.api.extension.ParameterResolver;
 import org.junit.jupiter.engine.execution.BeforeEachMethodAdapter;
 import org.junit.jupiter.engine.extension.ExtensionRegistry;
-import parameterized.JUnit5ParameterizedMasterTest;
+import parameterized.JUnit5ParameterizedTestMaster;
 
 public class ProviderParameterResolver implements BeforeEachMethodAdapter, ParameterResolver {
 
     // TODO. 在执行@BeforeEach逻辑之前被触发
     @Override
     public void invokeBeforeEachMethod(ExtensionContext extensionContext, ExtensionRegistry extensionRegistry) throws Throwable {
-        
-        ((JUnit5ParameterizedMasterTest) extensionContext.getTestInstance().get()).setUpSomething();
         System.out.println("invoke before each unit test");
     }
 
