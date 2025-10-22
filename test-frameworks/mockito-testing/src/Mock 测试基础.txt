@@ -1,0 +1,16 @@
+在测试过程中Mock掉实际要输出的逻辑结果，模拟返回测试结果
+在使用Mock Object隔离和解决依赖性的问题
+
+Mock frameworks:
+- Mockito
+- Powermock
+- EasyMock
+- JMockIt
+- JMock
+- MockRunner
+
+https://site.mockito.org/
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html
+
+Class MockitoAnnotations
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/MockitoAnnotations.html

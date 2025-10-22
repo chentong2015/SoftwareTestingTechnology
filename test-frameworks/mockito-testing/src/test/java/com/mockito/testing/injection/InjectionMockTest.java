@@ -9,8 +9,6 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-// Class MockitoAnnotations
-// https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/MockitoAnnotations.html
 public class InjectionMockTest {
 
     @Mock
@@ -23,23 +21,27 @@ public class InjectionMockTest {
 
     private AutoCloseable autoCloseable;
 
-    // TODO. 在自定义Mock方法前必须先实例化注入的Mock对象 !!
-    // Initializes objects annotated with Mockito annotations: @Mock, @Spy, @Captor, @InjectMocks
+    // TODO. 在自定义Mock方法前必须先实例化注入的Mock对象
+    // Initializes objects annotated with Mockito annotations:
+    // @Mock, @Spy, @Captor, @InjectMocks
     @BeforeEach
     public void setUps() {
-        // MockitoAnnotations.initMocks(this); 已经废弃
+        // MockitoAnnotations.initMocks(this);  已经废弃
+
         this.autoCloseable = MockitoAnnotations.openMocks(this);
+    }
+
+    // TODO. 定义Inject生成的Bean对象特定方法的返回
+    @Test
+    public void testInjectMock() {
+        Mockito.when(applicationService.sendEmail("test")).thenReturn(true);
+
+        Assertions.assertTrue(applicationService.sendEmail("test"));
     }
 
     // Inject Mock之后应该调用close()方法
     @AfterEach
     public void cleanup() throws Exception {
         this.autoCloseable.close();
-    }
-
-    @Test
-    public void testInjectMock() {
-        Mockito.when(applicationService.sendEmail("test")).thenReturn(true);
-        Assertions.assertTrue(applicationService.sendEmail("test"));
     }
 }
