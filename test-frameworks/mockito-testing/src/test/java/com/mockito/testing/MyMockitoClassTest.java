@@ -9,7 +9,7 @@ import static org.mockito.Mockito.times;
 
 public class MyMockitoClassTest {
 
-    // Mock掉原始的类型(original class) 
+    // TODO. Mock掉原始的类型(original class)
     @Test
     public void mockSayHello() {
         MyMockitoClass mockClass = Mockito.mock(MyMockitoClass.class);
@@ -27,7 +27,7 @@ public class MyMockitoClassTest {
         // myMockitoClass.sayHello("java");
         //   --> at com.mockito.testing.MyMockitoClassTest.mockSayHello(MyMockitoClassTest.java:26)
 
-        // 三种验证方法被调用的方式
+        // TODO. 三种验证方法被调用的方式
         Mockito.verify(mockClass).sayHello("java");
         Mockito.verify(mockClass, times(1)).sayHello("java");
         Mockito.verify(mockClass, atLeastOnce()).sayHello("java");
