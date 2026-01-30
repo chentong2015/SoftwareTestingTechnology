@@ -11,23 +11,22 @@ import org.mockito.MockitoAnnotations;
 
 public class InjectionMockTest {
 
-    @Mock
-    EmailService emailService;
-
     // TODO. 由于ApplicationService依赖于EmailService
     //  @InjectMocks会自动完成对EmailService Mock对象的注入并生成对象
     @InjectMocks
     ApplicationService applicationService;
 
+    @Mock
+    EmailService emailService;
+
     private AutoCloseable autoCloseable;
 
     // TODO. 在自定义Mock方法前必须先实例化注入的Mock对象
-    // Initializes objects annotated with Mockito annotations:
-    // @Mock, @Spy, @Captor, @InjectMocks
+    // MockitoAnnotations.initMocks(this);  已经废弃
+    // Initializes objects annotated with Mockito annotations: @Mock, @Spy, @Captor, @InjectMocks
     @BeforeEach
     public void setUps() {
-        // MockitoAnnotations.initMocks(this);  已经废弃
-
+        // TODO. openMocks() 不会初始化static实例字段，无法提供mock对象 !!
         this.autoCloseable = MockitoAnnotations.openMocks(this);
     }
 
