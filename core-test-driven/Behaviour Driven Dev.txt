@@ -1,9 +1,11 @@
 Behaviour-Driven Development (BDD) is software development process
-1. BDD能够缩小业务人员和技术人员之间的距离，使得业务人员能够编写测试的规则
+1. BDD缩小业务人员和技术人员的距离，使得业务人员能够编写测试用例
 2. Scenario用于描述软件的行为，可以直接阅读
-3. Scenario要先于生成代码，通过具体的example去明确specify软件要做什么
+3. Scenario先于生产代码，通过具体Scenario定义软件核心Feature
 
 Three practices
 1. what's the User Story, new functionality to explore, discover and agree
 2. document those examples in a way that can be automated
 3. implement the behaviour with an automated test to guide the dev of code.
+
+https://cucumber.io/docs/guides/
