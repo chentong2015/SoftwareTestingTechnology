@@ -1,4 +1,4 @@
-package hellocucumber.mapping;
+package hellocucumber.steps;
 
 import com.example.main.Record;
 import com.example.main.RecordMapper;

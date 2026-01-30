@@ -1,4 +1,4 @@
-package hellocucumber.weekday;
+package hellocucumber.steps;
 
 import com.example.main.FridayChecker;
 import io.cucumber.java.en.*;
