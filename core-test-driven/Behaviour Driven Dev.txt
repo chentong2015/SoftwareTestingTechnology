@@ -7,5 +7,3 @@ Three practices
 1. what's the User Story, new functionality to explore, discover and agree
 2. document those examples in a way that can be automated
 3. implement the behaviour with an automated test to guide the dev of code.
-
-https://cucumber.io/docs/guides/
