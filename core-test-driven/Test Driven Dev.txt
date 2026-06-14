@@ -12,4 +12,6 @@ TDD最佳实践(原则):
 2. 再写生产代码使得测试通过 Use the test cases to drive the design of code
 3. 再重构生产代码 Refactor (cleanup) the code after testing
 
-TODO. 具体实现: Unit Test, IT Test...
+TODO. Red, Green, Refactor is an example of TDD:
+- Red: Write a test suite without implementation code, ensuring it fails.
+- Green: Write the implementation code, just enough so the test suite passes.
