@@ -12,6 +12,6 @@
     <modules>
         <module>java-test</module>
         <module>java-test-framework</module>
-        <module>web-testing</module>
+        <module>web-application</module>
     </modules>
 </project>

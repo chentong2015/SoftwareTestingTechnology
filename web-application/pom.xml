@@ -5,11 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example</groupId>
-        <artifactId>web-testing</artifactId>
+        <artifactId>SoftwareTestingTechnology</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>webui-selenium</artifactId>
+    <artifactId>web-application</artifactId>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -17,17 +18,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.26.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>4.26.0</version>
-        </dependency>
-    </dependencies>
+    <modules>
+        <module>webui-selenium</module>
+    </modules>
 </project>
