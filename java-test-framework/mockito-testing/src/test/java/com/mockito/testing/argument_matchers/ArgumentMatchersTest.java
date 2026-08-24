@@ -1,21 +1,18 @@
-package com.mockito.testing;
+package com.mockito.testing.argument_matchers;
 
+import com.mockito.testing.MyMockitoClass;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.mockito.ArgumentMatcher;
 import org.mockito.ArgumentMatchers;
 import org.mockito.Mockito;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.when;
 
-// Mockito提供丰富ArgumentMatchers参数匹配条件，替代传递的(实际)参数
-// - any() & anyList() 不会做任何参数判断，不会验证参数非Null
-// - any(Type.class); 参数会做instanceof的类型判断
+
 public class ArgumentMatchersTest {
 
     @Test

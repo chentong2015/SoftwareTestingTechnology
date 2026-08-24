@@ -9,7 +9,7 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>junit-migration-test</artifactId>
+    <artifactId>test-sample</artifactId>
 
     <dependencies>
         <!-- Junit5 API + Core package of JUnit test engine -->

@@ -1,5 +1,6 @@
-package com.mockito.testing;
+package com.mockito.testing.argument_matchers;
 
+import com.mockito.testing.MyMockitoClass;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentMatcher;
@@ -19,7 +20,9 @@ public class ArgumentMatchersCustomTest {
             public boolean matches(String s) {
                 return s.startsWith("aa") && s.endsWith("bb");
             }
-        }))).thenReturn("ok");
+        }))
+        ).thenReturn("ok");
+
         Assertions.assertEquals("ok", mockClass.sayHello("aa1bb"));
     }
 }

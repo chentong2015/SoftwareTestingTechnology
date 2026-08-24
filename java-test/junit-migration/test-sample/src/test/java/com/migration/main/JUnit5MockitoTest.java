@@ -5,12 +5,12 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 // @ExtendWith(MockitoExtension.class)
-//
-// 使用Mockito基于Junit5的实现，需要在添加MockitoExtension的情况下使用
-// @Mock
-// UserRepository userRepository;
 class JUnit5MockitoTest {
 
+    // 使用Mockito基于Junit5的实现，需要在添加MockitoExtension的情况下使用
+    // @Mock
+    // UserRepository userRepository;
+    
     @Test
     void testMockitoJUnit() {
         UserRepository userRepository = Mockito.mock(UserRepository.class);

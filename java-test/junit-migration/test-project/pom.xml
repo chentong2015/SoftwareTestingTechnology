@@ -9,13 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>junit-migration-test-project</artifactId>
+    <artifactId>test-project</artifactId>
 
     <dependencies>
         <!-- TODO. 通过传递性依赖(必须标记成compile)来获取测试框架 -->
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>junit-migration-test</artifactId>
+            <artifactId>test-sample</artifactId>
             <scope>compile</scope>
         </dependency>
     </dependencies>

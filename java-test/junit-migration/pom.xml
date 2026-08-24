@@ -14,8 +14,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>junit-migration-test</module>
-        <module>junit-migration-test-project</module>
+        <module>test-sample</module>
+        <module>test-project</module>
     </modules>
 
     <properties>
@@ -28,7 +28,7 @@
             <!-- TODO. migration-test同时兼容两种测试: 所有依赖该模块的项目基于J4和J5存在测试差异 ? -->
             <dependency>
                 <groupId>org.example</groupId>
-                <artifactId>junit-migration-test</artifactId>
+                <artifactId>test-sample</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
         </dependencies>

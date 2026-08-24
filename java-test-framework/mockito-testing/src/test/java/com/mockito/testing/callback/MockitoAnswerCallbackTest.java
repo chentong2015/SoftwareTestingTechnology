@@ -1,5 +1,6 @@
-package com.mockito.testing;
+package com.mockito.testing.callback;
 
+import com.mockito.testing.MyMockitoClass;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.invocation.InvocationOnMock;
