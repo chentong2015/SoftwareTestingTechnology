@@ -10,6 +10,11 @@
     </parent>
     <artifactId>powermock-testing</artifactId>
 
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
     <dependencies>
         <!-- TODO. Powermock测试框架不兼容Java 11以上的版本 -->
         <dependency>
