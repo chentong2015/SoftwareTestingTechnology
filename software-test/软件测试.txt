@@ -3,7 +3,6 @@ UAT	        User Acceptance Testing	用户验收测试环境	        测试人�
 Staging	    Staging Environment	    预发布环境，模拟生产环境	开发人员、测试人员
 Production	Production Environment	正式生产环境	            最终用户
 
-
 # 白盒测试 (透明盒测试、结构测试、逻辑驱动测试): 单元测试
 测试者了解待测试程序的内部结构、算法等信息，这是从程序设计者的角度对程序进行的测试
 设计代码覆盖标准：控制流测试, 数据流测试, 分支测试, 语句覆盖, 判定覆盖, 修正条件/判定覆盖, 主要路径测试, 路径测试

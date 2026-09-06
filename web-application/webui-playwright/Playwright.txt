@@ -1,3 +1,0 @@
-Playwright: Page网页自动化测试
-https://github.com/microsoft/playwright
-https://playwright.dev/java/docs/intro
